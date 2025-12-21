@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { strategyData } from './data/strategyData';
 import DiagnosticWizard from './components/DiagnosticWizard';
 import CertificationsSection from './components/CertificationsSection';
@@ -54,6 +55,19 @@ const areasServed = [
 ];
 
 export default function App() {
+    const { hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+            const element = document.getElementById(hash.replace('#', ''));
+            if (element) {
+                setTimeout(() => {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+    }, [hash]);
+
     return (
         <div className="min-h-screen bg-white font-sans text-slate-800">
             <Navbar />
@@ -123,7 +137,7 @@ export default function App() {
                 </div>
             </div>
 
-            <section className="py-16 bg-white border-t border-gray-100">
+            <section id="services" className="py-16 bg-white border-t border-gray-100">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <span className="text-[#84cc16] font-bold tracking-wider uppercase text-sm">Comprehensive Care</span>
@@ -146,7 +160,7 @@ export default function App() {
                 </div>
             </section>
 
-            <section className="bg-gray-900 py-16 border-y border-gray-800">
+            <section id="why-us" className="bg-gray-900 py-16 border-y border-gray-800">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold text-white">Why Las Vegas Chooses Pro Fix</h2>
@@ -250,7 +264,7 @@ export default function App() {
                 </div>
             </section>
 
-            <section className="bg-gray-900 py-24 relative overflow-hidden">
+            <section id="reviews" className="bg-gray-900 py-24 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-gray-800 to-transparent opacity-50"></div>
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

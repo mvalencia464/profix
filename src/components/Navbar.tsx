@@ -17,9 +17,9 @@ export default function Navbar() {
 
                     <div className="hidden md:flex items-center space-x-8">
                         <Link to="/" className="text-gray-600 font-medium hover:text-[#D4F427] transition-colors">Home</Link>
-                        <a href="/#services" className="text-gray-600 font-medium hover:text-[#D4F427] transition-colors">Services</a>
-                        <a href="/#why-us" className="text-gray-600 font-medium hover:text-[#D4F427] transition-colors">Why Us</a>
-                        <a href="/#reviews" className="text-gray-600 font-medium hover:text-[#D4F427] transition-colors">Reviews</a>
+                        <Link to="/#services" className="text-gray-600 font-medium hover:text-[#D4F427] transition-colors">Services</Link>
+                        <Link to="/#why-us" className="text-gray-600 font-medium hover:text-[#D4F427] transition-colors">Why Us</Link>
+                        <Link to="/#reviews" className="text-gray-600 font-medium hover:text-[#D4F427] transition-colors">Reviews</Link>
                         <button className="px-6 py-3 rounded-full font-black text-lg transition-all flex items-center text-gray-900 shadow-md hover:shadow-lg hover:scale-105"
                             style={{ backgroundColor: '#D4F427' }}>
                             <Phone size={20} className="mr-2" /> 888-990-8010
@@ -38,8 +38,8 @@ export default function Navbar() {
                 <div className="md:hidden bg-white border-b border-gray-100 absolute w-full">
                     <div className="px-4 pt-2 pb-6 space-y-2">
                         <Link to="/" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 rounded-md hover:text-[#D4F427] hover:bg-[rgba(212,244,39,0.1)]">Home</Link>
-                        <a href="/#services" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 rounded-md hover:text-[#D4F427] hover:bg-[rgba(212,244,39,0.1)]">Services</a>
-                        <a href="/#reviews" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 rounded-md hover:text-[#D4F427] hover:bg-[rgba(212,244,39,0.1)]">Reviews</a>
+                        <Link to="/#services" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 rounded-md hover:text-[#D4F427] hover:bg-[rgba(212,244,39,0.1)]">Services</Link>
+                        <Link to="/#reviews" onClick={() => setIsMenuOpen(false)} className="block px-3 py-3 text-base font-medium text-gray-700 rounded-md hover:text-[#D4F427] hover:bg-[rgba(212,244,39,0.1)]">Reviews</Link>
                         <a href="tel:7025550199" className="block px-3 py-3 text-base font-bold text-gray-900 rounded-md" style={{ backgroundColor: '#D4F427' }}>
                             Call 888-990-8010
                         </a>
