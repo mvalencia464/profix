@@ -1,0 +1,66 @@
+﻿This template generalizes the "Core 30" strategy into a reusable format for any home service client. It focuses on the hierarchy, word count targets, and interlinking structure necessary to rank the Google Business Profile (GBP).
+Core 30 SEO Content Strategy Template
+Strategy Goal: To rank the Google Business Profile in the Map Pack by building a "Core 30" website structure (approx. 30–40 pages) centered on deep topical relevance rather than weekly blog posts111.
+________________
+
+
+1. Scope Overview
+* Target Total Word Count: 27,000 – 45,000 words2222.
+* Total Page Count: Typically 30 to 40 dedicated pages3.
+* Content Focus: Deep, authoritative content on service and category pages; no weekly blogging4.
+________________
+
+
+2. Site Architecture & Content Requirements
+Layer 1: The GBP Landing Page (Homepage)
+* Role: The linking hub for the entire site5.
+* Primary Content: Targets [Primary GBP Category] + [City Name]6.
+* Secondary Content Sections:
+   * Include distinct H2 sections for each Secondary Category.
+   * Length: 60–70 words per section7.
+   * Requirement: Must include a plain text link to the dedicated Layer 2 Category Page8.
+Layer 2: Secondary Category Pages (Mini-Authority Hubs)
+* Role: Broad category pages corresponding to the secondary categories on the GBP9.
+* Target Quantity: Typically 3 to 5 pages10.
+* Word Count: ~1,500 words per page1111.
+* Optimization: Optimized for [Category Name] + [City Name]1212.
+* Structure: Must contain subheadings listing all specific services relevant to that category13.
+Layer 3: Deep Service Pages (Topical Relevance Core)
+* Role: Dedicated pages for every specific service listed on the GBP14.
+* Target Quantity: 20 to 30 service pages15.
+* Word Count: 800 – 1,500 words per page1616.
+* Content Volume: These pages contribute the largest volume of content to the site17.
+________________
+
+
+3. Content Volume Estimator
+Use this table to map out the workload for a specific client.
+Page Layer
+	Est. Page Count
+	Target Word Count (Per Page)
+	Total Layer Volume
+	Layer 1: Homepage
+	1
+	Variable (Hub Content)
+	N/A
+	Layer 2: Categories
+	3 – 5
+	~1,500 words
+	4,500 – 7,500 words 18181818
+	Layer 3: Services
+	20 – 30
+	800 – 1,500 words
+	16,000 – 45,000 words 19191919
+	PROJECT TOTAL
+	~30 – 40
+	
+
+	27,000 – 45,000+ words 20202020
+	________________
+
+
+4. Exception: Competitive Market Add-On
+* Trigger: Highly competitive metropolitan markets (e.g., Downtown Chicago, Manhattan) where topical relevance alone is insufficient21.
+* Strategy: Create additional content for Geographical Relevance22.
+* Tactics: Target specific neighborhoods rather than just the broad city.
+* Impact: This can significantly increase the total word count beyond the standard Core 30 range (e.g., up to 170+ pieces of content)23.

@@ -1,0 +1,51 @@
+﻿The methodology you are following, known internally as the Core 30, is a systematic AI-powered local SEO strategy designed to maximize your presence in the Google Maps "Map Pack". The central premise is that the website structure must exactly match the Google Business Profile (GBP) to build trust and authority with Google's algorithm.
+Here is a detailed breakdown of the Core 30 strategy, including how it aligns the website and GBP:
+--------------------------------------------------------------------------------
+The Core 30 Strategy Breakdown
+The Core 30 refers to the process of creating a website structure that typically results in around 30 dedicated pages that perfectly mirror the services and categories listed on the GBP. The goal of every URL created is solely to rank the GBP higher, not to rank the pages organically.
+Phase 1: Google Business Profile (GBP) Optimization
+The strategy begins by maximizing the content and categorization of the client's GBP:
+1. Primary Category: Select the most important service (e.g., Plumber).
+2. Secondary Categories: While Google allows up to 10 categories, the recommendation is to utilize three to five highly relevant secondary categories.
+    ◦ Example: For a plumber, this might include "Drain Services Provider" and "Gas Contractor".
+3. Services: Add 20 to 30 services to the GBP. Unlike categories, which require selecting predefined options, the services are a free-entry white box where you can list specific offerings.
+Phase 2: Core 30 Website Structure (Three Layers Deep)
+The website is constructed to mirror the GBP, creating a three-layer deep structure:
+Layer 1: The GBP Landing Page (Homepage)
+• URL Definition: This is the URL placed in the "website" box on the GBP; typically, it is the homepage.
+• Target Keyword: The main target keyword is the Primary Category + City Name (e.g., "Plumber Houston").
+• Internal Linking Foundation: The homepage acts as the linking hub, connecting to the secondary categories and the most crucial services.
+Layer 2: Secondary Category Pages
+• Critical Links: The homepage links directly to the URLs for the secondary categories. The links used are plain text links embedded in the main body text of the homepage, not navigation bar links.
+    ◦ Interviewer's Clarification: When the interviewer asked, "When you say linking, are you saying like... you have the homepage and then you have the top where it says like services... is that where am I looking at this?" Caleb clarified, "These are not navbar links; these are plain text links in the text of the homepage".
+• Content and Subheadings: Each secondary category page (URL) should contain around 1,500 words of content optimized for that Category + City Name (e.g., "Water Heater Houston").
+• Linking to Services: These category pages contain subheadings that list all the specific services relevant to that category.
+Layer 3: Deep Service Pages
+• Deep Linking: Under the service subheadings on the Category Pages, a short description (60–70 words) is included with a link to a deep, long-form page dedicated exclusively to that service.
+• URL Matching: When the structure is complete, every category and service listed on the GBP has a corresponding URL where the exact category or service name appears in the Title Tag and H1.
+• Technical Concerns: The content is generated quickly, often using AI. The creation of these multiple closely related pages should not cause worry regarding keyword cannibalization or duplicate content, as the sole purpose is ranking the GBP, not organic pages.
+Phase 3: Building Trust (Links) and Relevance (Content)
+The Core 30 structure directly impacts two of Google's three core ranking factors for Maps: Trust and Relevance.
+1. Trust Signals (Links)
+Trust, in Google’s code, means external links from other websites. For local SEO, two types are used:
+Link Type
+	Purpose & Details
+	PBN Links (Low to Medium Quality)
+	These are low-cost links sent to every one of the Core 30 pages (30 links total). Their purpose is simple: to signal to Google that the content is "not AI slop" or raw, worthless content, because Google does not value raw content as much as it did before ChatGPT made content free. These links do not actually build rank.
+	High-Quality Local Trust Links
+	These are critical for boosting trust. The number one recognized signal is joining the local Chamber of Commerce. Other powerful links come from sponsoring local entities (e.g., local sports leagues, charities, or events). Caleb's agency uses AI prompts (like Claude Opus) to find sponsorship opportunities that explicitly provide a backlink.
+	Target URL for Trust Links
+	When asked, "Should the Chamber of Commerce and sponsorship links go to the client's business homepage?" Caleb specified they should go to the GBP landing page (which is usually the homepage).
+	Examples:
+	One personal injury attorney client joined 13 or 14 chambers of commerce within 70 miles and sponsored his daughter's softball team and a local event (Bayou Bash), resulting in his average rank moving from 5 or 6 to 2. This demonstrates that authority links can be sourced from nearby relevant organizations.
+	2. Geographical Relevance (Beyond Core 30)
+For most local markets, the topical relevance provided by the Core 30 is sufficient. However, in highly competitive areas (like Chicago or large metro centers), geographical relevance is needed, which involves creating pages targeting specific neighborhoods.
+• Targeting: The focus is on dots outside the top three that are ranked 4 or 5 on the local rank map.
+• Content Focus: An article is written targeting the specific neighborhood + city + service (e.g., "Plumber Conquered Hills Fort Wayne").
+• Hyper-local Details: The content discusses specific local projects, provides driving directions from that neighborhood back to the GBP address, and may mention local weather or building codes to prove the business serves that area.
+• Scale: For a LASIK surgeon client in Chicago, Caleb's team produced 170 pieces of geographical content over six months to turn specific neighborhood dots green on the rank map.
+Phase 4: Supporting AI Recommendations (Chat GPT)
+While the Core 30 addresses Google's ranking factors, additional elements are required to ensure Chat GPT recommends the business, as Chat GPT uses Bing's index.
+1. Bing for Business: A Bing for Business profile is essential for Chat GPT to recognize the business's existence.
+2. Citation Consistency: Unlike Google, which stopped caring about this consistency years ago, Chat GPT relies heavily on the exact, character-for-character match of the Name, Address, and Phone (NAP) across platforms (like Bing for Business, Apple Maps, Yelp, etc.). Tools like Lead Snap are used to manage these verified citations.
+3. Structured Data (Schema): Structured data is critical because Chat GPT does not crawl links; it relies on labels to understand the page content. Schema is used to feed Chat GPT specific, desired information (like settlements or service specialties) that it will often repeat word-for-word in its recommendations.
