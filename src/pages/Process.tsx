@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
-import { ArrowLeft, Clock, Globe, Users, Award, DollarSign, MapPin, ThermometerSun } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Clock, Globe, Users, Award, DollarSign, MapPin, ThermometerSun } from 'lucide-react';
 import DiagnosticWizard from '../components/DiagnosticWizard';
+
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function Process() {
     useEffect(() => {
@@ -10,19 +12,7 @@ export default function Process() {
 
     return (
         <div className="min-h-screen bg-white">
-            <nav className="fixed w-full z-50 bg-white/95 backdrop-blur border-b border-slate-100">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex justify-between h-20 items-center">
-                        <Link to="/" className="flex items-center">
-                            <img src="https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933cae0e0f092cbeff039ab.webp" alt="Pro Fix LV Logo" className="h-16 w-auto" />
-                        </Link>
-                        <Link to="/" className="flex items-center text-gray-600 hover:text-[#D4F427] transition-colors font-medium">
-                            <ArrowLeft size={20} className="mr-2" />
-                            Back to Home
-                        </Link>
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
@@ -283,13 +273,7 @@ export default function Process() {
                 </div>
             </div>
 
-            <footer className="bg-gray-950 text-white py-10 border-t border-gray-900">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center text-xs text-gray-500">
-                        <p>&copy; {new Date().getFullYear()} Pro Fix LV. All rights reserved.</p>
-                    </div>
-                </div>
-            </footer>
+            <Footer />
         </div>
     );
 }

@@ -1,22 +1,10 @@
-import { ArrowLeft } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function Terms() {
     return (
         <div className="min-h-screen bg-white">
-            <nav className="fixed w-full z-50 bg-white/95 backdrop-blur border-b border-slate-100">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex justify-between h-20 items-center">
-                        <Link to="/" className="flex items-center">
-                            <img src="https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933cae0e0f092cbeff039ab.webp" alt="Pro Fix LV Logo" className="h-16 w-auto" />
-                        </Link>
-                        <Link to="/" className="flex items-center text-gray-600 hover:text-[#D4F427] transition-colors font-medium">
-                            <ArrowLeft size={20} className="mr-2" />
-                            Back to Home
-                        </Link>
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-4xl mx-auto">
@@ -90,7 +78,7 @@ export default function Terms() {
                                 <li>Message frequency is up to 4 messages per month</li>
                                 <li>Message and data rates may apply depending on your mobile carrier</li>
                                 <li>You can opt out at any time by texting STOP to any message</li>
-                                <li>Text HELP for assistance or contact us at (702) 555-0199</li>
+                                <li>Text HELP for assistance or contact us at 888-990-8010</li>
                                 <li>Consent to receive text messages is not a condition of purchase</li>
                             </ul>
                         </section>
@@ -135,20 +123,14 @@ export default function Terms() {
                             <div className="mt-4 p-6 bg-gray-50 rounded-lg border border-gray-200">
                                 <p className="text-gray-700 font-medium">Pro Fix LV</p>
                                 <p className="text-gray-700">Email: hello@profixlvappliancerepair.com</p>
-                                <p className="text-gray-700">Phone: (702) 555-0199</p>
+                                <p className="text-gray-700">Phone: 888-990-8010</p>
                             </div>
                         </section>
                     </div>
                 </div>
             </div>
 
-            <footer className="bg-gray-950 text-white py-10 border-t border-gray-900">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center text-xs text-gray-500">
-                        <p>&copy; {new Date().getFullYear()} Pro Fix LV. All rights reserved.</p>
-                    </div>
-                </div>
-            </footer>
+            <Footer />
         </div>
     );
 }
