@@ -100,7 +100,7 @@ export default function ServicePage() {
                                             <Star size={16} fill="currentColor" />
                                             <span className="text-white text-sm font-bold ml-2">5.0 Rating</span>
                                         </div>
-                                        <p className="text-white text-sm font-medium">Trusted by 2,500+ Las Vegas Homeowners</p>
+                                        <p className="text-white text-sm font-medium">Trusted by Las Vegas Homeowners</p>
                                     </div>
                                 </div>
                             </div>
