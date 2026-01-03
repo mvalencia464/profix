@@ -4,11 +4,9 @@ import { certifications } from '../data/certifications';
 const BrandLogo: React.FC<{ name: string; domain?: string }> = ({ name, domain }) => {
   const [hasError, setHasError] = useState(false);
 
-  const clientId = import.meta.env.VITE_BRANDFETCH_CLIENT_ID;
-
-  if (!domain || hasError || !clientId) {
+  if (!domain || hasError) {
     return (
-      <span className="text-xl font-bold text-gray-400 group-hover:text-brand-lime transition-colors duration-300">
+      <span className="text-xl font-bold text-gray-300 text-center px-2">
         {name}
       </span>
     );
@@ -16,9 +14,9 @@ const BrandLogo: React.FC<{ name: string; domain?: string }> = ({ name, domain }
 
   return (
     <img
-      src={`https://cdn.brandfetch.io/${domain}/w/400/h/400?c=1id&clientId=${clientId}`}
+      src={`https://cdn.brandfetch.io/${domain}/w/800/fallback/transparent/type/logo?c=1idEdsUla_OnJPZWieq`}
       alt={`${name} logo`}
-      className="max-h-12 max-w-[80%] object-contain grayscale opacity-60 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
+      className="max-h-14 w-auto object-contain transition-all duration-300 hover:scale-110"
       onError={() => setHasError(true)}
     />
   );
@@ -30,31 +28,32 @@ const CertificationsSection: React.FC = () => {
   if (!showSection) return null;
 
   return (
-    <section className="bg-gray-50 py-16 border-t border-gray-100">
+    <section className="bg-white py-24 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 uppercase tracking-wide">
-            Certified Appliance Partners
+        <div className="text-center mb-20">
+          <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
+            Reliable Service for All Major Brands
           </h2>
-          <p className="text-gray-500 mt-2">
-            Factory authorized service for all major brands
+          <p className="mt-6 text-xl text-gray-500 max-w-3xl mx-auto leading-relaxed">
+            Our technicians are factory-certified to repair and maintain appliances from the world's leading manufacturers.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-20 items-center justify-items-center">
           {certifications.map((cert) => (
             <div
               key={cert.name}
-              className="group flex items-center justify-center w-full h-24 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-brand-lime/50 hover:shadow-md transition-all duration-300 cursor-default px-4"
+              className="flex items-center justify-center w-full transition-all duration-300"
+              title={cert.name}
             >
               <BrandLogo name={cert.name} domain={cert.domain} />
             </div>
           ))}
         </div>
-        
-        <div className="mt-12 text-center">
-          <p className="text-sm text-gray-400">
-            Don't see your brand? We likely service it. Call us to confirm.
+
+        <div className="mt-24 text-center">
+          <p className="text-lg text-gray-500">
+            Don't see your brand? <span className="font-bold text-brand-blue">We likely service it.</span> Contact us today for a diagnostic.
           </p>
         </div>
       </div>

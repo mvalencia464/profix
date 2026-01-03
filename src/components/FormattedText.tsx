@@ -18,9 +18,9 @@ export default function FormattedText({ text }: { text: string }) {
                         const [, label, url] = match;
                         const isInternal = url.startsWith('/');
                         if (isInternal) {
-                            return <Link key={i} to={url} className="text-blue-600 hover:text-[#D4F427] font-bold underline transition-colors">{label}</Link>;
+                            return <Link key={i} to={url} className="text-[#D4F427] hover:underline font-bold transition-colors">{label}</Link>;
                         }
-                        return <a key={i} href={url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-[#D4F427] font-bold underline transition-colors">{label}</a>;
+                        return <a key={i} href={url} target="_blank" rel="noopener noreferrer" className="text-[#D4F427] hover:underline font-bold transition-colors">{label}</a>;
                     }
                 }
                 return part;

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useHighLevel } from '../hooks/useHighLevel';
+import { useProfixCRM } from '../hooks/useProfixCRM';
 import {
     CheckCircle,
     MapPin,
@@ -60,7 +60,7 @@ const availabilityOptions = [
 const ProgressBar = ({ currentStep, totalSteps }: { currentStep: number; totalSteps: number }) => {
     const progress = (currentStep / totalSteps) * 100;
     return (
-        <div className="w-full bg-gray-200 h-2 rounded-full mb-6 overflow-hidden">
+        <div className="w-full bg-gray-800 h-2 rounded-full mb-6 overflow-hidden">
             <div
                 className="h-2 rounded-full transition-all duration-500 ease-out"
                 style={{ width: `${progress}%`, backgroundColor: '#D4F427' }}
@@ -70,7 +70,7 @@ const ProgressBar = ({ currentStep, totalSteps }: { currentStep: number; totalSt
 };
 
 export default function DiagnosticWizard() {
-    const { createContact, loading, error } = useHighLevel();
+    const { createContact, loading, error } = useProfixCRM();
     const [step, setStep] = useState(1);
     const [formData, setFormData] = useState({
         appliance: null as string | null,
@@ -100,15 +100,21 @@ export default function DiagnosticWizard() {
             setTimeout(() => handleNext(), 300);
         }
     };
-    
+
     const handleSubmit = async () => {
         try {
+            // Aggregate all details into a single custom field string
+            const serviceDetails = `Appliance: ${formData.appliance} | Issue: ${formData.issue} | Availability: ${formData.availability} | Zip: ${formData.zipCode}`;
+
             await createContact({
                 firstName: formData.name.split(' ')[0],
                 lastName: formData.name.split(' ').slice(1).join(' ') || '',
                 email: formData.email,
                 phone: formData.phone,
-                smsConsent: formData.smsConsent
+                customFields: {
+                    'PoHYSbC0KA87DyvzLI11': serviceDetails
+                },
+                tags: ['Website Lead']
             });
             alert("Request Submitted! We will contact you shortly.");
             // Reset form or redirect if needed
@@ -132,24 +138,31 @@ export default function DiagnosticWizard() {
 
     const renderStep1_Appliance = () => (
         <div className="animate-fade-in">
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Which appliance needs repair?</h3>
-            <p className="text-gray-500 mb-6">Select the type of appliance to get started.</p>
+            <h3 className="text-2xl font-bold text-white mb-2">Which appliance needs repair?</h3>
+            <p className="text-gray-400 mb-6">Select the type of appliance to get started.</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
                 {appliances.map((app) => (
                     <button
                         key={app.id}
                         onClick={() => updateForm('appliance', app.id)}
-                        className={`flex flex-col items-center justify-center p-4 rounded-xl border-2 transition-all duration-200 hover:shadow-md ${formData.appliance === app.id
-                                ? 'text-gray-900'
-                                : 'border-gray-100 bg-white text-gray-600 hover:bg-gray-50'
+                        className={`flex flex-col items-center justify-center p-4 rounded-xl border-2 transition-all duration-200 hover:shadow-lg ${formData.appliance === app.id
+                            ? 'text-white'
+                            : 'border-gray-800 bg-gray-800/50 text-gray-400 hover:bg-gray-800 hover:text-gray-200'
                             }`}
                         style={{
                             borderColor: formData.appliance === app.id ? '#D4F427' : '',
                             backgroundColor: formData.appliance === app.id ? 'rgba(212, 244, 39, 0.1)' : '',
                         }}
                     >
-                        <div className={`mb-3 ${formData.appliance === app.id ? 'opacity-100' : 'opacity-70 grayscale'}`}>
-                            <img src={app.icon} alt={app.name} className="w-12 h-12 object-contain" />
+                        <div className={`mb-3 transition-all duration-300 ${formData.appliance === app.id ? 'opacity-100 scale-110' : 'opacity-40 grayscale group-hover:opacity-70'}`}>
+                            <img
+                                src={app.icon}
+                                alt={app.name}
+                                className="w-12 h-12 object-contain transition-all duration-300"
+                                style={{
+                                    filter: formData.appliance === app.id ? 'drop-shadow(0 0 8px rgba(212, 244, 39, 0.4))' : 'none'
+                                }}
+                            />
                         </div>
                         <span className="font-medium text-sm md:text-base text-center">{app.name}</span>
                     </button>
@@ -164,21 +177,17 @@ export default function DiagnosticWizard() {
 
         return (
             <div className="animate-fade-in">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">What's wrong with your {applianceName}?</h3>
-                <p className="text-gray-500 mb-6">Select the issue that best describes the problem.</p>
+                <h3 className="text-2xl font-bold text-white mb-2">What's wrong with your {applianceName}?</h3>
+                <p className="text-gray-400 mb-6">Select the issue that best describes the problem.</p>
                 <div className="space-y-3">
                     {issues.map((issue, idx) => (
                         <button
                             key={idx}
                             onClick={() => updateForm('issue', issue)}
                             className={`w-full text-left p-4 rounded-xl border-2 transition-all duration-200 flex items-center justify-between ${formData.issue === issue
-                                    ? 'text-gray-900 font-medium shadow-sm'
-                                    : 'border-gray-100 bg-white text-gray-600 hover:bg-gray-50'
+                                ? 'text-white font-medium shadow-sm border-[#D4F427] bg-[#D4F427]/10'
+                                : 'border-gray-800 bg-gray-800/50 text-gray-400 hover:bg-gray-800 hover:text-gray-200'
                                 }`}
-                            style={{
-                                borderColor: formData.issue === issue ? '#D4F427' : '',
-                                backgroundColor: formData.issue === issue ? 'rgba(212, 244, 39, 0.1)' : '',
-                            }}
                         >
                             <span>{issue}</span>
                             {formData.issue === issue && <CheckCircle size={20} style={{ color: '#D4F427' }} />}
@@ -186,7 +195,7 @@ export default function DiagnosticWizard() {
                     ))}
                     <button
                         onClick={() => updateForm('issue', 'Other / Not Listed')}
-                        className="w-full text-left p-4 rounded-xl border-2 border-gray-100 text-gray-500 hover:bg-gray-50 transition-all"
+                        className="w-full text-left p-4 rounded-xl border-2 border-gray-800 text-gray-500 hover:bg-gray-800 transition-all"
                     >
                         Other / Not Listed
                     </button>
@@ -197,30 +206,26 @@ export default function DiagnosticWizard() {
 
     const renderStep3_Availability = () => (
         <div className="animate-fade-in">
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">What is your availability?</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">What is your availability?</h3>
             <div className="space-y-4 mt-6">
                 {availabilityOptions.map((option, idx) => (
                     <button
                         key={idx}
                         onClick={() => updateForm('availability', option.label)}
                         className={`w-full text-left p-5 rounded-2xl border-2 transition-all duration-200 flex items-center ${formData.availability === option.label
-                                ? 'bg-opacity-10 ring-1'
-                                : 'border-gray-200 bg-white hover:border-gray-300'
+                            ? 'bg-[#D4F427]/10 border-[#D4F427] ring-1 ring-[#D4F427]/20'
+                            : 'border-gray-800 bg-gray-800/50 text-gray-400 hover:border-gray-700 hover:bg-gray-800'
                             }`}
-                        style={{
-                            borderColor: formData.availability === option.label ? '#D4F427' : '',
-                            backgroundColor: formData.availability === option.label ? 'rgba(212, 244, 39, 0.1)' : '',
-                        }}
                     >
                         <div className={`w-6 h-6 rounded-full border-2 mr-4 flex items-center justify-center flex-shrink-0 transition-colors`}
-                            style={{ borderColor: formData.availability === option.label ? '#D4F427' : '#9ca3af' }}>
+                            style={{ borderColor: formData.availability === option.label ? '#D4F427' : '#4b5563' }}>
                             {formData.availability === option.label && (
                                 <div className="w-3 h-3 rounded-full" style={{ backgroundColor: '#D4F427' }} />
                             )}
                         </div>
 
                         <div>
-                            <div className="font-bold text-lg text-gray-900">{option.label}</div>
+                            <div className={`font-bold text-lg ${formData.availability === option.label ? 'text-white' : 'text-gray-300'}`}>{option.label}</div>
                             {option.subtext && (
                                 <div className="text-gray-500 text-sm mt-0.5">{option.subtext}</div>
                             )}
@@ -233,25 +238,24 @@ export default function DiagnosticWizard() {
 
     const renderStep4_Location = () => (
         <div className="animate-fade-in">
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Where do you need service?</h3>
-            <p className="text-gray-500 mb-6">Enter your ZIP code to verify we service your area in Las Vegas.</p>
+            <h3 className="text-2xl font-bold text-white mb-2">Where do you need service?</h3>
+            <p className="text-gray-400 mb-6">Enter your ZIP code to verify we service your area in Las Vegas.</p>
 
-            <div className="p-4 rounded-lg mb-6 border flex items-start"
-                style={{ backgroundColor: 'rgba(212, 244, 39, 0.1)', borderColor: 'rgba(212, 244, 39, 0.2)' }}>
+            <div className="p-4 rounded-lg mb-6 border flex items-start bg-gray-800/50 border-gray-700">
                 <ShieldCheck className="w-6 h-6 mr-3 flex-shrink-0 mt-0.5" style={{ color: '#D4F427' }} />
-                <p className="text-sm text-gray-800">
+                <p className="text-sm text-gray-300">
                     Pro Fix LV technicians are currently active in Summerlin, Henderson, and North Las Vegas areas.
                 </p>
             </div>
 
             <div className="relative">
-                <MapPin className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                <MapPin className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500" />
                 <input
                     type="text"
                     value={formData.zipCode}
                     onChange={(e) => setFormData(prev => ({ ...prev, zipCode: e.target.value }))}
                     placeholder="Enter ZIP Code (e.g. 89118)"
-                    className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-gray-200 focus:border-[#D4F427] focus:ring-0 text-lg outline-none transition-colors"
+                    className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-gray-800 bg-gray-800/50 text-white focus:border-[#D4F427] focus:ring-0 text-lg outline-none transition-colors placeholder:text-gray-600"
                     maxLength={5}
                 />
             </div>
@@ -269,45 +273,45 @@ export default function DiagnosticWizard() {
 
     const renderStep5_Contact = () => (
         <div className="animate-fade-in">
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Contact Information</h3>
-            <p className="text-gray-500 mb-6">Where should we send your quote and availability?</p>
+            <h3 className="text-2xl font-bold text-white mb-2">Contact Information</h3>
+            <p className="text-gray-400 mb-6">Where should we send your quote and availability?</p>
 
             <div className="space-y-4">
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                    <label className="block text-sm font-medium text-gray-400 mb-1">Full Name</label>
                     <input
                         type="text"
                         value={formData.name}
                         onChange={(e) => updateForm('name', e.target.value)}
                         placeholder="John Doe"
-                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#D4F427] outline-none transition-colors"
+                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-800 bg-gray-800/50 text-white focus:border-[#D4F427] outline-none transition-colors placeholder:text-gray-600"
                     />
                 </div>
 
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                    <label className="block text-sm font-medium text-gray-400 mb-1">Email Address</label>
                     <div className="relative">
-                        <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
+                        <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500" size={18} />
                         <input
                             type="email"
                             value={formData.email}
                             onChange={(e) => updateForm('email', e.target.value)}
                             placeholder="john@example.com"
-                            className="w-full pl-11 pr-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#D4F427] outline-none transition-colors"
+                            className="w-full pl-11 pr-4 py-3 rounded-xl border-2 border-gray-800 bg-gray-800/50 text-white focus:border-[#D4F427] outline-none transition-colors placeholder:text-gray-600"
                         />
                     </div>
                 </div>
 
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                    <label className="block text-sm font-medium text-gray-400 mb-1">Phone Number</label>
                     <div className="relative">
-                        <Phone className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
+                        <Phone className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500" size={18} />
                         <input
                             type="tel"
                             value={formData.phone}
                             onChange={(e) => updateForm('phone', e.target.value)}
                             placeholder="(702) 555-0123"
-                            className="w-full pl-11 pr-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#D4F427] outline-none transition-colors"
+                            className="w-full pl-11 pr-4 py-3 rounded-xl border-2 border-gray-800 bg-gray-800/50 text-white focus:border-[#D4F427] outline-none transition-colors placeholder:text-gray-600"
                         />
                     </div>
                 </div>
@@ -319,10 +323,10 @@ export default function DiagnosticWizard() {
                         type="checkbox"
                         checked={formData.smsConsent}
                         onChange={(e) => setFormData(prev => ({ ...prev, smsConsent: e.target.checked }))}
-                        className="mt-0.5 h-5 w-5 rounded border-2 border-gray-300 text-[#D4F427] focus:ring-[#D4F427] focus:ring-offset-0 cursor-pointer flex-shrink-0"
+                        className="mt-0.5 h-5 w-5 rounded border-2 border-gray-700 bg-gray-800 text-[#D4F427] focus:ring-[#D4F427] focus:ring-offset-0 cursor-pointer flex-shrink-0"
                         style={{ accentColor: '#D4F427' }}
                     />
-                    <span className="ml-3 text-xs text-gray-600 leading-relaxed">
+                    <span className="ml-3 text-xs text-gray-500 leading-relaxed group-hover:text-gray-400 transition-colors">
                         By entering your phone number and submitting this form, you consent to receive marketing and service-related text messages from Profix Appliance Repair at the number you provide. Up to 4 msgs/month. Message and data rates may apply. Text STOP to cancel, HELP for help. Consent is not a condition of purchase. View our <a href="/privacy" className="text-[#D4F427] hover:underline font-medium">Privacy Policy</a> and <a href="/terms" className="text-[#D4F427] hover:underline font-medium">Terms of Service</a>.
                     </span>
                 </label>
@@ -349,31 +353,31 @@ export default function DiagnosticWizard() {
                         style={{ backgroundColor: 'rgba(212, 244, 39, 0.2)', color: '#D4F427' }}>
                         <CheckCircle size={32} />
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900">Summary</h3>
-                    <p className="text-gray-500">Please review your request details.</p>
+                    <h3 className="text-2xl font-bold text-white">Summary</h3>
+                    <p className="text-gray-400">Please review your request details.</p>
                 </div>
 
-                <div className="bg-gray-50 rounded-xl p-6 space-y-4 border border-gray-100 mb-6">
-                    <div className="flex justify-between border-b border-gray-200 pb-3">
+                <div className="bg-gray-800/50 rounded-xl p-6 space-y-4 border border-gray-700 mb-6">
+                    <div className="flex justify-between border-b border-gray-700 pb-3">
                         <span className="text-gray-500">Service:</span>
-                        <span className="font-medium text-gray-900 text-right">{applianceName} Repair</span>
+                        <span className="font-medium text-white text-right">{applianceName} Repair</span>
                     </div>
-                    <div className="flex justify-between border-b border-gray-200 pb-3">
+                    <div className="flex justify-between border-b border-gray-700 pb-3">
                         <span className="text-gray-500">Issue:</span>
-                        <span className="font-medium text-gray-900 text-right max-w-[60%]">{formData.issue}</span>
+                        <span className="font-medium text-white text-right max-w-[60%]">{formData.issue}</span>
                     </div>
-                    <div className="flex justify-between border-b border-gray-200 pb-3">
+                    <div className="flex justify-between border-b border-gray-700 pb-3">
                         <span className="text-gray-500">Urgency:</span>
-                        <span className="font-medium text-gray-900 text-right">{formData.availability}</span>
+                        <span className="font-medium text-white text-right">{formData.availability}</span>
                     </div>
-                    <div className="flex justify-between border-b border-gray-200 pb-3">
+                    <div className="flex justify-between border-b border-gray-700 pb-3">
                         <span className="text-gray-500">Location:</span>
-                        <span className="font-medium text-gray-900 text-right">{formData.zipCode}, Las Vegas</span>
+                        <span className="font-medium text-white text-right">{formData.zipCode}, Las Vegas</span>
                     </div>
                     <div className="flex justify-between pt-1">
                         <span className="text-gray-500">Contact:</span>
                         <div className="text-right">
-                            <div className="font-medium text-gray-900">{formData.name}</div>
+                            <div className="font-medium text-white">{formData.name}</div>
                             <div className="text-sm text-gray-500">{formData.phone}</div>
                         </div>
                     </div>
@@ -388,16 +392,16 @@ export default function DiagnosticWizard() {
                     {loading ? 'Submitting...' : 'Submit Request'}
                 </button>
                 {error && <p className="text-center text-red-500 mt-2 text-sm">Error: {error}</p>}
-                <p className="text-center text-xs text-gray-400 mt-4">One of our master technicians will review this immediately.</p>
+                <p className="text-center text-xs text-gray-500 mt-4">One of our master technicians will review this immediately.</p>
             </div>
         );
     };
 
     return (
-        <div className="relative bg-white/90 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden border border-white/50 flex flex-col min-h-[500px]">
-            <div className="bg-gray-50/80 px-6 py-4 border-b border-gray-100 flex justify-between items-center">
-                <h2 className="font-bold text-gray-800">Diagnostic Wizard</h2>
-                <div className="text-sm font-medium text-gray-500">Step {step} of {totalSteps}</div>
+        <div className="relative bg-gray-900/90 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden border border-gray-800 flex flex-col min-h-[500px]">
+            <div className="bg-gray-800/80 px-6 py-4 border-b border-gray-700 flex justify-between items-center">
+                <h2 className="font-bold text-white">Diagnostic Wizard</h2>
+                <div className="text-sm font-medium text-gray-400">Step {step} of {totalSteps}</div>
             </div>
 
             <div className="p-6 md:p-8 flex-grow flex flex-col">
@@ -412,15 +416,15 @@ export default function DiagnosticWizard() {
             </div>
 
             {step > 1 && step < 6 && (
-                <div className="px-6 py-4 border-t border-gray-100 bg-gray-50/80 flex justify-between items-center">
+                <div className="px-6 py-4 border-t border-gray-700 bg-gray-800/80 flex justify-between items-center">
                     <button
                         onClick={handleBack}
-                        className="text-gray-500 hover:text-gray-800 font-medium flex items-center transition-colors"
+                        className="text-gray-400 hover:text-white font-medium flex items-center transition-colors"
                     >
                         <ChevronLeft size={18} className="mr-1" /> Back
                     </button>
                     {step > 3 && (
-                        <span className="text-xs text-gray-400">Step {step} of {totalSteps}</span>
+                        <span className="text-xs text-gray-500">Step {step} of {totalSteps}</span>
                     )}
                 </div>
             )}

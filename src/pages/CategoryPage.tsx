@@ -23,10 +23,11 @@ export default function CategoryPage() {
 
     if (!categoryData) {
         return (
-            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+            <div className="min-h-screen bg-gray-950 flex items-center justify-center">
                 <div className="text-center">
-                    <h1 className="text-2xl font-bold text-gray-900">Category Not Found</h1>
-                    <Link to="/" className="text-blue-600 hover:underline mt-4 block">Return Home</Link>
+                    <h1 className="text-2xl font-bold text-white">Category Not Found</h1>
+                    <p className="text-gray-400 mt-2">Could not find strategy data for: {currentPath}</p>
+                    <Link to="/" className="text-[#D4F427] hover:underline mt-4 block">Return Home</Link>
                 </div>
             </div>
         );

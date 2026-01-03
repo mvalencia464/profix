@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import { certifications } from './data/certifications';
 import { strategyData } from './data/strategyData';
 import DiagnosticWizard from './components/DiagnosticWizard';
 import CertificationsSection from './components/CertificationsSection';
@@ -17,27 +18,36 @@ import {
     Navigation,
     ArrowRight
 } from 'lucide-react';
+import heroVanImage from './assets/images/WEBP/van-hero.webp';
+import wolfLogo from './assets/images/wolf.svg';
 
-const reviews = [
-    {
-        name: "Sarah Jenkins",
-        location: "Summerlin",
-        text: "Tim came out the same day my fridge stopped cooling. Saved me hundreds in groceries. Honest, fast, and didn't try to upsell me.",
-        rating: 5
-    },
-    {
-        name: "Michael Torres",
-        location: "Henderson",
-        text: "Finally a company that communicates. They texted me when they were on the way and fixed my dryer in under an hour. Local pros for sure.",
-        rating: 5
-    },
-    {
-        name: "Jessica Reynolds",
-        location: "North Las Vegas",
-        text: "I thought I needed a new dishwasher, but the technician found a simple clog. Charged me a fair price for the repair instead of pushing a replacement.",
-        rating: 5
-    }
-];
+// const reviews = [
+//     {
+//         name: "Sarah Jenkins",
+//         location: "Summerlin",
+//         text: "Tim came out the same day my fridge stopped cooling. Saved me hundreds in groceries. Honest, fast, and didn't try to upsell me.",
+//         rating: 5
+//     },
+//     {
+//         name: "Michael Torres",
+//         location: "Henderson",
+//         text: "Finally a company that communicates. They texted me when they were on the way and fixed my dryer in under an hour. Local pros for sure.",
+//         rating: 5
+//     },
+//     {
+//         name: "Jessica Reynolds",
+//         location: "North Las Vegas",
+//         text: "I thought I needed a new dishwasher, but the technician found a simple clog. Charged me a fair price for the repair instead of pushing a replacement.",
+//         rating: 5
+//     }
+// ];
+interface Review {
+    name: string;
+    location: string;
+    text: string;
+    rating: number;
+}
+const reviews: Review[] = []; // Temporarily removed until real feedback is secured
 
 const areasServed = [
     "Summerlin",
@@ -72,22 +82,31 @@ export default function App() {
         <div className="min-h-screen bg-white font-sans text-slate-800">
             <Navbar />
 
-            <div className="relative pt-20 lg:pt-28 pb-16 lg:pb-32 overflow-hidden bg-white">
-                <div className="absolute bottom-0 left-0 w-[900px] h-[900px] rounded-full blur-3xl opacity-30 z-0" style={{ background: 'radial-gradient(circle, rgba(212, 244, 39, 0.25) 0%, rgba(212, 244, 39, 0.12) 40%, transparent 70%)' }}></div>
-                <div className="absolute top-0 right-0 w-[700px] h-[700px] rounded-full blur-3xl opacity-20 z-0" style={{ background: 'radial-gradient(circle, rgba(212, 244, 39, 0.15) 0%, rgba(212, 244, 39, 0.05) 50%, transparent 100%)' }}></div>
+            <div className="relative pt-20 lg:pt-32 pb-16 lg:pb-32 overflow-hidden bg-gray-900">
+                {/* Background Van Image - Positioned to blend */}
+                <div className="absolute top-0 right-0 w-full h-full z-0 pointer-events-none">
+                    <img
+                        src={heroVanImage}
+                        alt="Service Van Background"
+                        className="w-full h-full object-cover object-right-bottom opacity-35 xl:opacity-50 transition-opacity duration-1000"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900 35% via-gray-900/60 to-transparent"></div>
+                </div>
+
+                <div className="absolute bottom-0 left-0 w-[900px] h-[900px] rounded-full blur-3xl opacity-10 z-0" style={{ background: 'radial-gradient(circle, rgba(212, 244, 39, 0.25) 0%, rgba(212, 244, 39, 0.12) 40%, transparent 70%)' }}></div>
+                <div className="absolute top-0 right-0 w-[700px] h-[700px] rounded-full blur-3xl opacity-10 z-0" style={{ background: 'radial-gradient(circle, rgba(212, 244, 39, 0.15) 0%, rgba(212, 244, 39, 0.05) 50%, transparent 100%)' }}></div>
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
                         <div className="text-center lg:text-left space-y-6 relative">
-                            <div className="absolute -left-8 top-0 w-64 h-64 rounded-full opacity-20 blur-3xl" style={{ backgroundColor: '#D4F427' }}></div>
-                            <div className="absolute -left-4 bottom-20 w-48 h-48 rounded-full opacity-10 blur-2xl" style={{ backgroundColor: '#D4F427' }}></div>
+                            <div className="absolute -left-8 top-0 w-64 h-64 rounded-full opacity-10 blur-3xl" style={{ backgroundColor: '#D4F427' }}></div>
 
-                            <div className="relative inline-flex items-center space-x-2 rounded-full px-4 py-1.5 mb-4 animate-fade-in-up shadow-lg" style={{ backgroundColor: '#D4F427' }}>
-                                <Award size={16} className="text-black" />
-                                <span className="text-sm font-semibold text-black uppercase tracking-wide">15 Years Expert Service in Vegas</span>
+                            <div className="relative inline-flex items-center space-x-2 rounded-full px-4 py-1.5 mb-4 animate-fade-in-up shadow-lg border border-gray-700/50 bg-gray-800/50 backdrop-blur-sm">
+                                <Award size={16} className="text-[#D4F427]" />
+                                <span className="text-sm font-semibold text-gray-200 uppercase tracking-wide">15 Years Expert Service in Vegas</span>
                             </div>
 
-                            <h1 className="relative text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight">
+                            <h1 className="relative text-4xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
                                 Appliance Repair Service<br />
                                 <span className="relative inline-block" style={{
                                     background: 'linear-gradient(135deg, #D4F427 0%, #84cc16 100%)',
@@ -99,32 +118,39 @@ export default function App() {
                                     <div className="absolute -bottom-2 left-0 right-0 h-1 opacity-50" style={{ background: 'linear-gradient(to right, #D4F427, #84cc16)' }}></div>
                                 </span>
                             </h1>
-                            <p className="text-xl text-gray-800 font-medium mt-2">We Fix It Fast. So You Can Relax.</p>
+                            <p className="text-xl text-gray-200 font-medium mt-2">We Fix It Fast. So You Can Relax.</p>
 
-                            <p className="text-xl text-gray-700 leading-relaxed font-medium mb-10 max-w-2xl">
+                            <p className="text-xl text-gray-400 leading-relaxed font-medium mb-10 max-w-2xl">
                                 <FormattedText text="Specializing in the repair of [refrigerators and freezers](/refrigerator-freezer-repair), [laundry appliances](/laundry-appliance-repair), and [kitchen cooking units](/kitchen-appliance-repair) across the entire Las Vegas valley." />
-                                <span className="font-bold text-gray-900"> No hidden fees. 90-day warranty.</span>
+                                <span className="font-bold text-gray-200"> No hidden fees. 90-day warranty.</span>
                             </p>
 
                             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6 pt-4">
-                                <div className="flex items-center space-x-3 px-4 py-2 bg-white/80 backdrop-blur rounded-full shadow-sm border border-gray-100">
+                                <div className="flex items-center space-x-3 px-4 py-2 bg-gray-800/80 backdrop-blur rounded-full shadow-sm border border-gray-700">
                                     <Clock size={18} style={{ color: '#D4F427' }} />
-                                    <span className="text-sm font-bold text-gray-900">15 Years Experience</span>
+                                    <span className="text-sm font-bold text-gray-200">15 Years Experience</span>
                                 </div>
-                                <div className="flex items-center space-x-3 px-4 py-2 bg-white/80 backdrop-blur rounded-full shadow-sm border border-gray-100">
+                                <div className="flex items-center space-x-3 px-4 py-2 bg-gray-800/80 backdrop-blur rounded-full shadow-sm border border-gray-700">
                                     <Phone size={18} style={{ color: '#D4F427' }} />
-                                    <span className="text-sm font-bold text-gray-900">24/7 Booking</span>
+                                    <span className="text-sm font-bold text-gray-200">24/7 Booking</span>
                                 </div>
                             </div>
 
-                            <div className="pt-8 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-                                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">We Service Nearly All Brands, including</p>
-                                <div className="flex items-center justify-center lg:justify-start space-x-6 flex-wrap gap-y-2">
-                                    <span className="font-bold text-xl text-gray-600">SAMSUNG</span>
-                                    <span className="font-bold text-xl text-gray-600">LG</span>
-                                    <span className="font-bold text-xl text-gray-600">Whirlpool</span>
-                                    <span className="font-bold text-xl text-gray-600">GE</span>
-                                    <span className="font-bold text-xl text-gray-600">BOSCH</span>
+                            <div className="pt-8 opacity-90 transition-all duration-500">
+                                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-6">Expert Service for Premium & Domestic Brands</p>
+                                <div className="flex items-center justify-center lg:justify-start space-x-10 flex-wrap gap-y-8">
+                                    {['Wolf', 'Sub-Zero', 'Samsung', 'Whirlpool', 'LG', 'GE'].map((brandName) => {
+                                        const cert = certifications.find(c => c.name === brandName);
+                                        if (!cert) return null;
+                                        return (
+                                            <img
+                                                key={cert.name}
+                                                src={cert.name.toLowerCase() === 'wolf' ? wolfLogo : `https://cdn.brandfetch.io/${cert.domain}/w/400/fallback/transparent/type/logo?c=1idEdsUla_OnJPZWieq`}
+                                                alt={cert.name}
+                                                className="h-6 brightness-0 invert opacity-50 hover:opacity-100 transition-all duration-300 pointer-events-none"
+                                            />
+                                        );
+                                    })}
                                 </div>
                             </div>
                         </div>
@@ -264,52 +290,54 @@ export default function App() {
                 </div>
             </section>
 
-            <section id="reviews" className="bg-gray-900 py-24 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-gray-800 to-transparent opacity-50"></div>
+            {reviews.length > 0 && (
+                <section id="reviews" className="bg-gray-900 py-24 relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-gray-800 to-transparent opacity-50"></div>
 
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                    <div className="flex flex-col md:flex-row justify-between items-end mb-16">
-                        <div className="mb-6 md:mb-0">
-                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">What Your Neighbors Are Saying</h2>
-                            <div className="flex items-center space-x-4">
-                                <div className="flex items-center space-x-2 px-4 py-2 bg-gray-800 rounded-full">
-                                    <Clock size={18} style={{ color: '#D4F427' }} />
-                                    <span className="text-sm font-bold text-white">15 Years Trusted</span>
-                                </div>
-                                <div className="flex items-center space-x-2 px-4 py-2 bg-gray-800 rounded-full">
-                                    <ShieldCheck size={18} style={{ color: '#D4F427' }} />
-                                    <span className="text-sm font-bold text-white">Licensed & Insured</span>
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                        <div className="flex flex-col md:flex-row justify-between items-end mb-16">
+                            <div className="mb-6 md:mb-0">
+                                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">What Your Neighbors Are Saying</h2>
+                                <div className="flex items-center space-x-4">
+                                    <div className="flex items-center space-x-2 px-4 py-2 bg-gray-800 rounded-full">
+                                        <Clock size={18} style={{ color: '#D4F427' }} />
+                                        <span className="text-sm font-bold text-white">15 Years Trusted</span>
+                                    </div>
+                                    <div className="flex items-center space-x-2 px-4 py-2 bg-gray-800 rounded-full">
+                                        <ShieldCheck size={18} style={{ color: '#D4F427' }} />
+                                        <span className="text-sm font-bold text-white">Licensed & Insured</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="grid md:grid-cols-3 gap-8">
-                        {reviews.map((review, idx) => (
-                            <div key={idx} className="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-gray-500 transition-all duration-300 hover:-translate-y-1 shadow-2xl">
-                                <div className="flex justify-between items-start mb-6">
-                                    <div className="flex space-x-1" style={{ color: '#D4F427' }}>
-                                        {[...Array(review.rating)].map((_, i) => (
-                                            <Star key={i} size={18} fill="currentColor" />
-                                        ))}
+                        <div className="grid md:grid-cols-3 gap-8">
+                            {reviews.map((review, idx) => (
+                                <div key={idx} className="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-gray-500 transition-all duration-300 hover:-translate-y-1 shadow-2xl">
+                                    <div className="flex justify-between items-start mb-6">
+                                        <div className="flex space-x-1" style={{ color: '#D4F427' }}>
+                                            {[...Array(review.rating)].map((_, i) => (
+                                                <Star key={i} size={18} fill="currentColor" />
+                                            ))}
+                                        </div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" className="w-5 h-5 opacity-70" alt="Google" />
                                     </div>
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" className="w-5 h-5 opacity-70" alt="Google" />
+                                    <p className="text-gray-100 mb-6 leading-relaxed">"{review.text}"</p>
+                                    <div className="flex items-center">
+                                        <div className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center font-bold text-white mr-3">
+                                            {review.name.charAt(0)}
+                                        </div>
+                                        <div>
+                                            <p className="font-bold text-white text-sm">{review.name}</p>
+                                            <p className="text-gray-300 text-xs">{review.location}</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p className="text-gray-100 mb-6 leading-relaxed">"{review.text}"</p>
-                                <div className="flex items-center">
-                                    <div className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center font-bold text-white mr-3">
-                                        {review.name.charAt(0)}
-                                    </div>
-                                    <div>
-                                        <p className="font-bold text-white text-sm">{review.name}</p>
-                                        <p className="text-gray-300 text-xs">{review.location}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
+                            ))}
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            )}
 
             <CertificationsSection />
 

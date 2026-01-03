@@ -331,3 +331,19 @@ POST https://services.leadconnectorhq.com/contacts/
 
 You now have a working HighLevel integration for creating contacts with name, email, and phone. No OAuth, no complexity—just a simple Private Integration token and a fetch request.
 
+---
+
+## Step 7: Automate It (No Webhook Needed!)
+
+Since you are using the API, the contact is created directly in HighLevel. You do **not** need an Inbound Webhook.
+
+**To trigger an automation:**
+1. Go to **Automation** -> **Workflows** -> **Create Workflow** -> **Start from Scratch**.
+2. Click **Add New Trigger** and select **Contact Tag**.
+3. Add a Filter: **Tag Added** select `Website Lead`.
+   - *Note: This matches the tag we are sending in `DiagnosticWizard.tsx`.*
+4. Add your actions (e.g., Send SMS, Send Email, Create Opportunity, Notify Admin).
+5. **Publish** the workflow.
+
+Now, whenever someone submits the form, the API creates the contact with the tag, and this workflow will instantly fire.
+

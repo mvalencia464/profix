@@ -7,7 +7,6 @@ import {
     Award,
     ArrowRight,
     Navigation,
-    Star,
     CheckCircle,
     Phone,
     Zap,
@@ -26,11 +25,11 @@ export default function ServicePage() {
 
     if (!pageData) {
         return (
-            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+            <div className="min-h-screen bg-gray-950 flex items-center justify-center">
                 <div className="text-center">
-                    <h1 className="text-2xl font-bold text-gray-900">Service Not Found</h1>
-                    <p className="text-gray-500 mt-2">Could not find strategy data for: {currentPath}</p>
-                    <Link to="/" className="text-blue-600 hover:underline mt-4 block">Return Home</Link>
+                    <h1 className="text-2xl font-bold text-white">Service Not Found</h1>
+                    <p className="text-gray-400 mt-2">Could not find strategy data for: {currentPath}</p>
+                    <Link to="/" className="text-[#D4F427] hover:underline mt-4 block">Return Home</Link>
                 </div>
             </div>
         );
@@ -54,7 +53,7 @@ export default function ServicePage() {
                                 Back to {serviceCategory?.replace(/-/g, ' ')}
                             </Link>
 
-                            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wide mb-6">
+                            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-gray-900 text-[#D4F427] text-xs font-bold uppercase tracking-wide mb-6 border border-gray-800">
                                 <Zap size={14} className="mr-1" />
                                 Priority Repair Services
                             </div>
@@ -91,16 +90,12 @@ export default function ServicePage() {
                                         alt={pageData.pageName}
                                         className="w-full h-80 object-cover transform hover:scale-110 transition-transform duration-700"
                                     />
-                                    <div className="p-6 bg-gradient-to-t from-black/80 to-transparent absolute bottom-0 left-0 right-0">
-                                        <div className="flex items-center gap-2 text-[#D4F427] mb-1">
-                                            <Star size={16} fill="currentColor" />
-                                            <Star size={16} fill="currentColor" />
-                                            <Star size={16} fill="currentColor" />
-                                            <Star size={16} fill="currentColor" />
-                                            <Star size={16} fill="currentColor" />
-                                            <span className="text-white text-sm font-bold ml-2">5.0 Rating</span>
+                                    <div className="p-6 bg-gradient-to-t from-black/90 to-transparent absolute bottom-0 left-0 right-0">
+                                        <div className="flex items-center gap-2 text-[#D4F427] mb-2">
+                                            <ShieldCheck size={20} fill="currentColor" fillOpacity={0.2} />
+                                            <span className="text-white text-base font-black tracking-tight">Licensed & Bonded Specialists</span>
                                         </div>
-                                        <p className="text-white text-sm font-medium">Trusted by Las Vegas Homeowners</p>
+                                        <p className="text-gray-300 text-xs font-bold uppercase tracking-widest pl-7">Las Vegas' Premier Technical Authority</p>
                                     </div>
                                 </div>
                             </div>
@@ -248,7 +243,7 @@ export default function ServicePage() {
 
                         <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 border-t border-white/10 pt-12">
                             <div className="text-center">
-                                <p className="text-3xl font-black text-white">$115</p>
+                                <p className="text-3xl font-black text-white">$125</p>
                                 <p className="text-xs text-gray-500 font-bold uppercase tracking-widest mt-1">Service Call</p>
                             </div>
                             <div className="hidden md:block w-px h-12 bg-white/10"></div>
