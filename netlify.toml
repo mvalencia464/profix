@@ -2,5 +2,10 @@
   publish = "dist"
   command = "npm run build"
 
-[images]
-  remote_images = ["*"]
+[[images.remote_patterns]]
+  protocol = "https"
+  hostname = "images.unsplash.com"
+
+[[images.remote_patterns]]
+  protocol = "https"
+  hostname = "cdn.brandfetch.io"
