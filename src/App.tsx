@@ -20,6 +20,9 @@ import {
 } from 'lucide-react';
 import heroVanImage from './assets/images/WEBP/van-hero.webp';
 import wolfLogo from './assets/images/wolf.svg';
+import NetlifyImage from './components/NetlifyImage';
+import timImage from './assets/images/team/tim.webp';
+import bryanImage from './assets/images/team/bryan.webp';
 
 // const reviews = [
 //     {
@@ -85,10 +88,11 @@ export default function App() {
             <div className="relative pt-20 lg:pt-32 pb-16 lg:pb-32 overflow-hidden bg-gray-900">
                 {/* Background Van Image - Positioned to blend */}
                 <div className="absolute top-0 right-0 w-full h-full z-0 pointer-events-none">
-                    <img
+                    <NetlifyImage
                         src={heroVanImage}
                         alt="Service Van Background"
                         className="w-full h-full object-cover object-right-bottom opacity-35 xl:opacity-50 transition-opacity duration-1000"
+                        cdnOptions={{ width: 1920, format: 'webp' }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900 35% via-gray-900/60 to-transparent"></div>
                 </div>
@@ -228,10 +232,11 @@ export default function App() {
                             <div className="absolute top-0 -right-4 w-72 h-72 bg-purple-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform rotate-2 hover:rotate-0 transition-all duration-500">
-                                    <img
-                                        src="https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/693caac5dbed99e4c781a9a1.webp"
+                                    <NetlifyImage
+                                        src={timImage}
                                         alt="Tim Thibodeaux Jr."
                                         className="w-full h-full object-cover aspect-[4/5] grayscale hover:grayscale-0 transition-all duration-500"
+                                        cdnOptions={{ width: 600, height: 750 }}
                                     />
                                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                                         <p className="text-white font-bold text-lg">Tim Thibodeaux Jr.</p>
@@ -239,10 +244,11 @@ export default function App() {
                                     </div>
                                 </div>
                                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform -rotate-2 hover:rotate-0 transition-all duration-500">
-                                    <img
-                                        src="https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6944c67c0190af4e16d9b671.webp"
+                                    <NetlifyImage
+                                        src={bryanImage}
                                         alt="Bryan"
                                         className="w-full h-full object-cover aspect-[4/5] grayscale hover:grayscale-0 transition-all duration-500"
+                                        cdnOptions={{ width: 600, height: 750 }}
                                     />
                                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                                         <p className="text-white font-bold text-lg">Bryan</p>

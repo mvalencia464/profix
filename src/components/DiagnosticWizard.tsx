@@ -9,16 +9,26 @@ import {
     Phone
 } from 'lucide-react';
 
+import fridgeIcon from '../assets/images/icons/fridge.svg';
+import ovenIcon from '../assets/images/icons/oven.svg';
+import cooktopIcon from '../assets/images/icons/cooktop.svg';
+import washerIcon from '../assets/images/icons/washer.svg';
+import dryerIcon from '../assets/images/icons/dryer.svg';
+import dishwasherIcon from '../assets/images/icons/dishwasher.svg';
+import microwaveIcon from '../assets/images/icons/microwave.svg';
+import disposalIcon from '../assets/images/icons/disposal.svg';
+import iceMakerIcon from '../assets/images/icons/ice-maker.svg';
+
 const appliances = [
-    { id: 'fridge_freezer', name: 'Fridge & Freezer', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d0f7ec99b342d9c436db.svg' },
-    { id: 'oven', name: 'Oven', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d0f7ec99b31f4dc436dc.svg' },
-    { id: 'cooktop', name: 'Cooktop', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d0f781eaa1b9d8d35b35.svg' },
-    { id: 'washing_machine', name: 'Washing Machine', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d0f781eaa157b2d35b34.svg' },
-    { id: 'dryer', name: 'Dryer', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d2b381eaa13eb6d37ecc.svg' },
-    { id: 'dishwasher', name: 'Dishwasher', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d0f7ec99b3064fc436dd.svg' },
-    { id: 'microwave', name: 'Microwave', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d0f7e6551c9fd4ac87f7.svg' },
-    { id: 'garbage_disposal', name: 'Garbage Disposal', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d0f7ec99b30cf4c436e1.svg' },
-    { id: 'ice_maker', name: 'Ice Maker', icon: 'https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/6933d0f7e0f0924405f0c242.svg' },
+    { id: 'fridge_freezer', name: 'Fridge & Freezer', icon: fridgeIcon },
+    { id: 'oven', name: 'Oven', icon: ovenIcon },
+    { id: 'cooktop', name: 'Cooktop', icon: cooktopIcon },
+    { id: 'washing_machine', name: 'Washing Machine', icon: washerIcon },
+    { id: 'dryer', name: 'Dryer', icon: dryerIcon },
+    { id: 'dishwasher', name: 'Dishwasher', icon: dishwasherIcon },
+    { id: 'microwave', name: 'Microwave', icon: microwaveIcon },
+    { id: 'garbage_disposal', name: 'Garbage Disposal', icon: disposalIcon },
+    { id: 'ice_maker', name: 'Ice Maker', icon: iceMakerIcon },
 ];
 
 const issuesMap: Record<string, string[]> = {

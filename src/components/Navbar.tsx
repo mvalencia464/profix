@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Menu, X } from 'lucide-react';
+import logoImage from '../assets/images/logo.webp';
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar() {
                 <div className="flex justify-between h-20 items-center">
                     <div className="flex items-center">
                         <Link to="/">
-                            <img src="https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/69347291ec99b39a80d4ff59.webp" alt="Pro Fix LV Logo" className="h-14 w-auto" />
+                            <img src={logoImage} alt="Pro Fix LV Logo" className="h-14 w-auto" />
                         </Link>
                     </div>
 

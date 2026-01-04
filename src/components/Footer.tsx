@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Twitter } from 'lucide-react';
+import logoImage from '../assets/images/logo.webp';
 
 export default function Footer() {
     return (
@@ -7,7 +8,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                     <div className="space-y-6">
-                        <img src="https://storage.googleapis.com/msgsndr/24DQMHcJGgO6F2Gnn4mF/media/69347291ec99b39a80d4ff59.webp" alt="Pro Fix LV Logo" className="h-10 w-auto opacity-90" />
+                        <img src={logoImage} alt="Pro Fix LV Logo" className="h-10 w-auto opacity-90" />
                         <p className="text-gray-400 text-sm leading-relaxed">
                             Las Vegas' trusted choice for honest, expert appliance repair. We bring the tools, the talent, and the transparency you deserve.
                         </p>
