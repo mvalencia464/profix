@@ -52,6 +52,10 @@ export default function Footer() {
                         <ul className="space-y-4 text-sm text-gray-400">
                             <li className="flex items-start">
                                 <MapPin size={18} className="mr-3 mt-0.5 flex-shrink-0" style={{ color: '#D4F427' }} />
+                                <span>8987 W Flamingo Rd, Suite S105<br />Las Vegas, NV 89147</span>
+                            </li>
+                            <li className="flex items-start">
+                                <MapPin size={18} className="mr-3 mt-0.5 flex-shrink-0" style={{ color: '#D4F427' }} />
                                 <span>Serving Las Vegas, Henderson, & Summerlin</span>
                             </li>
                             <li className="flex items-center">
