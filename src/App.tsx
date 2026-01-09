@@ -18,7 +18,7 @@ import {
     Navigation,
     ArrowRight
 } from 'lucide-react';
-import heroVanImage from './assets/images/WEBP/van-hero.webp';
+import heroVanImage from './assets/images/WEBP/profix-truck.webp';
 import wolfLogo from './assets/images/wolf.svg';
 import NetlifyImage from './components/NetlifyImage';
 import timImage from './assets/images/team/tim.webp';

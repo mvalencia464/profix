@@ -5,6 +5,10 @@ interface ContactPayload {
   lastName?: string;
   email: string;
   phone?: string;
+  address1?: string;
+  city?: string;
+  state?: string;
+  postalCode?: string;
   smsConsent?: boolean;
   tags?: string[];
   customFields?: Record<string, any>;
@@ -14,7 +18,7 @@ export const useProfixCRM = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const createContact = async ({ firstName, lastName, email, phone, tags, customFields }: ContactPayload) => {
+  const createContact = async ({ firstName, lastName, email, phone, address1, city, state, postalCode, tags, customFields }: ContactPayload) => {
     setLoading(true);
     setError(null);
 
@@ -32,6 +36,10 @@ export const useProfixCRM = () => {
         name: `${firstName} ${lastName || ''}`.trim(),
         email: email,
         phone: phone || '',
+        address1: address1 || '',
+        city: city || '',
+        state: state || '',
+        postalCode: postalCode || '',
         locationId: locationId,
         tags: tags || []
       };

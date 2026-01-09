@@ -243,11 +243,6 @@ export default function ServicePage() {
 
                         <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 border-t border-white/10 pt-12">
                             <div className="text-center">
-                                <p className="text-3xl font-black text-white">$125</p>
-                                <p className="text-xs text-gray-500 font-bold uppercase tracking-widest mt-1">Service Call</p>
-                            </div>
-                            <div className="hidden md:block w-px h-12 bg-white/10"></div>
-                            <div className="text-center">
                                 <p className="text-3xl font-black text-white">48hr</p>
                                 <p className="text-xs text-gray-500 font-bold uppercase tracking-widest mt-1">Response Time</p>
                             </div>

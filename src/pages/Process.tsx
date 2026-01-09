@@ -168,7 +168,7 @@ export default function Process() {
                                         <div>
                                             <p className="font-bold text-gray-900 mb-1">Transparent Pricing</p>
                                             <p className="text-gray-600 text-sm leading-relaxed">
-                                                We charge a flat $125 service call fee—competitive and clear, with no hidden surprises
+                                                We offer competitive and clear pricing, with no hidden surprises
                                             </p>
                                         </div>
                                     </div>
@@ -200,10 +200,6 @@ export default function Process() {
                                     <div className="flex items-center text-gray-500 text-sm">
                                         <Award size={16} className="mr-2" style={{ color: '#D4F427' }} />
                                         <span className="font-medium">Certified</span>
-                                    </div>
-                                    <div className="flex items-center text-gray-500 text-sm">
-                                        <DollarSign size={16} className="mr-2" style={{ color: '#D4F427' }} />
-                                        <span className="font-medium">$125 Flat Fee</span>
                                     </div>
                                 </div>
                             </div>

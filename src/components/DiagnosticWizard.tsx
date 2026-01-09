@@ -87,6 +87,9 @@ export default function DiagnosticWizard() {
         issue: null as string | null,
         availability: null as string | null,
         zipCode: '',
+        address: '',
+        city: '',
+        state: 'NV',
         contactMethod: 'email',
         email: '',
         phone: '',
@@ -114,13 +117,17 @@ export default function DiagnosticWizard() {
     const handleSubmit = async () => {
         try {
             // Aggregate all details into a single custom field string
-            const serviceDetails = `Appliance: ${formData.appliance} | Issue: ${formData.issue} | Availability: ${formData.availability} | Zip: ${formData.zipCode}`;
+            const serviceDetails = `Appliance: ${formData.appliance} | Issue: ${formData.issue} | Availability: ${formData.availability} | Zip: ${formData.zipCode} | Address: ${formData.address}, ${formData.city}, ${formData.state}`;
 
             await createContact({
                 firstName: formData.name.split(' ')[0],
                 lastName: formData.name.split(' ').slice(1).join(' ') || '',
                 email: formData.email,
                 phone: formData.phone,
+                address1: formData.address,
+                city: formData.city,
+                state: formData.state,
+                postalCode: formData.zipCode,
                 customFields: {
                     'PoHYSbC0KA87DyvzLI11': serviceDetails
                 },
@@ -134,6 +141,9 @@ export default function DiagnosticWizard() {
                 issue: null,
                 availability: null,
                 zipCode: '',
+                address: '',
+                city: '',
+                state: 'NV',
                 contactMethod: 'email',
                 email: '',
                 phone: '',
@@ -288,6 +298,44 @@ export default function DiagnosticWizard() {
 
             <div className="space-y-4">
                 <div>
+                    <label className="block text-sm font-medium text-gray-400 mb-1">Street Address</label>
+                    <div className="relative">
+                        <MapPin className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500" size={18} />
+                        <input
+                            type="text"
+                            value={formData.address}
+                            onChange={(e) => updateForm('address', e.target.value)}
+                            placeholder="123 Main St"
+                            className="w-full pl-11 pr-4 py-3 rounded-xl border-2 border-gray-800 bg-gray-800/50 text-white focus:border-[#D4F427] outline-none transition-colors placeholder:text-gray-600"
+                        />
+                    </div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4">
+                    <div>
+                        <label className="block text-sm font-medium text-gray-400 mb-1">City</label>
+                        <input
+                            type="text"
+                            value={formData.city}
+                            onChange={(e) => updateForm('city', e.target.value)}
+                            placeholder="Las Vegas"
+                            className="w-full px-4 py-3 rounded-xl border-2 border-gray-800 bg-gray-800/50 text-white focus:border-[#D4F427] outline-none transition-colors placeholder:text-gray-600"
+                        />
+                    </div>
+                    <div>
+                        <label className="block text-sm font-medium text-gray-400 mb-1">State</label>
+                        <input
+                            type="text"
+                            value={formData.state}
+                            onChange={(e) => updateForm('state', e.target.value)}
+                            placeholder="NV"
+                            className="w-full px-4 py-3 rounded-xl border-2 border-gray-800 bg-gray-800/50 text-white focus:border-[#D4F427] outline-none transition-colors placeholder:text-gray-600"
+                            readOnly
+                        />
+                    </div>
+                </div>
+
+                <div>
                     <label className="block text-sm font-medium text-gray-400 mb-1">Full Name</label>
                     <input
                         type="text"
@@ -344,7 +392,7 @@ export default function DiagnosticWizard() {
 
             <button
                 onClick={handleNext}
-                disabled={!formData.name || !formData.email || !formData.phone || !formData.smsConsent}
+                disabled={!formData.name || !formData.email || !formData.phone || !formData.address || !formData.city || !formData.smsConsent}
                 className="w-full mt-6 text-gray-900 py-4 rounded-xl font-bold text-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg"
                 style={{ backgroundColor: '#D4F427', boxShadow: '0 10px 15px -3px rgba(212, 244, 39, 0.4)' }}
             >
@@ -382,7 +430,7 @@ export default function DiagnosticWizard() {
                     </div>
                     <div className="flex justify-between border-b border-gray-700 pb-3">
                         <span className="text-gray-500">Location:</span>
-                        <span className="font-medium text-white text-right">{formData.zipCode}, Las Vegas</span>
+                        <span className="font-medium text-white text-right">{formData.address}, {formData.city}, {formData.zipCode}</span>
                     </div>
                     <div className="flex justify-between pt-1">
                         <span className="text-gray-500">Contact:</span>
