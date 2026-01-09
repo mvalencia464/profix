@@ -8,6 +8,7 @@ import {
     Mail,
     Phone
 } from 'lucide-react';
+import { Turnstile } from '@marsidev/react-turnstile';
 
 import fridgeIcon from '../assets/images/icons/fridge.svg';
 import ovenIcon from '../assets/images/icons/oven.svg';
@@ -96,6 +97,7 @@ export default function DiagnosticWizard() {
         name: '',
         smsConsent: false
     });
+    const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
 
     const totalSteps = 6;
 
@@ -131,7 +133,8 @@ export default function DiagnosticWizard() {
                 customFields: {
                     'PoHYSbC0KA87DyvzLI11': serviceDetails
                 },
-                tags: ['Website Lead']
+                tags: ['Website Lead'],
+                turnstileToken: turnstileToken || ''
             });
             alert("Request Submitted! We will contact you shortly.");
             // Reset form or redirect if needed
@@ -150,6 +153,7 @@ export default function DiagnosticWizard() {
                 name: '',
                 smsConsent: false
             });
+            setTurnstileToken(null);
         } catch (err) {
             console.error("Submission error:", err);
             // Error is already handled by hook and returned as `error` state
@@ -441,9 +445,20 @@ export default function DiagnosticWizard() {
                     </div>
                 </div>
 
+
+
+                <div className="flex justify-center mb-6">
+                    <Turnstile
+                        siteKey={import.meta.env.VITE_TURNSTILE_SITE_KEY || "0x4AAAAAACLb04tnAvmTnn-g"}
+                        onSuccess={(token) => setTurnstileToken(token)}
+                        onError={() => setTurnstileToken(null)}
+                        onExpire={() => setTurnstileToken(null)}
+                    />
+                </div>
+
                 <button
                     onClick={handleSubmit}
-                    disabled={loading}
+                    disabled={loading || !turnstileToken}
                     className="w-full text-gray-900 py-4 rounded-xl font-bold text-lg transition-all shadow-lg animate-pulse-slow disabled:opacity-75 disabled:cursor-not-allowed"
                     style={{ backgroundColor: '#D4F427', boxShadow: '0 10px 15px -3px rgba(212, 244, 39, 0.4)' }}
                 >
@@ -451,7 +466,7 @@ export default function DiagnosticWizard() {
                 </button>
                 {error && <p className="text-center text-red-500 mt-2 text-sm">Error: {error}</p>}
                 <p className="text-center text-xs text-gray-500 mt-4">One of our master technicians will review this immediately.</p>
-            </div>
+            </div >
         );
     };
 

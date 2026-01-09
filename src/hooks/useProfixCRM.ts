@@ -18,48 +18,31 @@ export const useProfixCRM = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const createContact = async ({ firstName, lastName, email, phone, address1, city, state, postalCode, tags, customFields }: ContactPayload) => {
+  const createContact = async ({ firstName, lastName, email, phone, address1, city, state, postalCode, tags, customFields, turnstileToken }: ContactPayload & { turnstileToken: string }) => {
     setLoading(true);
     setError(null);
 
     try {
-      const token = import.meta.env.VITE_HIGHLEVEL_TOKEN;
-      const locationId = import.meta.env.VITE_HIGHLEVEL_LOCATION_ID;
-
-      if (!token || !locationId) {
-        throw new Error('Missing HighLevel credentials');
-      }
-
-      const body: any = {
-        firstName: firstName,
-        lastName: lastName || '',
-        name: `${firstName} ${lastName || ''}`.trim(),
-        email: email,
-        phone: phone || '',
-        address1: address1 || '',
-        city: city || '',
-        state: state || '',
-        postalCode: postalCode || '',
-        locationId: locationId,
-        tags: tags || []
-      };
-
-      if (customFields) {
-        body.customFields = Object.entries(customFields).map(([key, value]) => ({
-          id: key,
-          value: value
-        }));
-      }
-
-      const response = await fetch('https://services.leadconnectorhq.com/contacts/', {
+      // POST to our Netlify Function instead of direct to HighLevel
+      const response = await fetch('/.netlify/functions/submit-lead', {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${token}`,
-          'Content-Type': 'application/json',
-          'Version': '2021-07-28',
-          'Accept': 'application/json'
+          'Content-Type': 'application/json'
         },
-        body: JSON.stringify(body)
+        body: JSON.stringify({
+          firstName: firstName,
+          lastName: lastName || '',
+          name: `${firstName} ${lastName || ''}`.trim(),
+          email: email,
+          phone: phone || '',
+          address1: address1 || '',
+          city: city || '',
+          state: state || '',
+          postalCode: postalCode || '',
+          tags: tags || [],
+          customFields: customFields,
+          turnstileToken: turnstileToken
+        })
       });
 
       if (!response.ok) {
