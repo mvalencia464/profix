@@ -9,3 +9,8 @@
 [[images.remote_patterns]]
   protocol = "https"
   hostname = "cdn.brandfetch.io"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
