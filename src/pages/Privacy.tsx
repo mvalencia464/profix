@@ -15,7 +15,7 @@ export default function Privacy() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">Introduction</h2>
                             <p className="text-gray-700 leading-relaxed">
-                                Pro Fix LV ("we," "us," or "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
+                                Profix Appliance Repair Appliance Repair ("we," "us," or "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
                             </p>
                         </section>
 
@@ -93,7 +93,7 @@ export default function Privacy() {
                                 If you have questions about this Privacy Policy or our privacy practices, please contact us at:
                             </p>
                             <div className="mt-4 p-6 bg-gray-50 rounded-lg border border-gray-200">
-                                <p className="text-gray-700 font-medium">Pro Fix LV</p>
+                                <p className="text-gray-700 font-medium">Profix Appliance Repair Appliance Repair</p>
                                 <p className="text-gray-700">Email: repair@profixlvappliancerepair.com</p>
                                 <p className="text-gray-700">Phone: 888-990-8010</p>
                             </div>

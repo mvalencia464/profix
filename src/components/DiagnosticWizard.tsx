@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useProfixCRM } from '../hooks/useProfixCRM';
+import { useProfix Appliance RepairCRM } from '../hooks/useProfix Appliance RepairCRM';
 import {
     CheckCircle,
     MapPin,
@@ -81,7 +81,7 @@ const ProgressBar = ({ currentStep, totalSteps }: { currentStep: number; totalSt
 };
 
 export default function DiagnosticWizard() {
-    const { createContact, loading, error } = useProfixCRM();
+    const { createContact, loading, error } = useProfix Appliance RepairCRM();
     const [step, setStep] = useState(1);
     const [formData, setFormData] = useState({
         appliance: null as string | null,
@@ -268,7 +268,7 @@ export default function DiagnosticWizard() {
             <div className="p-4 rounded-lg mb-6 border flex items-start bg-gray-800/50 border-gray-700">
                 <ShieldCheck className="w-6 h-6 mr-3 flex-shrink-0 mt-0.5" style={{ color: '#D4F427' }} />
                 <p className="text-sm text-gray-300">
-                    Pro Fix LV technicians are currently active in Summerlin, Henderson, and North Las Vegas areas.
+                    Profix Appliance Repair Appliance Repair technicians are currently active in Summerlin, Henderson, and North Las Vegas areas.
                 </p>
             </div>
 
@@ -389,7 +389,7 @@ export default function DiagnosticWizard() {
                         style={{ accentColor: '#D4F427' }}
                     />
                     <span className="ml-3 text-xs text-gray-500 leading-relaxed group-hover:text-gray-400 transition-colors">
-                        By entering your phone number and submitting this form, you consent to receive marketing and service-related text messages from Profix Appliance Repair at the number you provide. Up to 4 msgs/month. Message and data rates may apply. Text STOP to cancel, HELP for help. Consent is not a condition of purchase. View our <a href="/privacy" className="text-[#D4F427] hover:underline font-medium">Privacy Policy</a> and <a href="/terms" className="text-[#D4F427] hover:underline font-medium">Terms of Service</a>.
+                        By entering your phone number and submitting this form, you consent to receive marketing and service-related text messages from Profix Appliance Repair Appliance Repair at the number you provide. Up to 4 msgs/month. Message and data rates may apply. Text STOP to cancel, HELP for help. Consent is not a condition of purchase. View our <a href="/privacy" className="text-[#D4F427] hover:underline font-medium">Privacy Policy</a> and <a href="/terms" className="text-[#D4F427] hover:underline font-medium">Terms of Service</a>.
                     </span>
                 </label>
             </div>

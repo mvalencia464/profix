@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                     <div className="space-y-6">
-                        <img src={logoImage} alt="Pro Fix LV Logo" className="h-10 w-auto opacity-90" />
+                        <img src={logoImage} alt="Profix Appliance Repair Appliance Repair Logo" className="h-10 w-auto opacity-90" />
                         <p className="text-gray-400 text-sm leading-relaxed">
                             Las Vegas' trusted choice for honest, expert appliance repair. We bring the tools, the talent, and the transparency you deserve.
                         </p>
@@ -75,7 +75,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-                    <p>&copy; {new Date().getFullYear()} Pro Fix LV. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Profix Appliance Repair Appliance Repair. All rights reserved.</p>
                     <p className="mt-2 md:mt-0">Designed with pride in Las Vegas.</p>
                 </div>
             </div>

@@ -116,7 +116,7 @@ export const strategyData: SEOPlanItem[] = [
         sections: [
             {
                 title: "Las Vegas’ Leading Refrigerator Repair Authority",
-                content: `In the scorched landscape of the **Mojave Desert**, a functional refrigerator isn't just a kitchen appliance—it's a critical piece of home infrastructure. At Profix, we've spent over 15 years mastering the science of refrigeration in one of the most demanding climates on Earth. From the high-end custom kitchens of **The Ridges in Summerlin** to the bustling residential blocks of **Henderson’s Green Valley**, our team provides specialized [refrigerator repair services](/refrigerator-freezer-repair/refrigerator-repair) that are engineered to withstand 115°F external temperatures.
+                content: `In the scorched landscape of the **Mojave Desert**, a functional refrigerator isn't just a kitchen appliance—it's a critical piece of home infrastructure. At Profix Appliance Repair, we've spent over 15 years mastering the science of refrigeration in one of the most demanding climates on Earth. From the high-end custom kitchens of **The Ridges in Summerlin** to the bustling residential blocks of **Henderson’s Green Valley**, our team provides specialized [refrigerator repair services](/refrigerator-freezer-repair/refrigerator-repair) that are engineered to withstand 115°F external temperatures.
 
 When you live in Las Vegas, you know that heat is the enemy of efficiency. Most modern refrigerators are designed to operate in ambient temperatures between 60°F and 90°F. Once the Vegas summer kicks in, your unit's compressor must run longer cycles, leading to premature wear on start relays and condenser fan motors. We don't just "fix it"; we optimize your entire cooling system to handle the local conditions. This includes deep-cleaning the condenser coils which are prone to clogging with fine desert dust and pet dander, a leading cause of [compressor failure](/refrigerator-freezer-repair/compressor-replacement) in Southern Nevada.`
             },
@@ -152,7 +152,7 @@ We service all major brands including **Samsung**, **LG**, **Whirlpool**, **GE**
         sections: [
             {
                 title: "Introduction & Local Relevance",
-                content: `When your refrigerator fails in the middle of a triple-digit **Las Vegas summer**, it's more than an inconvenience—it's an emergency that threatens your groceries and your peace of mind. At Profix, we understand the unique challenges that the Mojave Desert climate poses to modern cooling systems. For over 15 years, we have been the premier choice for [homeowner-trusted refrigerator repair](/refrigerator-freezer-repair) in **Summerlin**, **Henderson**, and across the entire **Las Vegas valley**. 
+                content: `When your refrigerator fails in the middle of a triple-digit **Las Vegas summer**, it's more than an inconvenience—it's an emergency that threatens your groceries and your peace of mind. At Profix Appliance Repair, we understand the unique challenges that the Mojave Desert climate poses to modern cooling systems. For over 15 years, we have been the premier choice for [homeowner-trusted refrigerator repair](/refrigerator-freezer-repair) in **Summerlin**, **Henderson**, and across the entire **Las Vegas valley**. 
 
 The intense heat outside means your refrigerator's condenser coils and compressor have to work twice as hard to maintain a steady 37°F interior temperature. When the mercury hits 110°F, even a minor drop in efficiency can lead to a total system failure. That's why we offer **same-day service** throughout the valley. Whether you're in the master-planned communities of **Summerlin West** or the older, classic neighborhoods near **McNeil Estates**, our technicians are dispatched from local hubs to ensure a rapid response. We don't just fix refrigerators; we provide a localized solution that accounts for the hard water levels and high ambient temperatures that define Las Vegas appliance maintenance. Our commitment to the community is backed by a **90-day parts and labor warranty**, ensuring that your fridge stays cold long after we leave.`
             },
@@ -215,7 +215,7 @@ For Whirlpool and GE side-by-side models, the most frequent culprit is often the
         sections: [
             {
                 title: "Las Vegas Freezer Repair: Protecting Your Long-Term Storage",
-                content: `When your freezer fails in the **Las Vegas heat**, every minute counts. Whether it's a [built-in freezer unit](/refrigerator-freezer-repair/built-in-refrigerator-repair) in **Summerlin** or a [chest freezer](/refrigerator-freezer-repair/chest-freezer-repair) in **Henderson**, Profix provides the technical precision needed to prevent total food loss. We understand that a freezer operates under more stress in Southern Nevada, where ambient garage temperatures can soar above 120°F, forcing your [compressor](/refrigerator-freezer-repair/compressor-replacement) to run near-constant cycles.
+                content: `When your freezer fails in the **Las Vegas heat**, every minute counts. Whether it's a [built-in freezer unit](/refrigerator-freezer-repair/built-in-refrigerator-repair) in **Summerlin** or a [chest freezer](/refrigerator-freezer-repair/chest-freezer-repair) in **Henderson**, Profix Appliance Repair provides the technical precision needed to prevent total food loss. We understand that a freezer operates under more stress in Southern Nevada, where ambient garage temperatures can soar above 120°F, forcing your [compressor](/refrigerator-freezer-repair/compressor-replacement) to run near-constant cycles.
 
 Our technicians are experts in diagnosing complex cooling failures. We use thermal analysis to find air leaks in door gaskets and precision multimeters to check the resistance of **defrost heaters** (typically 20-50 ohms). We don't just "defrost" the unit; we solve the root cause, whether it's a [failed evaporator fan](/refrigerator-freezer-repair/refrigerator-repair) or a faulty [defrost timer](/refrigerator-freezer-repair/defrost-system-repair). We service all configurations, from upright units to integrated drawer freezers, ensuring your storage stays at a rock-solid 0°F.`
             },
@@ -236,7 +236,7 @@ We utilize [OEM certified parts](/general-appliance-services/appliance-parts-rep
                 faqs: [
                     {
                         question: "How long can food stay frozen if the power goes out or the freezer fails?",
-                        answer: "A full freezer will keep its temperature for about 48 hours (24 hours if half full) if the door remains closed. If your freezer is down, call Profix immediately for [same-day service](/general-appliance-services/same-day-appliance-repair) to save your groceries."
+                        answer: "A full freezer will keep its temperature for about 48 hours (24 hours if half full) if the door remains closed. If your freezer is down, call Profix Appliance Repair immediately for [same-day service](/general-appliance-services/same-day-appliance-repair) to save your groceries."
                     },
                     {
                         question: "Why is there water leaking from the bottom of my freezer?",
@@ -260,7 +260,7 @@ We utilize [OEM certified parts](/general-appliance-services/appliance-parts-rep
         sections: [
             {
                 title: "Restoring the Ice Flow: Las Vegas Ice Maker Experts",
-                content: `In the **Las Vegas valley**, an ice maker isn't a luxury—it's an essential tool for survival. However, our local **hard water** is the #1 enemy of ice production. Excessive mineral buildup (scaling) in water inlet valves and internal fill tubes often leads to total system failure. At Profix, we specialize in high-performance [ice maker repair services](/refrigerator-freezer-repair/ice-maker-repair) for all major brands, including **Samsung**, **LG**, **Whirlpool**, and **KitchenAid**.
+                content: `In the **Las Vegas valley**, an ice maker isn't a luxury—it's an essential tool for survival. However, our local **hard water** is the #1 enemy of ice production. Excessive mineral buildup (scaling) in water inlet valves and internal fill tubes often leads to total system failure. At Profix Appliance Repair, we specialize in high-performance [ice maker repair services](/refrigerator-freezer-repair/ice-maker-repair) for all major brands, including **Samsung**, **LG**, **Whirlpool**, and **KitchenAid**.
 
 Whether you have an [in-door dispenser issue](/refrigerator-freezer-repair/water-dispenser-repair) or a dedicated [undercounter ice machine](/refrigerator-freezer-repair/under-counter-refrigerator-repair), we provide deep-level diagnostics. We don't just clear the ice; we test the **mold heater**, the **ejector motor**, and the **infrared optic sensors** that tell the unit when it's full. We serve every corner of the valley, from **The Ridges** to **Green Valley Ranch**, ensuring you never run out of ice in the Mojave heat.`
             },
@@ -305,7 +305,7 @@ Our repair process includes a specialized **calcium flush** to remove mineral de
         sections: [
             {
                 title: "Las Vegas Commercial Refrigeration Authority",
-                content: `For **Las Vegas restaurants**, hotels, and casinos, a refrigeration failure is a revenue-killing emergency. At Profix, we provide industrial-strength [commercial refrigerator repair](/refrigerator-freezer-repair/commercial-refrigerator-repair) that keeps your business compliant with Southern Nevada Health District standards. From the high-volume kitchens on the **Las Vegas Strip** to the boutique bars in **Arts District**, our technicians serve the valley with [emergency 24/7 support](/general-appliance-services/emergency-appliance-repair).
+                content: `For **Las Vegas restaurants**, hotels, and casinos, a refrigeration failure is a revenue-killing emergency. At Profix Appliance Repair, we provide industrial-strength [commercial refrigerator repair](/refrigerator-freezer-repair/commercial-refrigerator-repair) that keeps your business compliant with Southern Nevada Health District standards. From the high-volume kitchens on the **Las Vegas Strip** to the boutique bars in **Arts District**, our technicians serve the valley with [emergency 24/7 support](/general-appliance-services/emergency-appliance-repair).
 
 We specialize in high-load systems including **walk-in coolers**, **reach-in freezers**, **prep tables**, and **display cases**. We are familiar with the specific needs of **True**, **Turbo Air**, and **Beverage-Air** units. In the intense desert heat, commercial compressors must operate at peak efficiency; a single degree of drift can lead to a 'red tag' during health inspections. We provide the technical precision needed to maintain strict temperature logs.`
             },
@@ -350,7 +350,7 @@ Our service includes a full **Top-to-Bottom Health Audit**, checking amp draws, 
         sections: [
             {
                 title: "Preserving the Vintage: Las Vegas Wine Cooler Repair",
-                content: `A luxury wine collection represents a significant investment, often worth thousands of dollars. In **Las Vegas**, keeping that collection at a stable 55°F is a constant battle against the desert heat. At Profix, we provide specialized [wine cooler repair](/refrigerator-freezer-repair/wine-cooler-repair) for premium brands like **Sub-Zero**, **U-Line**, **Viking**, and **EuroCave**. We understand the intricate science of temperature, humidity, and vibration control that separates a wine cellar from a standard refrigerator.
+                content: `A luxury wine collection represents a significant investment, often worth thousands of dollars. In **Las Vegas**, keeping that collection at a stable 55°F is a constant battle against the desert heat. At Profix Appliance Repair, we provide specialized [wine cooler repair](/refrigerator-freezer-repair/wine-cooler-repair) for premium brands like **Sub-Zero**, **U-Line**, **Viking**, and **EuroCave**. We understand the intricate science of temperature, humidity, and vibration control that separates a wine cellar from a standard refrigerator.
 
 Whether you have a [built-in wine vault](/refrigerator-freezer-repair/built-in-refrigerator-repair) in **Summerlin South** or a freestanding unit in **Henderson**, our technicians provide white-glove service. We specialize in diagnosing [thermoelectric cooling failures](/refrigerator-freezer-repair/refrigerator-repair) and compressor-based systems alike. We don't just fix the cooling; we ensure the UV-protected glass seals and vibration-dampening systems are operating at factory specifications.`
             },
@@ -395,7 +395,7 @@ We only use [genuine OEM parts](/general-appliance-services/appliance-parts-repl
         sections: [
             {
                 title: "Certified Sub-Zero Mastery in Las Vegas",
-                content: `Sub-Zero appliances are the gold standard of residential refrigeration, and in the **Las Vegas valley**, they are a staple of luxury living. However, these dual-compressor systems are highly complex and require a technician who understands specialized refrigeration cycles and vacuum-sealed door technology. At Profix, we provide expert [Sub-Zero refrigerator repair](/refrigerator-freezer-repair/sub-zero-refrigerator-repair) for homeowners in **The Ridges**, **Anthem Country Club**, and **Lake Las Vegas**.
+                content: `Sub-Zero appliances are the gold standard of residential refrigeration, and in the **Las Vegas valley**, they are a staple of luxury living. However, these dual-compressor systems are highly complex and require a technician who understands specialized refrigeration cycles and vacuum-sealed door technology. At Profix Appliance Repair, we provide expert [Sub-Zero refrigerator repair](/refrigerator-freezer-repair/sub-zero-refrigerator-repair) for homeowners in **The Ridges**, **Anthem Country Club**, and **Lake Las Vegas**.
 
 We specialize in the 500, 600, 700, and current BI (Built-In) series. Unlike "one-size-fits-all" repair companies, we carry a specific stock of **Sub-Zero OEM parts**—including the signature 'squirrel cage' evaporator fans, digital control boards, and specialized drawer glides. We understand that your Sub-Zero is often the centerpiece of a custom kitchen; we use floor protection and specialized dollies to ensure that your cabinets and flooring remain pristine during the [sealed system repair](/refrigerator-freezer-repair/compressor-replacement) process.`
             },
@@ -440,7 +440,7 @@ Our process includes a full **25-point Sub-Zero Health Sweep**, checking the con
         sections: [
             {
                 title: "Advanced LG Refrigeration Support in Southern Nevada",
-                content: `LG refrigerators are among the most technologically advanced appliances in production, featuring linear compressors and complex dual-evaporator systems. However, these innovations can be sensitive to the **extreme heat in Las Vegas**. At Profix, we are the valley's premier choice for [LG refrigerator repair](/refrigerator-freezer-repair/lg-refrigerator-repair), specializing in the 'Smart Diagnosis' systems found in modern InstaView units.
+                content: `LG refrigerators are among the most technologically advanced appliances in production, featuring linear compressors and complex dual-evaporator systems. However, these innovations can be sensitive to the **extreme heat in Las Vegas**. At Profix Appliance Repair, we are the valley's premier choice for [LG refrigerator repair](/refrigerator-freezer-repair/lg-refrigerator-repair), specializing in the 'Smart Diagnosis' systems found in modern InstaView units.
 
 If your LG unit is displaying an **'FF'**, **'rF'**, or **'dH'** error code, your unit needs professional intervention. We understand the specific service bulletins regarding LG's **Linear Compressor technology**, which is prone to internal valve failure in high-ambient environments like **Summerlin** and **Henderson**. We don't just clear the code; we use digital pressure gauges to verify the performance of the [sealed system](/refrigerator-freezer-repair/compressor-replacement).`
             },
@@ -468,7 +468,7 @@ We use exclusively [OEM LG parts](/general-appliance-services/appliance-parts-re
                         answer: "This is often an issue with the **secondary evaporator** or the **air damper** system. We can test the 'step motor' and sensors to ensure air is flowing correctly to the fresh food section."
                     },
                     {
-                        question: "Does Profix offer warranty on LG compressor repairs?",
+                        question: "Does Profix Appliance Repair offer warranty on LG compressor repairs?",
                         answer: "Yes. While LG often provides a part warranty for the compressor itself, we provide a **full labor warranty** for the installation, including the brazing and refrigerant charging."
                     }
                 ]
@@ -485,7 +485,7 @@ We use exclusively [OEM LG parts](/general-appliance-services/appliance-parts-re
         sections: [
             {
                 title: "Expert Samsung Refrigerator Solutions in Las Vegas",
-                content: `Samsung is a leader in kitchen innovation, but their high-tech refrigerators can be temperamental in the **Southern Nevada climate**. From the 'Family Hub' touchscreens to the complex 'Twin Cooling' systems, Samsung fridges requires a technician who is fluent in digital diagnostics. At Profix, we specialized in [Samsung refrigerator repair](/refrigerator-freezer-repair/samsung-refrigerator-repair) for residents from **Centennial Hills** to **Seven Hills**.
+                content: `Samsung is a leader in kitchen innovation, but their high-tech refrigerators can be temperamental in the **Southern Nevada climate**. From the 'Family Hub' touchscreens to the complex 'Twin Cooling' systems, Samsung fridges requires a technician who is fluent in digital diagnostics. At Profix Appliance Repair, we specialized in [Samsung refrigerator repair](/refrigerator-freezer-repair/samsung-refrigerator-repair) for residents from **Centennial Hills** to **Seven Hills**.
 
 One of the most frequent requests we receive is for **Samsung ice maker repair**. The Las Vegas hard water, combined with specific design flaws in certain 'Ice Master' models, leads to constant freezing and jamming. We provide the permanent fix recommended by service bulletins, which includes replacing the [ice maker unit](/refrigerator-freezer-repair/ice-maker-repair), installing Y-clips, and using professional-grade RTV sealant to prevent moisture intrusion.`
             },
@@ -530,7 +530,7 @@ We stock common **Samsung OEM parts** on our service trucks to ensure we can fix
         sections: [
             {
                 title: "Trusted GE Refrigerator Repair in Southern Nevada",
-                content: `GE refrigerators, including the **Profile**, **Cafe**, and **Monogram** series, are built for rugged performance. However, in the **Las Vegas heat and dust**, even these workhorses require professional care. At Profix, we provide specialized [GE refrigerator repair](/refrigerator-freezer-repair/ge-refrigerator-repair) that focuses on the electronic 'Inverter' compressors and dual-evaporator systems common in high-end GE models.
+                content: `GE refrigerators, including the **Profile**, **Cafe**, and **Monogram** series, are built for rugged performance. However, in the **Las Vegas heat and dust**, even these workhorses require professional care. At Profix Appliance Repair, we provide specialized [GE refrigerator repair](/refrigerator-freezer-repair/ge-refrigerator-repair) that focuses on the electronic 'Inverter' compressors and dual-evaporator systems common in high-end GE models.
 
 Whether you're dealing with a [french door GE Profile](/refrigerator-freezer-repair/built-in-refrigerator-repair) in **Aliante** or a classic side-by-side in **Spring Valley**, we have the diagnostic software to communicate with the motherboard. We specialize in resolving common GE headaches like 'Slow Water Dispense' or 'Ice Maker Not Filling,' which are almost always linked to the effects of **Las Vegas' hard water** on the water inlet solenoids.`
             },
@@ -575,7 +575,7 @@ We use only [genuine GE OEM parts](/general-appliance-services/appliance-parts-r
         sections: [
             {
                 title: "Reliable Whirlpool Refrigerator Support in Las Vegas",
-                content: `Whirlpool is the engine of the American kitchen, but even the most reliable units face challenges in the **Mojave Desert**. High ambient temperatures and desert dust can cause Whirlpool condenser fans to fail, leading to overheating and high electric bills. At Profix, we bring 15 years of experience to [Whirlpool refrigerator repair](/refrigerator-freezer-repair/whirlpool-refrigerator-repair) across the entire valley, including **Summerlin**, **Henderson**, and **North Las Vegas**.
+                content: `Whirlpool is the engine of the American kitchen, but even the most reliable units face challenges in the **Mojave Desert**. High ambient temperatures and desert dust can cause Whirlpool condenser fans to fail, leading to overheating and high electric bills. At Profix Appliance Repair, we bring 15 years of experience to [Whirlpool refrigerator repair](/refrigerator-freezer-repair/whirlpool-refrigerator-repair) across the entire valley, including **Summerlin**, **Henderson**, and **North Las Vegas**.
 
 We specialize in both classic top-mount fridges and modern 4-door French door models. Our technical approach involves using digital multimeters to test the **Jazz control boards** and **in-door ice maker systems** that are common in Whirlpool and Maytag units. We don't just "guess and check"; we follow factory diagnostic trees to find the exact failed component.`
             },
@@ -620,7 +620,7 @@ We maintain a deep inventory of [Whirlpool OEM parts](/general-appliance-service
         sections: [
             {
                 title: "Precision Service for Built-In & Integrated Refrigerators",
-                content: `Built-in refrigerators like **Sub-Zero**, **Thermador**, **Viking**, and **Jenn-Air** are complex machines that require a higher level of technical skill. In the luxury homes of **Summerlin**, **Seven Hills**, and **Southern Highlands**, these appliances are integrated directly into custom cabinetry. At Profix, we specialize in [built-in refrigerator repair](/refrigerator-freezer-repair/built-in-refrigerator-repair), ensuring that your high-end cooling system is serviced without a scratch on your expensive wood panels or designer flooring.
+                content: `Built-in refrigerators like **Sub-Zero**, **Thermador**, **Viking**, and **Jenn-Air** are complex machines that require a higher level of technical skill. In the luxury homes of **Summerlin**, **Seven Hills**, and **Southern Highlands**, these appliances are integrated directly into custom cabinetry. At Profix Appliance Repair, we specialize in [built-in refrigerator repair](/refrigerator-freezer-repair/built-in-refrigerator-repair), ensuring that your high-end cooling system is serviced without a scratch on your expensive wood panels or designer flooring.
 
 Servicing a built-in unit isn't like fixing a standard fridge. It requires specialized dollies to pull the 600lb unit forward and a deep understanding of top-mounted [compressor systems](/refrigerator-freezer-repair/compressor-replacement). We are the valley's experts in handling the precision door hinges and panel-ready gaskets that make these units so sought after.`
             },
@@ -649,7 +649,7 @@ We use exclusively [OEM parts](/general-appliance-services/appliance-parts-repla
                     },
                     {
                         question: "Can any technician repair a built-in unit?",
-                        answer: "We strongly advise against it. Many technicians are not insured or equipped to handle the weight and complexity of built-ins. Profix carries the specialized tools and insurance needed for [high-end integrated appliance repair](/refrigerator-freezer-repair/sub-zero-refrigerator-repair)."
+                        answer: "We strongly advise against it. Many technicians are not insured or equipped to handle the weight and complexity of built-ins. Profix Appliance Repair carries the specialized tools and insurance needed for [high-end integrated appliance repair](/refrigerator-freezer-repair/sub-zero-refrigerator-repair)."
                     }
                 ]
             }
@@ -665,7 +665,7 @@ We use exclusively [OEM parts](/general-appliance-services/appliance-parts-repla
         sections: [
             {
                 title: "Compact Cooling Solutions: Mini Fridge Repair in Las Vegas",
-                content: `Mini fridges are essential for dorms, offices, and pool houses across the **Las Vegas valley**. However, because of their small footprint and lack of complex ventilation, they are particularly vulnerable to the **Southern Nevada heat**. At Profix, we provide specialized [mini fridge repair](/refrigerator-freezer-repair/mini-fridge-repair) for both consumer-grade and high-end compact cooling units.
+                content: `Mini fridges are essential for dorms, offices, and pool houses across the **Las Vegas valley**. However, because of their small footprint and lack of complex ventilation, they are particularly vulnerable to the **Southern Nevada heat**. At Profix Appliance Repair, we provide specialized [mini fridge repair](/refrigerator-freezer-repair/mini-fridge-repair) for both consumer-grade and high-end compact cooling units.
 
 Most mini fridges use a simple 'cold plate' evaporator that is easily damaged if you try to manually defrost it with a sharp object. We specialize in fixing [failed thermostats](/refrigerator-freezer-repair/refrigerator-repair) and leaking door seals that cause your unit to over-cycle. Whether you have a **Danby**, **Haier**, or **Magic Chef** unit in **Summerlin** or **Downtown Las Vegas**, we provide rapid, cost-effective solutions to keep your beverages cold.`
             },
@@ -710,7 +710,7 @@ We use exclusively [OEM parts](/general-appliance-services/appliance-parts-repla
         sections: [
             {
                 title: "Preserving the Bulk: Las Vegas Chest Freezer Specialists",
-                content: `Chest freezers are the backbone of long-term food storage for **Las Vegas families**. Whether you're storing wholesale groceries or game meat, a failure is a high-stakes emergency. At Profix, we specialized in [chest freezer repair](/refrigerator-freezer-repair/chest-freezer-repair) across the entire valley, from **Centennial Hills** to **Henderson**.
+                content: `Chest freezers are the backbone of long-term food storage for **Las Vegas families**. Whether you're storing wholesale groceries or game meat, a failure is a high-stakes emergency. At Profix Appliance Repair, we specialized in [chest freezer repair](/refrigerator-freezer-repair/chest-freezer-repair) across the entire valley, from **Centennial Hills** to **Henderson**.
 
 Chest freezers are incredibly efficient because they don't lose as much cold air when opened, but they are prone to [manual defrost issues](/refrigerator-freezer-repair/defrost-system-repair) and thermostat failures. If your unit is making a clicking sound or failing to reach 0°F, you need a technician who understands specialized **high-back-pressure compressors** and cold-wall evaporation.`
             },
@@ -755,7 +755,7 @@ Every repair includes a full **Seam-to-Seal Audit**, ensuring the cabinet shell 
         sections: [
             {
                 title: "Technical Excellence for Under-Counter Cooling",
-                content: `Under-counter refrigerators and beverage centers are a fixture of modern **Las Vegas outdoor kitchens** and home bars. Because they are often installed in tight, unventilated spaces, they face extreme thermal stress in our desert climate. At Profix, we are the valley's experts in [under-counter refrigerator repair](/refrigerator-freezer-repair/under-counter-refrigerator-repair), servicing premium brands like **U-Line**, **Sub-Zero**, **Perlick**, and **Marvel**.
+                content: `Under-counter refrigerators and beverage centers are a fixture of modern **Las Vegas outdoor kitchens** and home bars. Because they are often installed in tight, unventilated spaces, they face extreme thermal stress in our desert climate. At Profix Appliance Repair, we are the valley's experts in [under-counter refrigerator repair](/refrigerator-freezer-repair/under-counter-refrigerator-repair), servicing premium brands like **U-Line**, **Sub-Zero**, **Perlick**, and **Marvel**.
 
 We provide specialized care for both indoor and [outdoor kitchen units](/general-appliance-services/commercial-appliance-repair). We understand that an under-counter unit requires a front-venting condenser system that is prone to clogging with fine desert dust. We don't just fix the cooling; we perform a deep chemical cleaning of the condenser to ensure your unit can 'breathe' in the 110°F Vegas heat.`
             },
@@ -800,7 +800,7 @@ We utilize exclusively [OEM parts](/general-appliance-services/appliance-parts-r
         sections: [
             {
                 title: "Las Vegas Compact Refrigerator Experts",
-                content: `Compact refrigerators are the lifeblood of **Stripside hotel suites**, **UNLV dorms**, and local medical clinics. In **Las Vegas**, these units are often pushed to their limits by high ambient temperatures and constant use. At Profix, we provide industrial-grade [compact refrigerator repair](/refrigerator-freezer-repair/compact-refrigerator-repair) that restores factory efficiency and cooling power.
+                content: `Compact refrigerators are the lifeblood of **Stripside hotel suites**, **UNLV dorms**, and local medical clinics. In **Las Vegas**, these units are often pushed to their limits by high ambient temperatures and constant use. At Profix Appliance Repair, we provide industrial-grade [compact refrigerator repair](/refrigerator-freezer-repair/compact-refrigerator-repair) that restores factory efficiency and cooling power.
 
 Whether you have a medical-grade unit that requires strict [temperature calibration](/general-appliance-services/appliance-maintenance) or a residential compact unit in your garage, we provide the technical precision needed to keep your inventory safe. We service all brands, with a specialization in **Summit**, **Avanti**, and **EdgeStar** units.`
             },
@@ -845,7 +845,7 @@ Every repair includes a **24-hour thermal soak test** to ensure the unit is main
         sections: [
             {
                 title: "Solving the Cooling Crisis: Las Vegas Not Cooling Experts",
-                content: `A refrigerator that stops cooling is a race against time for every **Las Vegas homeowner**. In the Mojave Desert, your food will begin to reach unsafe temperatures in as little as 4 hours. At Profix, we specialize in rapid [refrigerator not cooling repair](/refrigerator-freezer-repair/not-cooling-repair), serving **Summerlin**, **Henderson**, and across the valley with [same-day emergency service](/general-appliance-services/same-day-appliance-repair).
+                content: `A refrigerator that stops cooling is a race against time for every **Las Vegas homeowner**. In the Mojave Desert, your food will begin to reach unsafe temperatures in as little as 4 hours. At Profix Appliance Repair, we specialize in rapid [refrigerator not cooling repair](/refrigerator-freezer-repair/not-cooling-repair), serving **Summerlin**, **Henderson**, and across the valley with [same-day emergency service](/general-appliance-services/same-day-appliance-repair).
 
 We don't just "guess and check." We use a systematic **Thermal Flow Analysis** to identify if the issue is an airflow problem, a control board fault, or a [sealed system failure](/refrigerator-freezer-repair/compressor-replacement). Whether you have a **Samsung**, **LG**, **Whirlpool**, or **GE** unit, we have the specialized diagnostic tools to find the fix before your groceries are lost.`
             },
@@ -890,7 +890,7 @@ We arrive with a full stock of [OEM replacement parts](/general-appliance-servic
         sections: [
             {
                 title: "Stop the Drip: Las Vegas Refrigerator Leak Resolution",
-                content: `Water pooling on your kitchen floor is a sign of a critical system failure. In **Las Vegas**, refrigerator leaks often cause secondary damage to baseboards and luxury flooring if not addressed immediately. At Profix, we provide expert [refrigerator leak repair](/refrigerator-freezer-repair/leak-repair) across the entire valley, from **The Ridges** in **Summerlin** to **Lake Las Vegas**.
+                content: `Water pooling on your kitchen floor is a sign of a critical system failure. In **Las Vegas**, refrigerator leaks often cause secondary damage to baseboards and luxury flooring if not addressed immediately. At Profix Appliance Repair, we provide expert [refrigerator leak repair](/refrigerator-freezer-repair/leak-repair) across the entire valley, from **The Ridges** in **Summerlin** to **Lake Las Vegas**.
 
 Most leaks are caused by the interaction of our **heavy hard water** with the unit's internal plumbing. Calcium and magnesium buildup can crack water inlet valves or block [defrost drain lines](/refrigerator-freezer-repair/defrost-system-repair). Our technicians use specialized cameras and pressure testing to find the exact source of the moisture, whether it's an [ice maker line](/refrigerator-freezer-repair/ice-maker-repair) or a failed [water dispenser valve](/refrigerator-freezer-repair/water-dispenser-repair).`
             },
@@ -935,7 +935,7 @@ We utilize [braided stainless steel hoses](/general-appliance-services/appliance
         sections: [
             {
                 title: "Precision Compressor Replacement in Las Vegas",
-                content: `The compressor is the heart of your refrigerator's cooling system. In the **extreme Las Vegas heat**, compressors are under constant thermal stress, making them a frequent point of failure during our triple-digit summers. At Profix, we specialized in technical [refrigerator compressor replacement](/refrigerator-freezer-repair/compressor-replacement) across the valley, including **Summerlin**, **Henderson**, and **North Las Vegas**.
+                content: `The compressor is the heart of your refrigerator's cooling system. In the **extreme Las Vegas heat**, compressors are under constant thermal stress, making them a frequent point of failure during our triple-digit summers. At Profix Appliance Repair, we specialized in technical [refrigerator compressor replacement](/refrigerator-freezer-repair/compressor-replacement) across the valley, including **Summerlin**, **Henderson**, and **North Las Vegas**.
 
 Replacing a compressor is a complex **sealed-system repair** that requires EPA certification and specialized brazing equipment. We don't just swap the part; we perform a deep system flush, replace the [filter drier](/general-appliance-services/appliance-parts-replacement), and use digital manifold gauges to ensure a perfect 1:1 refrigerant charge. Whether you have an **LG Linear Compressor**, a **Samsung Inverter**, or a heavy-duty **Sub-Zero dual-compressor system**, we bring the precision needed for a factory-spec restoration.`
             },
@@ -980,7 +980,7 @@ We utilize exclusively [OEM compressors and factory-spec refrigerants](/general-
         sections: [
             {
                 title: "Expert Defrost System Solutions in Las Vegas",
-                content: `If your freezer is cold but your refrigerator section is warm, you are likely facing a defrost failure. In the **Las Vegas valley**, moisture and heat can cause refrigerator defrost systems to malfunction, leading to thick ice buildup that blocks vital air passages. At Profix, we are experts in [refrigerator defrost system repair](/refrigerator-freezer-repair/defrost-system-repair), serving families from **Centennial Hills** to **Seven Hills**.
+                content: `If your freezer is cold but your refrigerator section is warm, you are likely facing a defrost failure. In the **Las Vegas valley**, moisture and heat can cause refrigerator defrost systems to malfunction, leading to thick ice buildup that blocks vital air passages. At Profix Appliance Repair, we are experts in [refrigerator defrost system repair](/refrigerator-freezer-repair/defrost-system-repair), serving families from **Centennial Hills** to **Seven Hills**.
 
 Modern frost-free refrigerators rely on a precise cycle of heaters, thermistors, and timers. If any one of these fails, your unit will 'ice up' and lose its ability to cool the fresh food compartment. We provide specialized diagnostics for all major brands, including **Samsung Twin Cooling**, **GE Profile**, and **Whirlpool** units, ensuring your airflow is restored within a single visit.`
             },
@@ -1025,7 +1025,7 @@ We use exclusively [OEM defrost components](/general-appliance-services/applianc
         sections: [
             {
                 title: "Restoring Pure Flow: Refrigerator Water Dispenser Repair",
-                content: `In the **Las Vegas heat**, a working water dispenser is more than a convenience—it's a necessity. However, our **extremely hard water** is the primary enemy of refrigerator plumbing. At Profix, we specialize in [refrigerator water dispenser repair](/refrigerator-freezer-repair/water-dispenser-repair) across the valley, solving issues with slow flow, leaks, and total dispense failure for homeowners in **Summerlin**, **Henderson**, and beyond.
+                content: `In the **Las Vegas heat**, a working water dispenser is more than a convenience—it's a necessity. However, our **extremely hard water** is the primary enemy of refrigerator plumbing. At Profix Appliance Repair, we specialize in [refrigerator water dispenser repair](/refrigerator-freezer-repair/water-dispenser-repair) across the valley, solving issues with slow flow, leaks, and total dispense failure for homeowners in **Summerlin**, **Henderson**, and beyond.
 
 Over time, calcium and magnesium deposits build up inside your unit's water inlet valves and internal tubing. This can cause the solenoids to stick or the lines to become completely blocked. We don't just clear the lines; we provide comprehensive fixes including [inlet valve replacement](/general-appliance-services/appliance-parts-replacement) and filter manifold restoration for all major brands like **GE**, **Samsung**, and **KitchenAid**.`
             },
@@ -1070,7 +1070,7 @@ We use only [factory-original valves and tubing](/general-appliance-services/app
         sections: [
             {
                 title: "Digital Logic Restoration: Refrigerator Control Board Experts",
-                content: `Modern refrigerators are more like computers than simple ice boxes. The **main control board** (or 'motherboard') manages everything from the cooling cycle to the defrost timing and display. In **Las Vegas**, power surges and high ambient temperatures can cause these delicate electronics to fail prematurely. At Profix, we specialize in [refrigerator control board repair](/refrigerator-freezer-repair/control-board-repair) and replacement across the valley.
+                content: `Modern refrigerators are more like computers than simple ice boxes. The **main control board** (or 'motherboard') manages everything from the cooling cycle to the defrost timing and display. In **Las Vegas**, power surges and high ambient temperatures can cause these delicate electronics to fail prematurely. At Profix Appliance Repair, we specialize in [refrigerator control board repair](/refrigerator-freezer-repair/control-board-repair) and replacement across the valley.
 
 If your fridge is behaving erratically—flickering lights, weird clicking sounds, or a display that won't respond—your control board is likely compromised. We use digital logic probes and oscilloscopes to verify board failures for high-end **Samsung Family Hub**, **LG InstaView**, and **GE Profile** units, ensuring a precise fix for your smart kitchen.`
             },
@@ -1115,7 +1115,7 @@ We stock common **OEM control boards** on our service trucks to ensure we can re
         sections: [
             {
                 title: "A Perfect Seal: Las Vegas Refrigerator Gasket Specialists",
-                content: `The door gasket is the only thing standing between your cold food and the **110°F Las Vegas air**. Over time, the dry desert climate causes these vinyl seals to become brittle, crack, and lose their magnetic pull. At Profix, we provide expert [refrigerator gasket replacement](/refrigerator-freezer-repair/gasket-replacement) across the valley, helping homeowners in **Summerlin**, **Henderson**, and **Aliante** reduce their electric bills and stop ice buildup.
+                content: `The door gasket is the only thing standing between your cold food and the **110°F Las Vegas air**. Over time, the dry desert climate causes these vinyl seals to become brittle, crack, and lose their magnetic pull. At Profix Appliance Repair, we provide expert [refrigerator gasket replacement](/refrigerator-freezer-repair/gasket-replacement) across the valley, helping homeowners in **Summerlin**, **Henderson**, and **Aliante** reduce their electric bills and stop ice buildup.
 
 A leaking seal causes your refrigerator to run 24/7, leading to premature [compressor failure](/refrigerator-freezer-repair/compressor-replacement) and constant 'sweating' around the doors. We don't just 'tape it up'—we provide factory-perfect, heat-set gaskets for all major brands, including **Sub-Zero**, **Viking**, **Whirlpool**, and **Samsung**.`
             },
@@ -1159,7 +1159,7 @@ Our process includes more than just swapping the vinyl. We perform a **Cabinet A
         sections: [
             {
                 title: "Las Vegas’ Trusted Laundry Care Experts",
-                content: `In the high-energy lifestyle of **Las Vegas**, a broken washer or dryer isn't just a chore—it's a bottleneck. Whether you're managing a busy household in **Centennial Hills** or a high-rise condo on the **Stripside**, Profix provides the technical precision needed to keep your laundry cycle moving. Our local climate presents unique challenges for laundry appliances; the extreme Nevada heat can cause rubber components like door gaskets and drive belts to become brittle and fail prematurely. 
+                content: `In the high-energy lifestyle of **Las Vegas**, a broken washer or dryer isn't just a chore—it's a bottleneck. Whether you're managing a busy household in **Centennial Hills** or a high-rise condo on the **Stripside**, Profix Appliance Repair provides the technical precision needed to keep your laundry cycle moving. Our local climate presents unique challenges for laundry appliances; the extreme Nevada heat can cause rubber components like door gaskets and drive belts to become brittle and fail prematurely. 
 
 We specialize in high-efficiency (HE) systems that are common in newer developments across **Seven Hills and Summerlin**. These units require specialized knowledge of electronic control boards and variable-speed motors. We don't just clear errors; we perform deep-level diagnostics to find the root cause of [pump failures](/laundry-appliance-repair/washer-pump-replacement) and [heating element burnout](/laundry-appliance-repair/dryer-heating-element-replacement) that are frequently caused by our local water and air conditions.`
             },
@@ -1187,7 +1187,7 @@ We specialize in high-efficiency (HE) systems that are common in newer developme
         sections: [
             {
                 title: "Las Vegas Washer Repair Specialist",
-                content: `When your washing machine fails, the laundry piles up fast. In **Las Vegas**, the local water chemistry is a leading cause of premature washer failure. At Profix, we provide specialized washing machine repair that accounts for the **extremely hard water** found in the valley. Whether you're in **North Las Vegas** or **Southern Highlands**, our technicians arrive with the specific diagnostic tools needed to solve complex electronic and mechanical failures.
+                content: `When your washing machine fails, the laundry piles up fast. In **Las Vegas**, the local water chemistry is a leading cause of premature washer failure. At Profix Appliance Repair, we provide specialized washing machine repair that accounts for the **extremely hard water** found in the valley. Whether you're in **North Las Vegas** or **Southern Highlands**, our technicians arrive with the specific diagnostic tools needed to solve complex electronic and mechanical failures.
 
 We service all major brands including **Whirlpool**, **Samsung**, **Maytag**, and **Kenmore**. Our deep knowledge of [front-load washer technology](/laundry-appliance-repair/front-load-washer-repair) allows us to fix common issues like "the smell" (mold buildup in gaskets) and high-speed vibration. For [top-load units](/laundry-appliance-repair/top-load-washer-repair), we frequently handle suspension rod failures and agitator issues. Our goal is to provide a repair that lasts, backed by our **90-day parts and labor guarantee**.`
             },
@@ -1232,7 +1232,7 @@ We use only [genuine OEM parts](/general-appliance-services/appliance-parts-repl
         sections: [
             {
                 title: "Safe & Efficient Dryer Repair in Las Vegas",
-                content: `A dryer that takes three cycles to dry a load of towels is more than just annoying—it's a major energy drain and a fire hazard. In the **arid climate of Las Vegas**, static electricity and fine desert dust combine with lint to create a highly flammable mixture. At Profix, we provide comprehensive dryer repair that focuses on both performance and safety.
+                content: `A dryer that takes three cycles to dry a load of towels is more than just annoying—it's a major energy drain and a fire hazard. In the **arid climate of Las Vegas**, static electricity and fine desert dust combine with lint to create a highly flammable mixture. At Profix Appliance Repair, we provide comprehensive dryer repair that focuses on both performance and safety.
 
 Whether you have a [natural gas dryer](/general-appliance-services/gas-appliance-repair) in **Henderson** or a high-efficiency [electric dryer](/general-appliance-services/electric-appliance-repair) in **Summerlin**, our technicians are experts at diagnosing heating and airflow problems. We use thermal imaging and airflow meters to find blockages that other companies miss. Every repair includes a clean-out of the internal cabinet to ensure your home stays safe.`
             },
@@ -1278,7 +1278,7 @@ We carry a wide range of [dryer repair parts](/general-appliance-services/applia
         sections: [
             {
                 title: "Precision Front Load Washer Repair in Las Vegas",
-                content: `Front load washers are the peak of laundry efficiency, but they are high-maintenance machines that require technical precision. In the **Las Vegas valley**, humidity trapped in the air-tight door seals can lead to mold and odorous buildup, while our persistent **hard water** affects the sensitive electronic sensors. At Profix, we specialized in [front load washer repair](/laundry-appliance-repair/front-load-washer-repair) from **Summerlin** to **Henderson**.
+                content: `Front load washers are the peak of laundry efficiency, but they are high-maintenance machines that require technical precision. In the **Las Vegas valley**, humidity trapped in the air-tight door seals can lead to mold and odorous buildup, while our persistent **hard water** affects the sensitive electronic sensors. At Profix Appliance Repair, we specialized in [front load washer repair](/laundry-appliance-repair/front-load-washer-repair) from **Summerlin** to **Henderson**.
 
 We provide expert diagnostics for the complex internal suspension systems and high-speed [inverter motors](/general-appliance-services/electric-appliance-repair) that make front loaders so effective. Whether you have an **LG**, **Samsung**, or **Whirlpool Duet** unit, we understand the specific failure codes (like 'OE' or 'Sud') and the mechanical nuances of the bellows and spider arms. Our goal is to restore the quiet, vibration-free operation your high-end laundry room deserves.`
             },
@@ -1323,7 +1323,7 @@ Every repair includes a full **Sealing & Balance Check**. We use exclusively [OE
         sections: [
             {
                 title: "Reliable Top Load Washer Support in Las Vegas",
-                content: `The classic top-load washer is a workhorse of the American home, but modern versions are filled with complex lid locks and electronic sensors. In the **Las Vegas valley**, the constant stress of washing desert dust and pet hair can cause top-loaders to fail prematurely. At Profix, we bring 15 years of experience to [top load washer repair](/laundry-appliance-repair/top-load-washer-repair), servicing residential neighborhoods from **Anthem** to **Centennial Hills**.
+                content: `The classic top-load washer is a workhorse of the American home, but modern versions are filled with complex lid locks and electronic sensors. In the **Las Vegas valley**, the constant stress of washing desert dust and pet hair can cause top-loaders to fail prematurely. At Profix Appliance Repair, we bring 15 years of experience to [top load washer repair](/laundry-appliance-repair/top-load-washer-repair), servicing residential neighborhoods from **Anthem** to **Centennial Hills**.
 
 We specialize in both agitator and impeller-based top loaders. Whether you have a heavy-duty **Speed Queen**, a classic **Maytag**, or a modern **Samsung**, we provide technical solutions for [vibration issues](/laundry-appliance-repair/washing-machine-repair) and filling failures. We understand that in the Vegas heat, a broken washer is an immediate crisis—which is why we offer [same-day service](/general-appliance-services/same-day-appliance-repair) across the entire valley.`
             },
@@ -1368,7 +1368,7 @@ Every top-load repair includes a **Drive System Audit**, checking the gearcase a
         sections: [
             {
                 title: "Specialized Stackable Washer & Dryer Repair in Las Vegas",
-                content: `Stackable units are the perfect space-saving solution for **Las Vegas condos**, high-rises on the **Strip**, and apartments in **Downtown Las Vegas**. However, their compact design makes them incredibly difficult to service. At Profix, we are the valley's experts in [stackable washer and dryer repair](/laundry-appliance-repair/stackable-washer-dryer-repair), equipped with the specialized dollies and technical knowledge to service these units in tight closets.
+                content: `Stackable units are the perfect space-saving solution for **Las Vegas condos**, high-rises on the **Strip**, and apartments in **Downtown Las Vegas**. However, their compact design makes them incredibly difficult to service. At Profix Appliance Repair, we are the valley's experts in [stackable washer and dryer repair](/laundry-appliance-repair/stackable-washer-dryer-repair), equipped with the specialized dollies and technical knowledge to service these units in tight closets.
 
 Whether you have a 'Laundry Center' (connected unit) or a stacked pair of front-loaders, we understand the complexities of [venting in tight spaces](/laundry-appliance-repair/dryer-repair) and the shared power systems. We provide expert care for brands like **GE**, **LG**, **Whirlpool**, and **Frigidaire**, ensuring both your washing and drying cycles are perfectly synchronized.`
             },
@@ -1413,7 +1413,7 @@ We utilize exclusively [OEM kits and parts](/general-appliance-services/applianc
         sections: [
             {
                 title: "Technical Mastery for HE Washer Repair in Las Vegas",
-                content: `High-Efficiency (HE) washers are brilliant pieces of engineering, but they are incredibly sensitive to the **extreme hard water in Southern Nevada**. Minerals can quickly clog the precise spray nozzles and confuse the advanced [turbidity and pressure sensors](/laundry-appliance-repair/washing-machine-repair). At Profix, we specialized in technical [high-efficiency washer repair](/laundry-appliance-repair/high-efficiency-washer-repair) from **Summerlin** to **Henderson**.
+                content: `High-Efficiency (HE) washers are brilliant pieces of engineering, but they are incredibly sensitive to the **extreme hard water in Southern Nevada**. Minerals can quickly clog the precise spray nozzles and confuse the advanced [turbidity and pressure sensors](/laundry-appliance-repair/washing-machine-repair). At Profix Appliance Repair, we specialized in technical [high-efficiency washer repair](/laundry-appliance-repair/high-efficiency-washer-repair) from **Summerlin** to **Henderson**.
 
 Unlike traditional washers, HE units use 'smart' logic to determine water levels and cycle times. If your unit is displaying an error code like 'F5E2' or 'IE', it needs a technician who can communicate with the [electronic control motherboard](/refrigerator-freezer-repair/control-board-repair). We bring the factory software and diagnostic probes needed to solve these digital puzzles.`
             },
@@ -1458,13 +1458,13 @@ We use only [OEM HE-certified parts](/general-appliance-services/appliance-parts
         sections: [
             {
                 title: "Professional Washer & Dryer Installation in Las Vegas",
-                content: `Installing a modern laundry pair is more than just plugging them in. In the **Las Vegas valley**, proper [washer and dryer installation](/laundry-appliance-repair/washer-dryer-installation) is critical for preventing floods, fires, and premature motor failure. At Profix, we provide factory-authorized installation services from **SouthShore** to **Summerlin West**, ensuring your high-efficiency appliances are set up for a decade of reliability.
+                content: `Installing a modern laundry pair is more than just plugging them in. In the **Las Vegas valley**, proper [washer and dryer installation](/laundry-appliance-repair/washer-dryer-installation) is critical for preventing floods, fires, and premature motor failure. At Profix Appliance Repair, we provide factory-authorized installation services from **SouthShore** to **Summerlin West**, ensuring your high-efficiency appliances are set up for a decade of reliability.
 
 We handle everything from standard side-by-side setups to complex [stackable units](/laundry-appliance-repair/stackable-washer-dryer-repair) in tight closets. Our technicians ensure that your washing machine is perfectly leveled—a step many 'delivery guys' miss, which leads to [vibration and bearing failure](/laundry-appliance-repair/washing-machine-repair). We also verify that your dryer is correctly vented to handle the extreme Nevada heat, preventing dangerous lint buildup from day one.`
             },
             {
                 title: "Our Precision Installation Process",
-                content: `When Profix installs your laundry suite, we follow a rigorous checklist:
+                content: `When Profix Appliance Repair installs your laundry suite, we follow a rigorous checklist:
                 
 - **Water Line Security:** We use high-grade [stainless steel braided hoses](/general-appliance-services/appliance-parts-replacement) with leak-protection valves strictly.
 - **Gas Line Verification:** For gas dryers, we perform an electronic leak test and ensure the [shut-off valve](/general-appliance-services/gas-appliance-repair) meets Clark County code.
@@ -1503,7 +1503,7 @@ Every installation includes a **System Calibration Cycle**, where we test the fi
         sections: [
             {
                 title: "Expert Washer Pump Replacement in Las Vegas",
-                content: `If your washing machine is full of standing water and refuse to drain, your drain pump is likely the culprit. In **Las Vegas**, the high mineral content of our water can cause 'scale' to build up inside the pump housing, leading to seized impellers and motor burnout. At Profix, we specialized in technical [washer pump replacement](/laundry-appliance-repair/washer-pump-replacement), providing rapid service to **North Las Vegas**, **Enterprise**, and **Paradise**.
+                content: `If your washing machine is full of standing water and refuse to drain, your drain pump is likely the culprit. In **Las Vegas**, the high mineral content of our water can cause 'scale' to build up inside the pump housing, leading to seized impellers and motor burnout. At Profix Appliance Repair, we specialized in technical [washer pump replacement](/laundry-appliance-repair/washer-pump-replacement), providing rapid service to **North Las Vegas**, **Enterprise**, and **Paradise**.
 
 A failed pump is more than just an inconvenience; it can lead to [leaks](/laundry-appliance-repair/washing-machine-repair) and water damage if not handled quickly. We carry a wide variety of **OEM pumps** for brands like **Whirlpool**, **Maytag**, **Kenmore**, and **Samsung**, allowing us to restore your machine's drainage system in a single visit. We don't just swap the part—we clear the entire drainage path to ensure the new pump doesn't fail from the same obstruction.`
             },
@@ -1548,7 +1548,7 @@ Every replacement includes a **Leak Test & Flow Rate Audit**. We use high-load p
         sections: [
             {
                 title: "Precision Dryer Heating Element Repair in Las Vegas",
-                content: `When your dryer spins but stays ice-cold, the heating element has likely reached the end of its life. In **Las Vegas**, the extreme ambient heat doesn't help your dryer—in fact,restricted airflow makes the internal elements run hotter, leading to premature burnout. At Profix, we provide expert [dryer heating element replacement](/laundry-appliance-repair/dryer-heating-element-replacement) across the valley, from **Rhodes Ranch** to **Aliante**.
+                content: `When your dryer spins but stays ice-cold, the heating element has likely reached the end of its life. In **Las Vegas**, the extreme ambient heat doesn't help your dryer—in fact,restricted airflow makes the internal elements run hotter, leading to premature burnout. At Profix Appliance Repair, we provide expert [dryer heating element replacement](/laundry-appliance-repair/dryer-heating-element-replacement) across the valley, from **Rhodes Ranch** to **Aliante**.
 
 Heating elements are essentially large electric coils that glow red-hot. Over time, these coils become brittle and snap, often due to [restricted venting](/laundry-appliance-repair/dryer-repair) or a faulty cycling thermostat. We stock heavy-duty OEM elements for **Samsung**, **LG**, **Whirlpool**, and **GE**, ensuring your towels are warm and dry on the first load again.`
             },
@@ -1595,7 +1595,7 @@ We don't just 'slap a part in.' We perform a full **Internal Cabinet Vacuuming**
                 title: "Quiet & Smooth: Las Vegas Dryer Belt Replacement",
                 content: `A loud squealing noise or a dryer that refuses to turn is most often a sign of a failing drum belt. In the **dry Nevada air**, the rubber in these belts can become brittle and crack. If you hear a 'thumping' or 'chirping' coming from your laundry room in **Centennial Hills** or **Southern Highlands**, it's time for a [dryer drum belt replacement](/laundry-appliance-repair/dryer-drum-belt-replacement).
 
-The drive belt is what transfers power from the motor to the large drum. At Profix, we don't just replace the belt; we perform a full **Drive System Tune-up**. We inspect the idler pulley and drum rollers to ensure there isn't excessive tension causing the belt to snap. Our technicians carry the long-life, reinforced belts found in high-end **Maytag**, **Whirlpool**, and **Kenmore** units.`
+The drive belt is what transfers power from the motor to the large drum. At Profix Appliance Repair, we don't just replace the belt; we perform a full **Drive System Tune-up**. We inspect the idler pulley and drum rollers to ensure there isn't excessive tension causing the belt to snap. Our technicians carry the long-life, reinforced belts found in high-end **Maytag**, **Whirlpool**, and **Kenmore** units.`
             },
             {
                 title: "Restoring Your Dryer's Motion",
@@ -1637,7 +1637,7 @@ By handling the entire drive system, we ensure your dryer runs as quiet as the d
         sections: [
             {
                 title: "Las Vegas’ Premier Kitchen Appliance Restoration",
-                content: `A malfunctioning kitchen is more than a setback—it’s a disruption to your home's heartbeat. In the fast-paced culinary scene of **Las Vegas**, from the gourmet kitchens in **The Lakes** to the modern culinary spaces of **Cadence**, Profix delivers hospital-grade precision to your cooking and cleaning appliances. Our local environment, defined by extreme hard water and dust, requires a specialized approach to kitchen maintenance. 
+                content: `A malfunctioning kitchen is more than a setback—it’s a disruption to your home's heartbeat. In the fast-paced culinary scene of **Las Vegas**, from the gourmet kitchens in **The Lakes** to the modern culinary spaces of **Cadence**, Profix Appliance Repair delivers hospital-grade precision to your cooking and cleaning appliances. Our local environment, defined by extreme hard water and dust, requires a specialized approach to kitchen maintenance. 
 
 We provide end-to-end solutions for all your primary kitchen units, including [professional dishwasher repair](/kitchen-appliance-repair/dishwasher-repair) and [precision oven diagnostics](/kitchen-appliance-repair/oven-repair). We specialize in both high-end European brands like **Miele** and **Bosch** as well as domestic powerhouses like **Wolf** and **Viking**. Our goal is to ensure your kitchen operates with the efficiency and reliability that the Nevada climate demands.`
             },
@@ -1665,7 +1665,7 @@ We provide end-to-end solutions for all your primary kitchen units, including [p
         sections: [
             {
                 title: "Las Vegas Dishwasher Repair Authority",
-                content: `Notice spots on your glasses or water pooling at the bottom of your unit? In **Las Vegas**, dishwasher problems are almost always linked to the extreme **hard water** levels found in the Mojave Desert. At Profix, we specialize in restoring dishwashers to peak performance, whether you're in the luxury estates of **Desert Shores** or the residential communities of **Aliante**.
+                content: `Notice spots on your glasses or water pooling at the bottom of your unit? In **Las Vegas**, dishwasher problems are almost always linked to the extreme **hard water** levels found in the Mojave Desert. At Profix Appliance Repair, we specialize in restoring dishwashers to peak performance, whether you're in the luxury estates of **Desert Shores** or the residential communities of **Aliante**.
 
 We service all major brands, with a deep specialization in **Bosch**, **Miele**, **KitchenAid**, and **Samsung**. Our technicians don't just "clear the drain"; we inspect the high-pressure spray arms, the circulation pump, and the heating element for mineral-related erosion. Every [dishwasher repair](/kitchen-appliance-repair/dishwasher-repair) we perform is an opportunity to optimize your machine for the local water conditions, backed by our **90-day peace-of-mind warranty**.`
             },
@@ -1710,7 +1710,7 @@ We stock our service vehicles with [genuine replacement parts](/general-applianc
         sections: [
             {
                 title: "Mastering Heat: Las Vegas Oven Repair",
-                content: `When your oven stops heating or starts burning your meals, it disrupts your ability to care for your family. At Profix, we are the valley's experts in both [gas and electric oven repair](/kitchen-appliance-repair/oven-repair). From the high-end double ovens in **SouthShore** to the convection units in **Sun City Anthem**, we bring over 15 years of technical mastery to every kitchen we serve.
+                content: `When your oven stops heating or starts burning your meals, it disrupts your ability to care for your family. At Profix Appliance Repair, we are the valley's experts in both [gas and electric oven repair](/kitchen-appliance-repair/oven-repair). From the high-end double ovens in **SouthShore** to the convection units in **Sun City Anthem**, we bring over 15 years of technical mastery to every kitchen we serve.
 
 Our technicians are factory-trained on premium brands like **Wolf**, **Thermador**, **Viking**, and **Dacor**. We understand the intricate relationship between thermal sensors, heating elements, and the main control board. Whether it's a [failed igniter](/kitchen-appliance-repair/gas-range-repair) or a [broken convection fan](/kitchen-appliance-repair/convection-oven-repair), we provide a rapid, professional fix that restores your oven's precision.`
             },
@@ -1756,7 +1756,7 @@ We use exclusively [OEM factory parts](/general-appliance-services/appliance-par
         sections: [
             {
                 title: "Reliable Stove Repair in Las Vegas",
-                content: `A malfunctioning stove can bring your kitchen to a grinding halt. In **Las Vegas**, high-usage kitchens from **Seven Hills** to **Centennial Hills** rely on their stoves for daily meal preparation. At Profix, we provide expert [stove repair](/kitchen-appliance-repair/stove-repair), servicing both gas and electric models with technical precision. 
+                content: `A malfunctioning stove can bring your kitchen to a grinding halt. In **Las Vegas**, high-usage kitchens from **Seven Hills** to **Centennial Hills** rely on their stoves for daily meal preparation. At Profix Appliance Repair, we provide expert [stove repair](/kitchen-appliance-repair/stove-repair), servicing both gas and electric models with technical precision. 
 
 Whether you're dealing with a burner that won't light or an electric coil that won't heat, we have the tools and expertise to provide a rapid fix. We service all major brands including **Whirlpool**, **GE**, **Samsung**, and **Maytag**. Our technicians are experts at [diagnosing ignition issues](/kitchen-appliance-repair/gas-range-repair) and replacing faulty [surface elements](/general-appliance-services/appliance-parts-replacement), ensuring your stove returns to peak performance safely.`
             },
@@ -1801,7 +1801,7 @@ Every stove repair includes a full **Safety & Connection Check**, ensuring your 
         sections: [
             {
                 title: "All-in-One Performance: Las Vegas Range Repair",
-                content: `A range is the center of the kitchen, combining the cooktop and oven into one high-load appliance. In **Las Vegas**, the constant thermal cycling of a range can cause components like [igniters and sensors](/kitchen-appliance-repair/oven-repair) to fail over time. At Profix, we specialized in comprehensive [range repair](/kitchen-appliance-repair/range-repair), servicing homes from **Summerlin** to **Henderson**.
+                content: `A range is the center of the kitchen, combining the cooktop and oven into one high-load appliance. In **Las Vegas**, the constant thermal cycling of a range can cause components like [igniters and sensors](/kitchen-appliance-repair/oven-repair) to fail over time. At Profix Appliance Repair, we specialized in comprehensive [range repair](/kitchen-appliance-repair/range-repair), servicing homes from **Summerlin** to **Henderson**.
 
 Whether you have a freestanding unit or a built-in slide-in range, we understand the complex relationship between the [digital control board](/refrigerator-freezer-repair/control-board-repair) and the heating elements. We provide expert care for brands like **Samsung**, **LG**, **Whirlpool**, and **Kenmore**, ensuring both your surface burners and your oven function with professional-grade accuracy.`
             },
@@ -1846,7 +1846,7 @@ We utilize exclusively [genuine OEM parts](/general-appliance-services/appliance
         sections: [
             {
                 title: "Precision Cooktop Restoration in Las Vegas",
-                content: `Whether you're searing a steak on a gas flame or boiling water with [induction precision](/kitchen-appliance-repair/induction-cooktop-repair), your cooktop is essential for modern cooking. In **Las Vegas**, heat-stressed components and liquid spills are common causes of cooktop failure. At Profix, we provide expert [cooktop repair](/kitchen-appliance-repair/cooktop-repair), servicing residential kitchens from **Green Valley** to **Summerlin**.
+                content: `Whether you're searing a steak on a gas flame or boiling water with [induction precision](/kitchen-appliance-repair/induction-cooktop-repair), your cooktop is essential for modern cooking. In **Las Vegas**, heat-stressed components and liquid spills are common causes of cooktop failure. At Profix Appliance Repair, we provide expert [cooktop repair](/kitchen-appliance-repair/cooktop-repair), servicing residential kitchens from **Green Valley** to **Summerlin**.
 
 We specialize in both radiant glass tops and professional-grade gas cooktops like **Wolf**, **Thermador**, and **Viking**. Our technicians are experts at replacing [broken igniter switches](/kitchen-appliance-repair/stove-repair) and faulty [radiant heaters](/general-appliance-services/electric-appliance-repair), ensuring your cooking surface is as efficient as the day it was installed.`
             },
@@ -1891,7 +1891,7 @@ Every cooktop repair includes a **Power Integrity Test**, ensuring your high-amp
         sections: [
             {
                 title: "Professional Microwave Repair in Las Vegas",
-                content: `In the fast-paced lifestyle of **Las Vegas**, a broken microwave is a major disruption. Whether it's an over-the-range unit in **Centennial Hills** or a built-in drawer microwave in **The Lakes**, Profix provides the technical precision needed to restore your microwave's performance. At Profix, we specialized in [microwave repair](/kitchen-appliance-repair/microwave-repair) across the entire valley.
+                content: `In the fast-paced lifestyle of **Las Vegas**, a broken microwave is a major disruption. Whether it's an over-the-range unit in **Centennial Hills** or a built-in drawer microwave in **The Lakes**, Profix Appliance Repair provides the technical precision needed to restore your microwave's performance. At Profix Appliance Repair, we specialized in [microwave repair](/kitchen-appliance-repair/microwave-repair) across the entire valley.
 
 Microwaves are high-voltage appliances that require specialized safety knowledge to service. We don't recommend 'DIY' fixes for these units. Our technicians are experts at diagnosing [magnetron failures](/general-appliance-services/electric-appliance-repair), faulty [high-voltage capacitors](/kitchen-appliance-repair/microwave-repair), and [broken door switches](/kitchen-appliance-repair/microwave-repair) that are common failure points in newer **GE**, **Samsung**, and **KitchenAid** units.`
             },
@@ -1936,7 +1936,7 @@ Every microwave repair includes a **Microwave Leakage Test**, ensuring no radiat
         sections: [
             {
                 title: "Expert Garbage Disposal Support in Las Vegas",
-                content: `A jammed or leaking garbage disposal is more than just a nuisance—it can lead to standing water and major plumbing issues. In **Las Vegas**, our **extreme hard water** creates mineral deposits inside disposal units, leading to seized impellers and motor burnout. At Profix, we provide expert [garbage disposal repair and replacement](/kitchen-appliance-repair/garbage-disposal-repair), servicing homes from **Southern Highlands** to **Aliante**.
+                content: `A jammed or leaking garbage disposal is more than just a nuisance—it can lead to standing water and major plumbing issues. In **Las Vegas**, our **extreme hard water** creates mineral deposits inside disposal units, leading to seized impellers and motor burnout. At Profix Appliance Repair, we provide expert [garbage disposal repair and replacement](/kitchen-appliance-repair/garbage-disposal-repair), servicing homes from **Southern Highlands** to **Aliante**.
 
 Whether yours is humming but not spinning, or leaking into your under-sink cabinet, we have the specialized tools to restore functionality. We service all major brands including **InSinkErator**, **Waste King**, and **Moen**. If your unit is beyond repair, we provide [professional disposal installation](/general-appliance-services/appliance-installation), ensuring a perfect, leak-free connection to your dishwasher and drain lines.`
             },
@@ -1981,7 +1981,7 @@ Every disposal service includes a **Sink Plumbing Audit**, checking that your p-
         sections: [
             {
                 title: "Advanced Vent Hood Support in Las Vegas",
-                content: `A high-performance kitchen requires a powerful ventilation system to remove smoke, steam, and excessive heat. In the **Las Vegas valley**, where kitchen temperatures can skyrocket during the summer, a functional vent hood is critical for comfort and safety. At Profix, we provide expert [vent hood repair](/kitchen-appliance-repair/vent-hood-repair), servicing homes from **Summerlin** to **Henderson**.
+                content: `A high-performance kitchen requires a powerful ventilation system to remove smoke, steam, and excessive heat. In the **Las Vegas valley**, where kitchen temperatures can skyrocket during the summer, a functional vent hood is critical for comfort and safety. At Profix Appliance Repair, we provide expert [vent hood repair](/kitchen-appliance-repair/vent-hood-repair), servicing homes from **Summerlin** to **Henderson**.
 
 We specialize in high-end [wall-mount and island hoods](/kitchen-appliance-repair/vent-hood-repair) from brands like **Wolf**, **Thermador**, **Viking**, and **Zephyr**. Our technicians are experts at diagnosing [fan motor failures](/general-appliance-services/electric-appliance-repair), faulty [lighting systems](/general-appliance-services/appliance-parts-replacement), and [broken control switches](/refrigerator-freezer-repair/control-board-repair) that are common failure points in professional-grade kitchens.`
             },
@@ -2026,7 +2026,7 @@ Every vent hood repair includes a **CFM Airflow Audit**, ensuring your kitchen c
         sections: [
             {
                 title: "Specialized Built-in Oven Repair in Las Vegas",
-                content: `Built-in ovens are the hallmark of luxury kitchens in **Las Vegas**, providing a seamless, integrated look. However, their recessed design makes them challenging to service. At Profix, we are the valley's experts in [built-in oven repair](/kitchen-appliance-repair/built-in-oven-repair), equipped with the specialized tools to safely extract and service units in **SouthShore**, **Lake Las Vegas**, and **Queensridge**.
+                content: `Built-in ovens are the hallmark of luxury kitchens in **Las Vegas**, providing a seamless, integrated look. However, their recessed design makes them challenging to service. At Profix Appliance Repair, we are the valley's experts in [built-in oven repair](/kitchen-appliance-repair/built-in-oven-repair), equipped with the specialized tools to safely extract and service units in **SouthShore**, **Lake Las Vegas**, and **Queensridge**.
 
 We provide factory-spec diagnostics for internal [thermal sensors](/kitchen-appliance-repair/oven-repair) and [convection fan motors](/kitchen-appliance-repair/convection-oven-repair). Whether you have a **Wolf**, **Miele**, **Thermador**, or **Dacor** unit, we understand the specific failure codes and the mechanical nuances of high-end cabinetry integration. Our goal is to restore your oven's precision without disturbing your custom kitchen aesthetics.`
             },
@@ -2071,7 +2071,7 @@ We utilize exclusively [original factory parts](/general-appliance-services/appl
         sections: [
             {
                 title: "Technical Mastery for Double Oven Repair in Las Vegas",
-                content: `Double ovens provide the ultimate culinary flexibility, but they double the complexity of your kitchen's electrical and thermal systems. In **Las Vegas**, high-amperage [double oven setups](/kitchen-appliance-repair/double-oven-repair) can put significant stress on your home's circuitry. At Profix, we provide expert double oven services from **Red Rock** to **Anthem**, ensuring both chambers heat with absolute precision.
+                content: `Double ovens provide the ultimate culinary flexibility, but they double the complexity of your kitchen's electrical and thermal systems. In **Las Vegas**, high-amperage [double oven setups](/kitchen-appliance-repair/double-oven-repair) can put significant stress on your home's circuitry. At Profix Appliance Repair, we provide expert double oven services from **Red Rock** to **Anthem**, ensuring both chambers heat with absolute precision.
 
 We specialize in high-load [dual-oven diagnostics](/kitchen-appliance-repair/double-oven-repair) for brands like **KitchenAid**, **GE Profile**, **Wolf**, and **Viking**. Our technicians understand the shared [power supply boards](/refrigerator-freezer-repair/control-board-repair) and the intricate wiring harnesses that manage simultaneous baking. Whether one oven is cold or both are behaving erratically, we have the technical mastery to provide a lasting fix.`
             },
@@ -2116,7 +2116,7 @@ We utilize exclusively [OEM parts](/general-appliance-services/appliance-parts-r
         sections: [
             {
                 title: "Expert Convection Oven Support in Las Vegas",
-                content: `Convection ovens use high-speed fans to circulate air, ensuring perfectly even baking and faster cook times. However, these fans and the dedicated [convection heating elements](/kitchen-appliance-repair/convection-oven-repair) are common failure points. In **Las Vegas**, dust and grease buildup can cause convection motors to seize or become noisy. At Profix, we specialized in [convection oven repair](/kitchen-appliance-repair/convection-oven-repair), servicing kitchens from **Green Valley** to **Summerlin**.
+                content: `Convection ovens use high-speed fans to circulate air, ensuring perfectly even baking and faster cook times. However, these fans and the dedicated [convection heating elements](/kitchen-appliance-repair/convection-oven-repair) are common failure points. In **Las Vegas**, dust and grease buildup can cause convection motors to seize or become noisy. At Profix Appliance Repair, we specialized in [convection oven repair](/kitchen-appliance-repair/convection-oven-repair), servicing kitchens from **Green Valley** to **Summerlin**.
 
 Whether you have a 'True Convection' (European) unit with a third element or a standard fan-assist model, we have the technical knowledge to restore its performance. We service all major brands including **JennAir**, **Bosch**, **Miele**, and **KitchenAid**, ensuring your baked goods are cooked to perfection every time.`
             },
@@ -2161,7 +2161,7 @@ Every convection repair includes a **CFM Airflow Check**, ensuring the fan is mo
         sections: [
             {
                 title: "Professional Wall Oven Repair in Las Vegas",
-                content: `Wall ovens are the workhorses of residential kitchens in **Las Vegas**, often positioned at a convenient height for heavy use. At Profix, we provides expert [wall oven repair](/kitchen-appliance-repair/wall-oven-repair), servicing homes from **Centennial Hills** to **Southern Highlands**. 
+                content: `Wall ovens are the workhorses of residential kitchens in **Las Vegas**, often positioned at a convenient height for heavy use. At Profix Appliance Repair, we provides expert [wall oven repair](/kitchen-appliance-repair/wall-oven-repair), servicing homes from **Centennial Hills** to **Southern Highlands**. 
 
 Unlike ranges, wall ovens are integrated into cabinetry, requiring specialized [venting and cooling solutions](/kitchen-appliance-repair/built-in-oven-repair). We specialized in technical repairs for brands like **GE**, **Samsung**, **Whirlpool**, and **Frigidaire**. Whether your unit won't heat, has a broken door, or is displaying a cryptic error code like 'F97', we have the local expertise to fix it right the first time.`
             },
@@ -2206,7 +2206,7 @@ Every wall oven service includes a **Cabinet Thermal Test**, checking that the o
         sections: [
             {
                 title: "Expert Gas Range Support in Las Vegas",
-                content: `Gas ranges offer the instant heat control that serious cooks in **Las Vegas** demand. However, working with gas requires specialized training and certification. At Profix, we are the valley's experts in [gas range repair](/kitchen-appliance-repair/gas-range-repair), servicing residential neighborhoods from **Anthem** to **SouthShore**.
+                content: `Gas ranges offer the instant heat control that serious cooks in **Las Vegas** demand. However, working with gas requires specialized training and certification. At Profix Appliance Repair, we are the valley's experts in [gas range repair](/kitchen-appliance-repair/gas-range-repair), servicing residential neighborhoods from **Anthem** to **SouthShore**.
 
 We provide technical solutions for [igniter failures](/kitchen-appliance-repair/stove-repair), [gas valve leaks](/general-appliance-services/gas-appliance-repair), and [lazy flames](/kitchen-appliance-repair/gas-range-repair). Whether you have a professional **Wolf** or a standard **Whirlpool**, we understand the crucial safety relationship between the gas regulator and the electronic ignition system. Our technicians carry electronic gas sniffers to ensure every repair is 100% leak-free.`
             },
@@ -2251,7 +2251,7 @@ Every gas range repair includes a **Total Safety Inspection**, checking your fle
         sections: [
             {
                 title: "Precision Induction Cooktop Repair in Las Vegas",
-                content: `Induction cooktops are the peak of modern kitchen technology, using electromagnetic energy to heat your pans directly. In **Las Vegas**, power surges and high heat can cause the sensitive [inverter boards](/kitchen-appliance-repair/induction-cooktop-repair) in these units to fail. At Profix, we specialized in technical [induction cooktop repair](/kitchen-appliance-repair/induction-cooktop-repair) from **Summerlin** to **Henderson**.
+                content: `Induction cooktops are the peak of modern kitchen technology, using electromagnetic energy to heat your pans directly. In **Las Vegas**, power surges and high heat can cause the sensitive [inverter boards](/kitchen-appliance-repair/induction-cooktop-repair) in these units to fail. At Profix Appliance Repair, we specialized in technical [induction cooktop repair](/kitchen-appliance-repair/induction-cooktop-repair) from **Summerlin** to **Henderson**.
 
 Unlike traditional electric cooktops, induction units rely on complex logic to 'detect' cookware. If your unit is displaying an error code like 'E7' or 'C83', it needs a technician who understands [high-frequency power modules](/general-appliance-services/electric-appliance-repair). We bring the factory diagnostic tools needed to solve these advanced electronic failures in **Bosch**, **Wolf**, **Miele**, and **Samsung** induction suites.`
             },
@@ -2296,7 +2296,7 @@ Every induction repair includes a **Magnetic Field Sweep**, ensuring the unit is
         sections: [
             {
                 title: "Expert Portable Dishwasher Support in Las Vegas",
-                content: `Portable dishwashers are essential for **Downtown Las Vegas apartments** and older homes in **Paradise** that lack built-in plumbing. However, their constant movement and connection to sink faucets make them prone to [leaks and motor failures](/kitchen-appliance-repair/portable-dishwasher-repair). At Profix, we provide expert specialized repair for movable dishwashing units.
+                content: `Portable dishwashers are essential for **Downtown Las Vegas apartments** and older homes in **Paradise** that lack built-in plumbing. However, their constant movement and connection to sink faucets make them prone to [leaks and motor failures](/kitchen-appliance-repair/portable-dishwasher-repair). At Profix Appliance Repair, we provide expert specialized repair for movable dishwashing units.
 
 We specialized in technical solutions for [unicouple connector leaks](/general-appliance-services/appliance-parts-replacement), [stalled drain pumps](/laundry-appliance-repair/washer-pump-replacement), and [broken timer assemblies](/refrigerator-freezer-repair/control-board-repair). Whether you have a **Whirlpool**, **GE**, or **Danby** unit, we understand the specific stresses placed on portable models and provide a rapid, professional fix.`
             },
@@ -2341,7 +2341,7 @@ Every portable dishwasher repair includes a **Pressure Connection Test**, ensuri
         sections: [
             {
                 title: "Technical Trash Compactor Repair in Las Vegas",
-                content: `Trash compactors are powerful mechanical systems that reduce waste volume, but they operate under massive physical stress. In **Las Vegas**, high-usage compactors in **Seven Hills** and **Summerlin** frequently suffer from [drive gear failures](/kitchen-appliance-repair/trash-compactor-repair) and [broken ram motors](/general-appliance-services/electric-appliance-repair). At Profix, we provide technical mastery for compacting units.
+                content: `Trash compactors are powerful mechanical systems that reduce waste volume, but they operate under massive physical stress. In **Las Vegas**, high-usage compactors in **Seven Hills** and **Summerlin** frequently suffer from [drive gear failures](/kitchen-appliance-repair/trash-compactor-repair) and [broken ram motors](/general-appliance-services/electric-appliance-repair). At Profix Appliance Repair, we provide technical mastery for compacting units.
 
 We provide expert care for brands like **KitchenAid**, **JennAir**, **Whirlpool**, and **Broan**. Our technicians are experts at replacing [broken drive chains](/general-appliance-services/appliance-parts-replacement), faulty [start switches](/refrigerator-freezer-repair/control-board-repair), and [jammed drive screws](/kitchen-appliance-repair/trash-compactor-repair) that can render your compactor useless.`
             },
@@ -2385,13 +2385,13 @@ Every compactor repair includes a **Drive System Lubrication**, checking that al
         sections: [
             {
                 title: "Complete Home & Commercial Appliance Support in Las Vegas",
-                content: `At Profix, we provide the technical foundation for a functional home and a profitable business. Operating across the entire **Las Vegas Valley**, from the high-traffic commercial zones of the **Las Vegas Strip** to the quiet residential neighborhoods of **Green Valley**, our team specializes in the lifecycle of your critical appliances. We focus strictly on [emergency repairs](/general-appliance-services/emergency-appliance-repair), [commercial system restoration](/general-appliance-services/commercial-appliance-repair), and [professional installation services](/general-appliance-services/appliance-installation).
+                content: `At Profix Appliance Repair, we provide the technical foundation for a functional home and a profitable business. Operating across the entire **Las Vegas Valley**, from the high-traffic commercial zones of the **Las Vegas Strip** to the quiet residential neighborhoods of **Green Valley**, our team specializes in the lifecycle of your critical appliances. We focus strictly on [emergency repairs](/general-appliance-services/emergency-appliance-repair), [commercial system restoration](/general-appliance-services/commercial-appliance-repair), and [professional installation services](/general-appliance-services/appliance-installation).
 
 Our approach is built on speed and reliability. We understand that a broken [commercial ice machine](/general-appliance-services/ice-machine-repair) or a failed [water heater](/general-appliance-services/water-heater-repair) is an immediate crisis in Southern Nevada's climate. That’s why we maintain a fleet of fully stocked service vehicles, ready to deliver **same-day solutions** for common and complex appliance failures.`
             },
             {
                 title: "Specialized Appliance Solutions",
-                content: `In addition to residential repairs, Profix offers specialized support for complex and high-load systems:
+                content: `In addition to residential repairs, Profix Appliance Repair offers specialized support for complex and high-load systems:
 
 - **Commercial Appliance Repair:** We keep Las Vegas businesses running. From industrial walk-in coolers to [commercial laundry systems](/general-appliance-services/commercial-appliance-repair), we provide the heavy-duty parts and expertise required for 24/7 operation.
 - **Emergency & Same-Day Service:** When an appliance failure can't wait, our [emergency repair team](/general-appliance-services/emergency-appliance-repair) is on call. We prioritize leaks, cooling failures, and safety-related issues like gas line troubleshooting.
@@ -2414,7 +2414,7 @@ Our approach is built on speed and reliability. We understand that a broken [com
         sections: [
             {
                 title: "Precision Appliance Installation in Las Vegas",
-                content: `Buying a premium appliance is only half the battle—proper installation is the key to longevity and home safety. In **Las Vegas**, improper [appliance installation](/general-appliance-services/appliance-installation) is a leading cause of premature failure and water damage. At Profix, we provide white-glove installation services for homes in **Summerlin**, **Henderson**, and **Seven Hills**.
+                content: `Buying a premium appliance is only half the battle—proper installation is the key to longevity and home safety. In **Las Vegas**, improper [appliance installation](/general-appliance-services/appliance-installation) is a leading cause of premature failure and water damage. At Profix Appliance Repair, we provide white-glove installation services for homes in **Summerlin**, **Henderson**, and **Seven Hills**.
 
 Whether you're installing a built-in [Sub-Zero refrigerator](/refrigerator-freezer-repair/sub-zero-repair) or a professional-grade **Wolf range**, we ensure every connection is factory-spec. Our technicians manage complex [gas line hookups](/general-appliance-services/gas-appliance-repair), 240V electrical wiring, and custom cabinetry integration, ensuring your new investment is safe and operational from day one.`
             },
@@ -2459,7 +2459,7 @@ Every installation includes a **Performance Verification Test**, where we run th
         sections: [
             {
                 title: "Proactive Appliance Maintenance in Las Vegas",
-                content: `Las Vegas' unique environment—extremely **hard water** and **desert dust**—is a silent killer for home appliances. Without regular [appliance maintenance](/general-appliance-services/appliance-maintenance), mineral deposits can clog pumps while dust chokes condenser coils, leading to massive repair bills. At Profix, we specialized in comprehensive maintenance plans for homeowners in **Anthem**, **Southern Highlands**, and **The Ridges**.
+                content: `Las Vegas' unique environment—extremely **hard water** and **desert dust**—is a silent killer for home appliances. Without regular [appliance maintenance](/general-appliance-services/appliance-maintenance), mineral deposits can clog pumps while dust chokes condenser coils, leading to massive repair bills. At Profix Appliance Repair, we specialized in comprehensive maintenance plans for homeowners in **Anthem**, **Southern Highlands**, and **The Ridges**.
 
 A small investment in annual [preventative maintenance](/general-appliance-services/appliance-maintenance) can extend the life of your appliances by 5-7 years. Our technicians perform deep-system cleanings and technical calibrations that your standard cleaning service misses, ensuring your **Sub-Zero**, **Wolf**, or **Miele** units operate at peak efficiency.`
             },
@@ -2504,7 +2504,7 @@ Every maintenance visit includes a **System Health Report**, documenting the cur
         sections: [
             {
                 title: "Genuine OEM Parts Replacement in Las Vegas",
-                content: `A repair is only as good as the parts used. In **Las Vegas**, where high temperatures put extra strain on mechanical components, 'generic' or 'universal' parts often fail within months. At Profix, we provide expert [appliance parts replacement](/general-appliance-services/appliance-parts-replacement), utilizing exclusively **Genuine OEM (Original Equipment Manufacturer) Parts** for every job from **North Las Vegas** to **Green Valley**.
+                content: `A repair is only as good as the parts used. In **Las Vegas**, where high temperatures put extra strain on mechanical components, 'generic' or 'universal' parts often fail within months. At Profix Appliance Repair, we provide expert [appliance parts replacement](/general-appliance-services/appliance-parts-replacement), utilizing exclusively **Genuine OEM (Original Equipment Manufacturer) Parts** for every job from **North Las Vegas** to **Green Valley**.
 
 We maintain a local inventory of high-demand components for **Samsung**, **LG**, **Whirlpool**, and **Bosch**. Whether you need a [new washer pump](/laundry-appliance-repair/washer-pump-replacement), a [dryer heating element](/laundry-appliance-repair/dryer-heating-element-replacement), or a [complex refrigerator control board](/refrigerator-freezer-repair/control-board-repair), we ensure the replacement is a perfect factory match.`
             },
@@ -2549,7 +2549,7 @@ Every part we install is backed by a **90-day local guarantee**, in addition to 
         sections: [
             {
                 title: "Rapid Emergency Appliance Support in Las Vegas",
-                content: `When a freezer full of food stops cooling or a gas range starts leaking, you can't wait for 'regular business hours.' In **Las Vegas**, where the desert heat accelerates food spoilage, a broken appliance is a true emergency. At Profix, we provide 24/7 [emergency appliance repair](/general-appliance-services/emergency-appliance-repair), serving **Summerlin**, **Henderson**, **North Las Vegas**, and the **Strip area**.
+                content: `When a freezer full of food stops cooling or a gas range starts leaking, you can't wait for 'regular business hours.' In **Las Vegas**, where the desert heat accelerates food spoilage, a broken appliance is a true emergency. At Profix Appliance Repair, we provide 24/7 [emergency appliance repair](/general-appliance-services/emergency-appliance-repair), serving **Summerlin**, **Henderson**, **North Las Vegas**, and the **Strip area**.
 
 Our emergency response team is equipped for high-stakes [gas safety calls](/general-appliance-services/gas-appliance-repair) and [critical cooling failures](/refrigerator-freezer-repair/refrigerator-repair). We prioritize calls involving medical refrigeration, major water leaks, and potential gas hazards, ensuring a professional technician is on-site at your Las Vegas home within hours, not days.`
             },
@@ -2594,7 +2594,7 @@ One call to **888-990-8010** triggers our rapid dispatch system. Every emergency
         sections: [
             {
                 title: "High-Load Commercial Success in Las Vegas",
-                content: `Commercial kitchens in **Las Vegas** operate 24/7 under massive thermal loads. Standard residential repairs simply won't cut it for a high-volume **Strip restaurant** or a **Henderson catering facility**. At Profix, we specialized in [commercial appliance repair](/general-appliance-services/commercial-appliance-repair), providing industrial-grade solutions for businesses across the valley.
+                content: `Commercial kitchens in **Las Vegas** operate 24/7 under massive thermal loads. Standard residential repairs simply won't cut it for a high-volume **Strip restaurant** or a **Henderson catering facility**. At Profix Appliance Repair, we specialized in [commercial appliance repair](/general-appliance-services/commercial-appliance-repair), providing industrial-grade solutions for businesses across the valley.
 
 We provide technical support for [walk-in coolers](/refrigerator-freezer-repair/refrigerator-repair), high-BTU [commercial ranges](/kitchen-appliance-repair/range-repair), and industrial [convection ovens](/kitchen-appliance-repair/convection-oven-repair). Our technicians are familiar with the specific codes required by the **Southern Nevada Health District** and ensure every repair meets standard safety and sanitation requirements for professional environments.`
             },
@@ -2639,7 +2639,7 @@ Every commercial service includes a **Compliance & Safety Audit**, checking that
         sections: [
             {
                 title: "Expert Residential Support in Las Vegas",
-                content: `Your home's appliances are the backbone of your daily life. From the [laundry room](/laundry-appliance-repair) to the [luxury kitchen](/kitchen-appliance-repair), Profix provides the technical precision needed to keep a modern **Las Vegas** household running smoothly. We provide comprehensive [residential appliance repair](/general-appliance-services/residential-appliance-repair) focusing on the unique needs of Mojave families.
+                content: `Your home's appliances are the backbone of your daily life. From the [laundry room](/laundry-appliance-repair) to the [luxury kitchen](/kitchen-appliance-repair), Profix Appliance Repair provides the technical precision needed to keep a modern **Las Vegas** household running smoothly. We provide comprehensive [residential appliance repair](/general-appliance-services/residential-appliance-repair) focusing on the unique needs of Mojave families.
 
 We specialize in high-end residential brands like **Sub-Zero**, **Wolf**, **Thermador**, and **Viking**, but we are equally adept at servicing standard household brands like **Whirlpool**, **GE**, and **Samsung**. Our technicians are clean, professional, and respectful of your home in **Summerlin**, **Seven Hills**, or **Aliante**, ensuring a 'like-new' repair experience every time.`
             },
@@ -2663,7 +2663,7 @@ Every home visit includes a **Total Home Utility Check**, ensuring your water pr
                         answer: "Yes! Every standard residential job includes a **90-day parts and labor guarantee**. For [major component replacements](/general-appliance-services/residential-appliance-repair), we offer extended 1-year coverage."
                     },
                     {
-                        question: "Why should I choose Profix over a factory service technician?",
+                        question: "Why should I choose Profix Appliance Repair over a factory service technician?",
                         answer: "We offer [faster response times](/general-appliance-services/emergency-appliance-repair), lower overhead pricing, and we service ALL your brands in one visit. We have the same [technical certifications](/about-us) as factory techs but with a local Vegas focus."
                     },
                     {
@@ -2684,7 +2684,7 @@ Every home visit includes a **Total Home Utility Check**, ensuring your water pr
         sections: [
             {
                 title: "Safe & Technical Gas Appliance Repair in Las Vegas",
-                content: `Gas appliances are highly efficient but require a specialized level of technical safety knowledge to service. In **Las Vegas**, improper gas work can lead to dangerous leaks and carbon monoxide hazards. At Profix, we are the valley's leaders in [gas appliance repair](/general-appliance-services/gas-appliance-repair), providing certified service for homes in **Centennial Hills**, **Anthem**, and **The Lakes**.
+                content: `Gas appliances are highly efficient but require a specialized level of technical safety knowledge to service. In **Las Vegas**, improper gas work can lead to dangerous leaks and carbon monoxide hazards. At Profix Appliance Repair, we are the valley's leaders in [gas appliance repair](/general-appliance-services/gas-appliance-repair), providing certified service for homes in **Centennial Hills**, **Anthem**, and **The Lakes**.
 
 Our technicians are trained in the thermodynamics of [gas ranges](/kitchen-appliance-repair/gas-range-repair), [gas dryers](/laundry-appliance-repair/dryer-repair), and [gas fireplace inserts](/general-appliance-services/gas-appliance-repair). We utilize electronic combustible gas detectors to verify every joint and valve is leak-free, ensuring your family's safety is our top priority.`
             },
@@ -2729,7 +2729,7 @@ Every gas service call includes a **Manometer Pressure Test**, ensuring your app
         sections: [
             {
                 title: "Expert Electric Appliance Support in Las Vegas",
-                content: `From [induction cooktops](/kitchen-appliance-repair/induction-cooktop-repair) to high-efficiency [electric dryers](/laundry-appliance-repair/dryer-repair), your home relies on complex electrical circuits. In **Las Vegas**, power grid can experience significant 'noise' and surges, which can fry delicate electronics. At Profix, we specialized in [electric appliance repair](/general-appliance-services/electric-appliance-repair), providing master-level electrical diagnostics across the entire valley.
+                content: `From [induction cooktops](/kitchen-appliance-repair/induction-cooktop-repair) to high-efficiency [electric dryers](/laundry-appliance-repair/dryer-repair), your home relies on complex electrical circuits. In **Las Vegas**, power grid can experience significant 'noise' and surges, which can fry delicate electronics. At Profix Appliance Repair, we specialized in [electric appliance repair](/general-appliance-services/electric-appliance-repair), providing master-level electrical diagnostics across the entire valley.
 
 We provide technical fixes for [failed heating elements](/general-appliance-services/appliance-parts-replacement), [short-circuited motherboards](/refrigerator-freezer-repair/control-board-repair), and [bad capacitors](/general-appliance-services/electric-appliance-repair). Whether you have a 120V microwave or a 240V double oven, we ensure your electrical system is safe, grounded, and efficient.`
             },
@@ -2774,7 +2774,7 @@ Every electric service call includes a **Power Integrity Sweep**, checking your 
         sections: [
             {
                 title: "Reliable Same-Day Service in Las Vegas",
-                content: `When your [refrigerator stops cooling](/refrigerator-freezer-repair/refrigerator-repair) or your [laundry piles up](/laundry-appliance-repair), you don't have days to wait for a technician. At Profix, we specialized in [same-day appliance repair](/general-appliance-services/same-day-appliance-repair), providing rapid response across the entire **Las Vegas valley**. From **Aliante** to **Southern Highlands**, our fleet is positioned to reach you fast.
+                content: `When your [refrigerator stops cooling](/refrigerator-freezer-repair/refrigerator-repair) or your [laundry piles up](/laundry-appliance-repair), you don't have days to wait for a technician. At Profix Appliance Repair, we specialized in [same-day appliance repair](/general-appliance-services/same-day-appliance-repair), providing rapid response across the entire **Las Vegas valley**. From **Aliante** to **Southern Highlands**, our fleet is positioned to reach you fast.
 
 We understand that modern families and businesses operate on tight schedules. Our 'Truck-Stock' philosophy means our technicians arrive with the most common [OEM parts](/general-appliance-services/appliance-parts-replacement) for **Samsung**, **LG**, **Whirlpool**, and **GE**, aiming to complete your repair in a single visit. No more waiting weeks for a simple [pump or belt replacement](/laundry-appliance-repair/washer-pump-replacement).`
             },
@@ -2819,7 +2819,7 @@ We prioritize [cooling and gas emergencies](/general-appliance-services/emergenc
         sections: [
             {
                 title: "Advanced Smart Appliance Solutions in Las Vegas",
-                content: `The modern **Las Vegas** kitchen is no longer just mechanical—it's digital. From [Wi-Fi enabled refrigerators](/refrigerator-freezer-repair/refrigerator-repair) to ovens that can be started from your phone, smart technology adds convenience and complexity. At Profix, we are the valley's leaders in [smart appliance repair](/general-appliance-services/smart-appliance-repair), specializing in the digital brains of your home.
+                content: `The modern **Las Vegas** kitchen is no longer just mechanical—it's digital. From [Wi-Fi enabled refrigerators](/refrigerator-freezer-repair/refrigerator-repair) to ovens that can be started from your phone, smart technology adds convenience and complexity. At Profix Appliance Repair, we are the valley's leaders in [smart appliance repair](/general-appliance-services/smart-appliance-repair), specializing in the digital brains of your home.
 
 We provide expert service for **Samsung Family Hub**, **LG ThinQ**, **GE Profile Connect**, and [luxury smart systems](/refrigerator-freezer-repair/sub-zero-repair). Our technicians are trained in firmware updates, [Wi-Fi module replacement](/general-appliance-services/appliance-parts-replacement), and complex [main control board diagnostics](/refrigerator-freezer-repair/control-board-repair) that standard repairmen simply aren't equipped to handle.`
             },
@@ -2864,7 +2864,7 @@ Every smart repair includes a **Cyber-Clean Sweep**, checking that your unit's i
         sections: [
             {
                 title: "Precision Appliance Diagnostics in Las Vegas",
-                content: `The most expensive part of a repair is often the 'wrong guess.' In **Las Vegas**, many technicians replace expensive parts hoping to find a fix. At Profix, we believe in 'Diagnostic First.' We provide technical [home appliance diagnostics](/general-appliance-services/home-appliance-diagnostics), using advanced multimeters, [thermal cameras](/refrigerator-freezer-repair/refrigerator-repair), and laptop interfaces to find the *root cause* of the problem in **Summerlin**, **Henderson**, and **Seven Hills**.
+                content: `The most expensive part of a repair is often the 'wrong guess.' In **Las Vegas**, many technicians replace expensive parts hoping to find a fix. At Profix Appliance Repair, we believe in 'Diagnostic First.' We provide technical [home appliance diagnostics](/general-appliance-services/home-appliance-diagnostics), using advanced multimeters, [thermal cameras](/refrigerator-freezer-repair/refrigerator-repair), and laptop interfaces to find the *root cause* of the problem in **Summerlin**, **Henderson**, and **Seven Hills**.
 
 Whether it's an [intermittent cooling issue](/refrigerator-freezer-repair/not-cooling-repair) or a [mysterious circuit breaker trip](/general-appliance-services/electric-appliance-repair), our diagnostics provide a clear path forward. We don't just tell you what's broken; we explain *why* it failed, helping you decide between a repair or a replacement.`
             },
@@ -2909,7 +2909,7 @@ Every diagnostic session ends with a **Technical Assessment Report**, including 
         sections: [
             {
                 title: "Reliable Water Heater Support in Las Vegas",
-                content: `A cold shower is a bad start to any Vegas morning. In **Las Vegas**, our **hard water** is the primary enemy of both tank and [tankless water heaters](/general-appliance-services/water-heater-repair). Mineral scale builds up on heating elements and clogs valves, leading to inefficiency and eventual tank failure. At Profix, we specialized in [water heater repair and maintenance](/general-appliance-services/water-heater-repair), serving **North Las Vegas**, **Summerlin**, and **Henderson**.
+                content: `A cold shower is a bad start to any Vegas morning. In **Las Vegas**, our **hard water** is the primary enemy of both tank and [tankless water heaters](/general-appliance-services/water-heater-repair). Mineral scale builds up on heating elements and clogs valves, leading to inefficiency and eventual tank failure. At Profix Appliance Repair, we specialized in [water heater repair and maintenance](/general-appliance-services/water-heater-repair), serving **North Las Vegas**, **Summerlin**, and **Henderson**.
 
 We provide technical service for [gas and electric units](/general-appliance-services/gas-appliance-repair), including brands like **Rheem**, **Bradford White**, and **A.O. Smith**. Whether you have a [leaking T&P valve](/general-appliance-services/appliance-parts-replacement) or a [failed thermocouple](/general-appliance-services/gas-appliance-repair), our technicians ensure your home has a safe, consistent hot water supply.`
             },
@@ -2993,7 +2993,7 @@ Every small appliance repair includes a **Power Integrity Test**, ensuring the u
         sections: [
             {
                 title: "Qualified & Licensed Appliance Care in Las Vegas",
-                content: `In an era of 'unlicensed handymen,' the value of a [licensed appliance technician](/general-appliance-services/licensed-appliance-technician) cannot be overstated. In **Las Vegas**, high-voltage electrical work and high-pressure gas lines require specific [certified expertise](/about-us). At Profix, every technician is a master of their craft, fully licensed and background-checked for your family's safety in **Summerlin**, **Henderson**, and beyond.
+                content: `In an era of 'unlicensed handymen,' the value of a [licensed appliance technician](/general-appliance-services/licensed-appliance-technician) cannot be overstated. In **Las Vegas**, high-voltage electrical work and high-pressure gas lines require specific [certified expertise](/about-us). At Profix Appliance Repair, every technician is a master of their craft, fully licensed and background-checked for your family's safety in **Summerlin**, **Henderson**, and beyond.
 
 Our licensing isn't just a piece of paper—it's your guarantee of protection. We carry comprehensive [liability insurance and bonding](/about-us), ensuring that if something goes wrong, you are 100% covered. We specialized in the technical complexity of [sub-zero refrigeration](/refrigerator-freezer-repair/sub-zero-repair) and [industrial kitchen systems](/general-appliance-services/commercial-appliance-repair), where precision is mandatory.`
             },
@@ -3014,7 +3014,7 @@ Choosing a [qualified professional](/general-appliance-services/licensed-applian
                 faqs: [
                     {
                         question: "How can I verify a technician's license?",
-                        answer: "You can check our [Nevada State Contractor ID](/about-us) online. Every Profix pro carries their [official credential card](/general-appliance-services/licensed-appliance-technician) and will happily show it to you."
+                        answer: "You can check our [Nevada State Contractor ID](/about-us) online. Every Profix Appliance Repair pro carries their [official credential card](/general-appliance-services/licensed-appliance-technician) and will happily show it to you."
                     },
                     {
                         question: "Does using an unlicensed repairman void my warranty?",
@@ -3038,7 +3038,7 @@ Choosing a [qualified professional](/general-appliance-services/licensed-applian
         sections: [
             {
                 title: "Trustworthy Certified Repair in Las Vegas",
-                content: `When you call for service, you need to know the person in your home is actually trained on *your* specific machine. **Certified appliance repair** means our team has passed rigorous testing from both manufacturers and national trade organizations. At Profix, we provide [certified appliance repair](/general-appliance-services/certified-appliance-repair) for all major household systems across **Las Vegas**, **Henderson**, and **North Las Vegas**.
+                content: `When you call for service, you need to know the person in your home is actually trained on *your* specific machine. **Certified appliance repair** means our team has passed rigorous testing from both manufacturers and national trade organizations. At Profix Appliance Repair, we provide [certified appliance repair](/general-appliance-services/certified-appliance-repair) for all major household systems across **Las Vegas**, **Henderson**, and **North Las Vegas**.
 
 Our certifications cover the mechanical, electrical, and electronic aspects of [refrigeration](/refrigerator-freezer-repair), [laundry](/laundry-appliance-repair), and [cooking gear](/kitchen-appliance-repair). We specialized in the high-stakes world of [gas range safety](/general-appliance-services/gas-appliance-repair) and [refrigerant leak detection](/refrigerator-freezer-repair/not-cooling-repair), utilizing technical skills that were perfected through years of field service and classroom study.`
             },
@@ -3083,7 +3083,7 @@ Every repair we perform follows **OEM Certified Protocols**, meaning we follow t
         sections: [
             {
                 title: "Expert Guided Troubleshooting in Las Vegas",
-                content: `Sometimes, you just need to know if it's 'bad luck' or a 'bad part.' Before you spend hundreds on a service call, some issues can be narrowed down through technical [appliance troubleshooting](/general-appliance-services/appliance-troubleshooting). At Profix, we specialized in helping **Las Vegas** homeowners identify common failures in their [refrigerators](/refrigerator-freezer-repair), [washers](/laundry-appliance-repair/washing-machine-repair), and [ovens](/kitchen-appliance-repair/oven-repair) quickly and accurately.
+                content: `Sometimes, you just need to know if it's 'bad luck' or a 'bad part.' Before you spend hundreds on a service call, some issues can be narrowed down through technical [appliance troubleshooting](/general-appliance-services/appliance-troubleshooting). At Profix Appliance Repair, we specialized in helping **Las Vegas** homeowners identify common failures in their [refrigerators](/refrigerator-freezer-repair), [washers](/laundry-appliance-repair/washing-machine-repair), and [ovens](/kitchen-appliance-repair/oven-repair) quickly and accurately.
 
 Whether you have a [flashing error code](/general-appliance-services/home-appliance-diagnostics) or a [strange noise in the night](/general-appliance-services/residential-appliance-repair), our troubleshooting guides (and our live phone support at **888-990-8010**) provide the first line of defense against breakdown. We serve the entire valley, from **Summerlin** to **Southern Highlands**, providing the technical logic needed to solve complex household puzzles.`
             },
@@ -3127,7 +3127,7 @@ If your troubleshooting leads to a dead end, our [on-site diagnostic team](/gene
         sections: [
             {
                 title: "Total Support for Major Household Systems in Las Vegas",
-                content: `A 'Major Appliance' is any unit that is essential to your home's daily life. When your [refrigerator](/refrigerator-freezer-repair), [washing machine](/laundry-appliance-repair), or [central cooking system](/kitchen-appliance-repair) fails, the entire household dynamic shifts. At Profix, we provide industrial-strength [major appliance repair](/general-appliance-services/major-appliance-repair), serving homes in **Summerlin**, **Henderson**, and **Aliante** with a focus on durability and performance.
+                content: `A 'Major Appliance' is any unit that is essential to your home's daily life. When your [refrigerator](/refrigerator-freezer-repair), [washing machine](/laundry-appliance-repair), or [central cooking system](/kitchen-appliance-repair) fails, the entire household dynamic shifts. At Profix Appliance Repair, we provide industrial-strength [major appliance repair](/general-appliance-services/major-appliance-repair), serving homes in **Summerlin**, **Henderson**, and **Aliante** with a focus on durability and performance.
 
 We specialized in the systems that handle the most load: [High-capacity laundry units](/laundry-appliance-repair/stackable-washer-dryer-repair), [luxury refrigerators](/refrigerator-freezer-repair/sub-zero-repair), and [commercial-style gas ranges](/kitchen-appliance-repair/gas-range-repair). Our technicians aren't just 'repairmen'—they are mechanical specialists who understand the engineering of the world's most robust household brands.`
             },
@@ -3172,7 +3172,7 @@ Every major repair includes a **Multi-Point Performance Audit**, checking that y
         sections: [
             {
                 title: "Technical Ice Machine Repair in Las Vegas",
-                content: `In the **Las Vegas** desert, ice isn't a luxury—it's a necessity. From [stand-alone undercounter units](/general-appliance-services/ice-machine-repair) to [built-in refrigerator ice makers](/refrigerator-freezer-repair/ice-maker-repair), these systems are the most likely to fail due to our **hard water**. Mineral buildup clogs the tiny water valves and jams the harvest mechanisms. At Profix, we specialized in [ice machine repair and descaling](/general-appliance-services/ice-machine-repair) across **Henderson**, **Summerlin**, and **Centennial Hills**.
+                content: `In the **Las Vegas** desert, ice isn't a luxury—it's a necessity. From [stand-alone undercounter units](/general-appliance-services/ice-machine-repair) to [built-in refrigerator ice makers](/refrigerator-freezer-repair/ice-maker-repair), these systems are the most likely to fail due to our **hard water**. Mineral buildup clogs the tiny water valves and jams the harvest mechanisms. At Profix Appliance Repair, we specialized in [ice machine repair and descaling](/general-appliance-services/ice-machine-repair) across **Henderson**, **Summerlin**, and **Centennial Hills**.
 
 We provide expert service for **Scotsman**, **Manitowoc**, **Hoshizaki**, and [luxury home brands](/refrigerator-freezer-repair/sub-zero-repair). Our technicians are experts at replacing [clogged water inlet valves](/general-appliance-services/appliance-parts-replacement), faulty [harvest bin sensors](/general-appliance-services/smart-appliance-repair), and [compressor failures](/refrigerator-freezer-repair/compressor-replacement) that result in thin or hollow ice.`
             },

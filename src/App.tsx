@@ -193,7 +193,7 @@ export default function App() {
             <section id="why-us" className="bg-gray-900 py-16 border-y border-gray-800">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-white">Why Las Vegas Chooses Pro Fix</h2>
+                        <h2 className="text-3xl font-bold text-white">Why Las Vegas Chooses Profix Appliance Repair Appliance Repair</h2>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
@@ -270,7 +270,7 @@ export default function App() {
                             </h2>
                             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                                 <p>
-                                    Hi, we're <span className="font-bold text-gray-900">Tim Thibodeaux Jr.</span> and <span className="font-bold text-gray-900">Bryan Scott Kinstler</span>, and we've been serving Las Vegas for over 15 years. Pro Fix LV isn't just a business to us—it's our way of delivering the honest, reliable service our neighbors deserve.
+                                    Hi, we're <span className="font-bold text-gray-900">Tim Thibodeaux Jr.</span> and <span className="font-bold text-gray-900">Bryan Scott Kinstler</span>, and we've been serving Las Vegas for over 15 years. Profix Appliance Repair Appliance Repair isn't just a business to us—it's our way of delivering the honest, reliable service our neighbors deserve.
                                 </p>
                                 <p>
                                     With Bryan Scott Kinstler's 15 years of experience and established reputation in appliance repair, combined with Tim's commitment to customer service, we started this company to do things the old-fashioned way. In a city full of big sales teams, faceless dispatch centers, and endless middlemen designed to make you overpay, we stand for something different.
