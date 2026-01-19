@@ -15,14 +15,14 @@ export default function Terms() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">Agreement to Terms</h2>
                             <p className="text-gray-700 leading-relaxed">
-                                By accessing or using the services provided by Profix Appliance Repair Appliance Repair, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
+                                By accessing or using the services provided by Profix Appliance Repair, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
                             </p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">Services</h2>
                             <p className="text-gray-700 leading-relaxed">
-                                Profix Appliance Repair Appliance Repair provides appliance repair services for residential customers in the Las Vegas, Henderson, and Summerlin areas. Our services include diagnosis, repair, and maintenance of major household appliances including but not limited to refrigerators, washers, dryers, ovens, dishwashers, and other kitchen appliances.
+                                Profix Appliance Repair provides appliance repair services for residential customers in the Las Vegas, Henderson, and Summerlin areas. Our services include diagnosis, repair, and maintenance of major household appliances including but not limited to refrigerators, washers, dryers, ovens, dishwashers, and other kitchen appliances.
                             </p>
                         </section>
 
@@ -51,7 +51,7 @@ export default function Terms() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">Warranty</h2>
                             <p className="text-gray-700 leading-relaxed mb-4">
-                                Profix Appliance Repair Appliance Repair provides a 90-day warranty on all parts and labor, subject to the following conditions:
+                                Profix Appliance Repair provides a 90-day warranty on all parts and labor, subject to the following conditions:
                             </p>
                             <ul className="list-disc pl-6 text-gray-700 space-y-2">
                                 <li>The warranty covers defects in parts installed by us and workmanship</li>
@@ -64,7 +64,7 @@ export default function Terms() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">Liability</h2>
                             <p className="text-gray-700 leading-relaxed">
-                                Profix Appliance Repair Appliance Repair liability is limited to the cost of the repair service provided. We are not responsible for consequential damages, including but not limited to food spoilage, property damage, or loss of use. We maintain appropriate insurance coverage for our operations.
+                                Profix Appliance Repair liability is limited to the cost of the repair service provided. We are not responsible for consequential damages, including but not limited to food spoilage, property damage, or loss of use. We maintain appropriate insurance coverage for our operations.
                             </p>
                         </section>
 
@@ -74,7 +74,7 @@ export default function Terms() {
                                 By providing your phone number and consenting to receive text messages:
                             </p>
                             <ul className="list-disc pl-6 text-gray-700 space-y-2">
-                                <li>You agree to receive service-related and marketing text messages from Profix Appliance Repair Appliance Repair</li>
+                                <li>You agree to receive service-related and marketing text messages from Profix Appliance Repair</li>
                                 <li>Message frequency is up to 4 messages per month</li>
                                 <li>Message and data rates may apply depending on your mobile carrier</li>
                                 <li>You can opt out at any time by texting STOP to any message</li>
@@ -97,7 +97,7 @@ export default function Terms() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">Intellectual Property</h2>
                             <p className="text-gray-700 leading-relaxed">
-                                All content on our website, including text, graphics, logos, and images, is the property of Profix Appliance Repair Appliance Repair and protected by copyright and trademark laws. You may not use our content without written permission.
+                                All content on our website, including text, graphics, logos, and images, is the property of Profix Appliance Repair and protected by copyright and trademark laws. You may not use our content without written permission.
                             </p>
                         </section>
 
@@ -121,7 +121,7 @@ export default function Terms() {
                                 If you have questions about these Terms of Service, please contact us at:
                             </p>
                             <div className="mt-4 p-6 bg-gray-50 rounded-lg border border-gray-200">
-                                <p className="text-gray-700 font-medium">Profix Appliance Repair Appliance Repair</p>
+                                <p className="text-gray-700 font-medium">Profix Appliance Repair</p>
                                 <p className="text-gray-700">Email: repair@profixlvappliancerepair.com</p>
                                 <p className="text-gray-700">Phone: 888-990-8010</p>
                             </div>

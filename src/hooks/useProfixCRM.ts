@@ -14,7 +14,7 @@ interface ContactPayload {
   customFields?: Record<string, any>;
 }
 
-export const useProfix Appliance RepairCRM = () => {
+export const useProfixCRM = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
