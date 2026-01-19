@@ -64,7 +64,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center">
                                 <Mail size={18} className="mr-3 flex-shrink-0" style={{ color: '#D4F427' }} />
-                                <span>hello@profixlvappliancerepair.com</span>
+                                <span>repair@profixlvappliancerepair.com</span>
                             </li>
                             <li className="flex items-center">
                                 <Clock size={18} className="mr-3 flex-shrink-0" style={{ color: '#D4F427' }} />

@@ -241,18 +241,20 @@ export default function App() {
                                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                                         <p className="text-white font-bold text-lg">Tim Thibodeaux Jr.</p>
                                         <p className="text-gray-300 text-xs">Co-Founder</p>
+                                        <p className="text-gray-400 text-[10px] mt-1">Tim@profixlvappliancerepair.com</p>
                                     </div>
                                 </div>
                                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform -rotate-2 hover:rotate-0 transition-all duration-500">
                                     <NetlifyImage
                                         src={bryanImage}
-                                        alt="Bryan"
+                                        alt="Bryan Scott Kinstler"
                                         className="w-full h-full object-cover aspect-[4/5] grayscale hover:grayscale-0 transition-all duration-500"
                                         cdnOptions={{ width: 600, height: 750 }}
                                     />
                                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                                        <p className="text-white font-bold text-lg">Bryan</p>
+                                        <p className="text-white font-bold text-lg">Bryan Scott Kinstler</p>
                                         <p className="text-gray-300 text-xs">Co-Founder & Master Technician</p>
+                                        <p className="text-gray-400 text-[10px] mt-1">Bryan@profixlvappliancerepair.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -268,10 +270,10 @@ export default function App() {
                             </h2>
                             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                                 <p>
-                                    Hi, we're <span className="font-bold text-gray-900">Tim Thibodeaux Jr.</span> and <span className="font-bold text-gray-900">Bryan</span>, and we've been serving Las Vegas for over 15 years. Pro Fix LV isn't just a business to us—it's our way of delivering the honest, reliable service our neighbors deserve.
+                                    Hi, we're <span className="font-bold text-gray-900">Tim Thibodeaux Jr.</span> and <span className="font-bold text-gray-900">Bryan Scott Kinstler</span>, and we've been serving Las Vegas for over 15 years. Pro Fix LV isn't just a business to us—it's our way of delivering the honest, reliable service our neighbors deserve.
                                 </p>
                                 <p>
-                                    With Bryan's 15 years of experience and established reputation in appliance repair, combined with Tim's commitment to customer service, we started this company to do things the old-fashioned way. In a city full of big sales teams, faceless dispatch centers, and endless middlemen designed to make you overpay, we stand for something different.
+                                    With Bryan Scott Kinstler's 15 years of experience and established reputation in appliance repair, combined with Tim's commitment to customer service, we started this company to do things the old-fashioned way. In a city full of big sales teams, faceless dispatch centers, and endless middlemen designed to make you overpay, we stand for something different.
                                 </p>
                                 <p>
                                     We believe in honest work, quality service, and fair prices. When you reach out to us, you're connecting with a local expert who listens to your needs. Our crew is 100% local, and we treat every home like it's our own.
@@ -286,7 +288,7 @@ export default function App() {
                                             "Quality work doesn't just meet expectations—it exceeds them. When you care about every detail, it shows. That commitment doesn't go unnoticed."
                                         </p>
                                         <div className="text-2xl font-bold" style={{ color: '#555' }}>
-                                            Tim & Bryan, Co-Founders
+                                            Tim & Bryan Scott Kinstler, Co-Founders
                                         </div>
                                     </div>
                                 </div>

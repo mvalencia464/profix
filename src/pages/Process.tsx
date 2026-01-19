@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Clock, Globe, Users, Award, DollarSign, MapPin, ThermometerSun } from 'lucide-react';
+import { Clock, Globe, Users, Award, MapPin, ThermometerSun } from 'lucide-react';
 import DiagnosticWizard from '../components/DiagnosticWizard';
 
 import Navbar from '../components/Navbar';
@@ -179,7 +179,7 @@ export default function Process() {
                                         <div>
                                             <p className="font-bold text-gray-900 mb-1">15 Years Experience</p>
                                             <p className="text-gray-600 text-sm leading-relaxed">
-                                                Led by Bryan, our Lead Tech with 15 years of experience in appliance repair
+                                                Led by Bryan Scott Kinstler, our Lead Tech with 15 years of experience in appliance repair
                                             </p>
                                         </div>
                                     </div>
