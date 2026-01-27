@@ -51,9 +51,30 @@ const handler: Handler = async (event) => {
             return { statusCode: 500, body: JSON.stringify({ message: "CRM Configuration Error" }) };
         }
 
+        // 3. Prepare Data for CRM
+        // Sanitize Phone
+        let cleanPhone = formData.phone || "";
+        cleanPhone = cleanPhone.replace(/\D/g, ""); // Remove non-digits
+        if (cleanPhone.length === 10) {
+            cleanPhone = `+1${cleanPhone}`;
+        } else if (cleanPhone.length > 10 && !cleanPhone.startsWith("+")) {
+            cleanPhone = `+${cleanPhone}`;
+        }
+
+        // Transform Custom Fields (Object -> Array)
+        let formattedCustomFields = formData.customFields;
+        if (formattedCustomFields && !Array.isArray(formattedCustomFields) && typeof formattedCustomFields === 'object') {
+            formattedCustomFields = Object.entries(formattedCustomFields).map(([key, value]) => ({
+                id: key,
+                value: value
+            }));
+        }
+
         // Construct CRM Payload
         const crmPayload = {
             ...formData,
+            phone: cleanPhone,
+            customFields: formattedCustomFields,
             locationId: LOCATION_ID
         };
 
