@@ -78,7 +78,7 @@ const handler: Handler = async (event) => {
             locationId: LOCATION_ID
         };
 
-        const crmResponse = await fetch('https://services.leadconnectorhq.com/contacts/', {
+        const crmResponse = await fetch('https://services.leadconnectorhq.com/contacts/upsert', {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${HL_TOKEN}`,
