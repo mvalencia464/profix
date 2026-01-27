@@ -95,7 +95,7 @@ export default function Privacy() {
                             <div className="mt-4 p-6 bg-gray-50 rounded-lg border border-gray-200">
                                 <p className="text-gray-700 font-medium">Profix Appliance Repair</p>
                                 <p className="text-gray-700">Email: repair@profixlvappliancerepair.com</p>
-                                <p className="text-gray-700">Phone: 888-990-8010</p>
+                                <p className="text-gray-700">Phone: (725) 425-5550</p>
                             </div>
                         </section>
                     </div>

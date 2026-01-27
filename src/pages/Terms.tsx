@@ -78,7 +78,7 @@ export default function Terms() {
                                 <li>Message frequency is up to 4 messages per month</li>
                                 <li>Message and data rates may apply depending on your mobile carrier</li>
                                 <li>You can opt out at any time by texting STOP to any message</li>
-                                <li>Text HELP for assistance or contact us at 888-990-8010</li>
+                                <li>Text HELP for assistance or contact us at (725) 425-5550</li>
                                 <li>Consent to receive text messages is not a condition of purchase</li>
                             </ul>
                         </section>
@@ -123,7 +123,7 @@ export default function Terms() {
                             <div className="mt-4 p-6 bg-gray-50 rounded-lg border border-gray-200">
                                 <p className="text-gray-700 font-medium">Profix Appliance Repair</p>
                                 <p className="text-gray-700">Email: repair@profixlvappliancerepair.com</p>
-                                <p className="text-gray-700">Phone: 888-990-8010</p>
+                                <p className="text-gray-700">Phone: (725) 425-5550</p>
                             </div>
                         </section>
                     </div>

@@ -23,7 +23,7 @@ export default function Navbar() {
                         <Link to="/#reviews" className="text-gray-300 font-medium hover:text-[#D4F427] transition-colors">Reviews</Link>
                         <button className="px-6 py-3 rounded-full font-black text-lg transition-all flex items-center text-gray-900 shadow-md hover:shadow-lg hover:scale-105"
                             style={{ backgroundColor: '#D4F427' }}>
-                            <Phone size={20} className="mr-2" /> 888-990-8010
+                            <Phone size={20} className="mr-2" /> (725) 425-5550
                         </button>
                     </div>
 
@@ -42,8 +42,8 @@ export default function Navbar() {
                         <Link to="/#services" onClick={() => setIsMenuOpen(false)} className="block px-4 py-3 text-lg font-semibold text-white rounded-xl hover:bg-white/5 transition-colors">Services</Link>
                         <Link to="/#reviews" onClick={() => setIsMenuOpen(false)} className="block px-4 py-3 text-lg font-semibold text-white rounded-xl hover:bg-white/5 transition-colors">Reviews</Link>
                         <div className="pt-4">
-                            <a href="tel:8889908010" className="block w-full px-4 py-4 text-center text-lg font-black text-gray-900 rounded-2xl shadow-lg ring-1 ring-white/10" style={{ backgroundColor: '#D4F427' }}>
-                                CALL 888-990-8010
+                            <a href="tel:7254255550" className="block w-full px-4 py-4 text-center text-lg font-black text-gray-900 rounded-2xl shadow-lg ring-1 ring-white/10" style={{ backgroundColor: '#D4F427' }}>
+                                CALL (725) 425-5550
                             </a>
                         </div>
                     </div>

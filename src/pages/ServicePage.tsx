@@ -73,7 +73,7 @@ export default function ServicePage() {
                             <div className="flex flex-wrap items-center justify-center md:justify-start gap-4">
                                 <button className="px-8 py-4 rounded-full font-black text-lg transition-all flex items-center text-gray-900 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95"
                                     style={{ backgroundColor: '#D4F427' }}>
-                                    <Phone size={20} className="mr-2" /> 888-990-8010
+                                    <Phone size={20} className="mr-2" /> (725) 425-5550
                                 </button>
                                 <Link to="/process" className="px-8 py-4 rounded-full font-bold text-lg bg-white border-2 border-gray-100 text-gray-900 hover:border-[#D4F427] transition-all hover:bg-gray-50">
                                     Our Process
@@ -234,7 +234,7 @@ export default function ServicePage() {
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                             <button className="w-full sm:w-auto px-10 py-5 rounded-full font-black text-xl transition-all flex items-center justify-center text-gray-900 shadow-xl hover:shadow-[#D4F427]/20 hover:scale-105 active:scale-95"
                                 style={{ backgroundColor: '#D4F427' }}>
-                                <Phone size={24} className="mr-3" /> Call 888-990-8010
+                                <Phone size={24} className="mr-3" /> Call (725) 425-5550
                             </button>
                             <Link to="/process" className="w-full sm:w-auto px-10 py-5 rounded-full font-bold text-xl border-2 border-white/10 text-white hover:bg-white/5 transition-all flex items-center justify-center group">
                                 How It Works <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />

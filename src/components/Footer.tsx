@@ -60,7 +60,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center">
                                 <Phone size={18} className="mr-3 flex-shrink-0" style={{ color: '#D4F427' }} />
-                                <span className="font-bold text-white">888-990-8010</span>
+                                <span className="font-bold text-white">(725) 425-5550</span>
                             </li>
                             <li className="flex items-center">
                                 <Mail size={18} className="mr-3 flex-shrink-0" style={{ color: '#D4F427' }} />

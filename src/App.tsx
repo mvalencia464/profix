@@ -375,7 +375,7 @@ export default function App() {
                             <div className="mt-8 p-6 bg-gray-50 rounded-xl border border-gray-100">
                                 <p className="text-sm text-gray-900 mb-2 font-bold">Don't see your area?</p>
                                 <p className="text-sm text-gray-800">
-                                    We are constantly expanding. Call us at <span className="font-bold text-gray-900">888-990-8010</span> to check if a technician is nearby.
+                                    We are constantly expanding. Call us at <span className="font-bold text-gray-900">(725) 425-5550</span> to check if a technician is nearby.
                                 </p>
                             </div>
                         </div>

@@ -136,7 +136,7 @@ export default function CategoryPage() {
                                 </div>
                                 <h3 className="text-xl font-black text-gray-900 mb-2">Same-Day Availability</h3>
                                 <p className="text-gray-500 font-medium mb-6">Technicians are dispatched within 2-4 hours of your call.</p>
-                                <a href="tel:8889908010" className="w-full py-4 bg-gray-900 text-white rounded-2xl font-black hover:bg-black transition-colors flex items-center justify-center gap-2">
+                                <a href="tel:7254255550" className="w-full py-4 bg-gray-900 text-white rounded-2xl font-black hover:bg-black transition-colors flex items-center justify-center gap-2">
                                     <Phone size={18} /> Call Now
                                 </a>
                             </div>

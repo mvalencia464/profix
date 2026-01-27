@@ -1785,7 +1785,7 @@ Every stove repair includes a full **Safety & Connection Check**, ensuring your 
                     },
                     {
                         question: "Do you offer emergency gas stove repairs?",
-                        answer: "Absolutely. If you smell gas or have a lighting failure, call us immediately at **888-990-8010**. We prioritize [gas appliance safety calls](/general-appliance-services/gas-appliance-repair) across the entire valley."
+                        answer: "Absolutely. If you smell gas or have a lighting failure, call us immediately at **(725) 425-5550**. We prioritize [gas appliance safety calls](/general-appliance-services/gas-appliance-repair) across the entire valley."
                     }
                 ]
             }
@@ -2562,7 +2562,7 @@ Our emergency response team is equipped for high-stakes [gas safety calls](/gene
 - **Gas Odor Response:** We provide professional [gas leak detection and shut-off](/general-appliance-services/gas-appliance-repair).
 - **Commercial Kitchen Outages:** We provide [priority service for restaurants and hospitality](/general-appliance-services/commercial-appliance-repair) to minimize downtime.
 
-One call to **888-990-8010** triggers our rapid dispatch system. Every emergency repair includes a full **Collateral Damage Assessment**, checking that your floors and surrounding utilities are safe from further harm.`
+One call to **(725) 425-5550** triggers our rapid dispatch system. Every emergency repair includes a full **Collateral Damage Assessment**, checking that your floors and surrounding utilities are safe from further harm.`
             },
             {
                 title: "Emergency Repair FAQ",
@@ -2705,7 +2705,7 @@ Every gas service call includes a **Manometer Pressure Test**, ensuring your app
                 faqs: [
                     {
                         question: "What should I do if I smell gas in my laundry room?",
-                        answer: "**DO NOT TURN ON LATCHES OR LIGHTS.** Evacuate the room, open windows if safe, and call us immediately at **888-990-8010** for an [emergency gas inspection](/general-appliance-services/gas-appliance-repair)."
+                        answer: "**DO NOT TURN ON LATCHES OR LIGHTS.** Evacuate the room, open windows if safe, and call us immediately at **(725) 425-5550** for an [emergency gas inspection](/general-appliance-services/gas-appliance-repair)."
                     },
                     {
                         question: "Are gas dryers faster than electric ones in Las Vegas?",
@@ -2783,7 +2783,7 @@ We understand that modern families and businesses operate on tight schedules. Ou
                 content: `Our same-day approach is built on technical speed and accuracy:
                 
 - **Live Dispatching:** We use GPS-optimized routing to send the closest technician to your **Summerlin** or **Henderson** home.
-- **Pre-Diagnostic Prep:** If you provide your model number when calling **888-990-8010**, we pre-screen for common [part requirements](/general-appliance-services/appliance-parts-replacement).
+- **Pre-Diagnostic Prep:** If you provide your model number when calling **(725) 425-5550**, we pre-screen for common [part requirements](/general-appliance-services/appliance-parts-replacement).
 - **Comprehensive Tooling:** Our trucks are equipped with advanced [electronic testers](/general-appliance-services/home-appliance-diagnostics) for instant results.
 - **Extended Inventory:** We maintain a local warehouse for parts not found on the truck, often securing them within hours.
 
@@ -3085,7 +3085,7 @@ Every repair we perform follows **OEM Certified Protocols**, meaning we follow t
                 title: "Expert Guided Troubleshooting in Las Vegas",
                 content: `Sometimes, you just need to know if it's 'bad luck' or a 'bad part.' Before you spend hundreds on a service call, some issues can be narrowed down through technical [appliance troubleshooting](/general-appliance-services/appliance-troubleshooting). At Profix Appliance Repair, we specialized in helping **Las Vegas** homeowners identify common failures in their [refrigerators](/refrigerator-freezer-repair), [washers](/laundry-appliance-repair/washing-machine-repair), and [ovens](/kitchen-appliance-repair/oven-repair) quickly and accurately.
 
-Whether you have a [flashing error code](/general-appliance-services/home-appliance-diagnostics) or a [strange noise in the night](/general-appliance-services/residential-appliance-repair), our troubleshooting guides (and our live phone support at **888-990-8010**) provide the first line of defense against breakdown. We serve the entire valley, from **Summerlin** to **Southern Highlands**, providing the technical logic needed to solve complex household puzzles.`
+Whether you have a [flashing error code](/general-appliance-services/home-appliance-diagnostics) or a [strange noise in the night](/general-appliance-services/residential-appliance-repair), our troubleshooting guides (and our live phone support at **(725) 425-5550**) provide the first line of defense against breakdown. We serve the entire valley, from **Summerlin** to **Southern Highlands**, providing the technical logic needed to solve complex household puzzles.`
             },
             {
                 title: "Logical Fault Finding Protocols",
